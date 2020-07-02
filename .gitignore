@@ -25,6 +25,7 @@ hs_err_pid*
 # JetBrains stuff
 
 .idea/
+Miner.iml
 
 # IntelliJ
 out/
