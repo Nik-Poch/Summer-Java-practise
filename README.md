@@ -149,3 +149,5 @@
 ```
 
 где вместо `/usr/local/lib/javafx-sdk-14.0.1/lib` будет ваш путь до библиотеки.
+
+Также можно посмотреть [официальную инструкцию](https://www.jetbrains.com/help/idea/javafx.html#troubleshoot) от JetBrains.
