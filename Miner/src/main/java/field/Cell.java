@@ -1,6 +1,6 @@
-package field;
+package main.java.field;
 
-import ore.Ore;
+import main.java.ore.Ore;
 
 public class Cell {
     private int posX;

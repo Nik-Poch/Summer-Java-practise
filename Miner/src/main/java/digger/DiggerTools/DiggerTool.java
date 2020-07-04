@@ -1,6 +1,6 @@
-package digger.DiggerTools;
+package main.java.digger.DiggerTools;
 
-import ore.OreTypes;
+import main.java.ore.OreTypes;
 
 public abstract class DiggerTool {
     protected OreTypes[] oreos;

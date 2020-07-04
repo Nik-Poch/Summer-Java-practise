@@ -1,4 +1,4 @@
-package field;
+package main.java.field;
 
 public class Field {
     private Cell[][] cells;

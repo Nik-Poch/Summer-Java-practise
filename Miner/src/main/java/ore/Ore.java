@@ -1,4 +1,4 @@
-package ore;
+package main.java.ore;
 
 public abstract class Ore {
     protected Image img;

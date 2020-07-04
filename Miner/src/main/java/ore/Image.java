@@ -1,4 +1,4 @@
-package ore;
+package main.java.ore;
 
 public class Image {
     private String path;
