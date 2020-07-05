@@ -8,11 +8,23 @@ import javafx.stage.Stage;
 
 public class Main extends Application {
 
+    /**
+     *
+     * @param primaryStage
+     * The surrounding window, which is used as the initial canvas and contains the remaining components
+     * @throws Exception
+     * For load method
+     */
     @Override
     public void start(Stage primaryStage) throws Exception{
-        Parent root = FXMLLoader.load(getClass().getResource("sample.fxml"));
-        primaryStage.setTitle("Hello World");
+        Parent root = FXMLLoader.load(getClass().getResource("miner.fxml"));
+        primaryStage.setTitle("Miner");
         primaryStage.setScene(new Scene(root, 1024, 786));
+
+        primaryStage.setMaxHeight(primaryStage.getHeight());
+        primaryStage.setMaxWidth(primaryStage.getWidth());
+        primaryStage.setResizable(false);
+
         primaryStage.show();
     }
 
