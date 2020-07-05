@@ -1,5 +1,6 @@
 package main.java.gui;
 
+import java.io.File;
 import java.net.URL;
 import java.util.ResourceBundle;
 
@@ -8,13 +9,23 @@ import javafx.collections.ObservableList;
 import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
 import javafx.fxml.Initializable;
+import javafx.scene.Node;
+import javafx.scene.Scene;
 import javafx.scene.control.Button;
 import javafx.scene.control.ChoiceBox;
 import javafx.scene.control.MenuItem;
 import javafx.scene.control.TextArea;
+import javafx.scene.layout.VBox;
+import javafx.stage.FileChooser;
+import javafx.stage.Stage;
+import org.jetbrains.annotations.NotNull;
 
 public class Controller implements Initializable {
 
+    @FXML
+    private VBox mainStage;
+
+    // For ChooseBox variants
     ObservableList<String> listOfModesNames = FXCollections.observableArrayList();
 
     @FXML
@@ -59,12 +70,14 @@ public class Controller implements Initializable {
 
     }
 
-    public void loadFile(ActionEvent event) {
-
+    public void loadFile(@NotNull ActionEvent event) {
+        final FileChooser fileChooser = new FileChooser();
+        File file = fileChooser.showOpenDialog(mainStage.getScene().getWindow());
     }
 
     public void saveFile(ActionEvent event) {
-
+        final FileChooser fileChooser = new FileChooser();
+        File file = fileChooser.showOpenDialog(mainStage.getScene().getWindow());
     }
 
     public void resetField(ActionEvent event) {

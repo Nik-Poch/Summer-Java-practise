@@ -8,7 +8,7 @@ import javafx.stage.Stage;
 
 public class Main extends Application {
 
-//    final private Stage primaryStage;
+    Stage window;
 
     /**
      *
@@ -19,6 +19,8 @@ public class Main extends Application {
      */
     @Override
     public void start(Stage primaryStage) throws Exception{
+        window = primaryStage;
+
         Parent root = FXMLLoader.load(getClass().getResource("miner.fxml"));
         primaryStage.setTitle("Miner");
         primaryStage.setScene(new Scene(root, 1024, 786));
