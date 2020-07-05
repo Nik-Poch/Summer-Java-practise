@@ -8,6 +8,8 @@ import javafx.stage.Stage;
 
 public class Main extends Application {
 
+//    final private Stage primaryStage;
+
     /**
      *
      * @param primaryStage
