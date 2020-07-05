@@ -1,4 +1,4 @@
-package main.java.digger.DiggerTools;
+package digger.DiggerTools;
 
 public class Pick extends DiggerTool{
 }

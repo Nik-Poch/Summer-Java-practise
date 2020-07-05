@@ -1,4 +1,4 @@
-package main.java.gui;
+package gui;
 
 import javafx.scene.Node;
 import javafx.scene.layout.GridPane;

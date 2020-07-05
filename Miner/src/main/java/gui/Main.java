@@ -1,10 +1,13 @@
-package main.java.gui;
+package gui;
 
 import javafx.application.Application;
 import javafx.fxml.FXMLLoader;
 import javafx.scene.Parent;
 import javafx.scene.Scene;
 import javafx.stage.Stage;
+import org.jetbrains.annotations.NotNull;
+
+import java.net.URL;
 
 public class Main extends Application {
 
@@ -18,10 +21,12 @@ public class Main extends Application {
      * For load method
      */
     @Override
-    public void start(Stage primaryStage) throws Exception{
+    public void start(@NotNull Stage primaryStage) throws Exception{
         window = primaryStage;
 
-        Parent root = FXMLLoader.load(getClass().getResource("miner.fxml"));
+        URL scene = getClass().getClassLoader().getResource("miner.fxml");
+        assert scene != null;
+        Parent root = FXMLLoader.load(scene);
         primaryStage.setTitle("Miner");
         primaryStage.setScene(new Scene(root, 1024, 786));
 
