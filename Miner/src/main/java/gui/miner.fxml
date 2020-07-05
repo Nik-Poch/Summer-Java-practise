@@ -13,32 +13,32 @@
 <?import javafx.scene.layout.RowConstraints?>
 <?import javafx.scene.layout.VBox?>
 
-<VBox maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="768.0" prefWidth="1024.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1">
+<VBox fx:id="mainStage" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="768.0" prefWidth="1024.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="main.java.gui.Controller">
    <children>
       <MenuBar>
         <menus>
           <Menu mnemonicParsing="false" text="File">
             <items>
-              <MenuItem fx:id="saveButton" mnemonicParsing="false" text="Save" />
-                  <MenuItem fx:id="loadButton" mnemonicParsing="false" text="Load" />
+              <MenuItem fx:id="saveButton" mnemonicParsing="false" onAction="#saveFile" text="Save" />
+                  <MenuItem fx:id="loadButton" mnemonicParsing="false" onAction="#loadFile" text="Load" />
             </items>
           </Menu>
           <Menu mnemonicParsing="false" text="Edit">
             <items>
-              <MenuItem fx:id="resetButton" mnemonicParsing="false" text="Reset" />
+              <MenuItem fx:id="resetButton" mnemonicParsing="false" onAction="#resetField" text="Reset" />
             </items>
           </Menu>
           <Menu mnemonicParsing="false" text="Help">
             <items>
-              <MenuItem fx:id="aboutAlgButton" mnemonicParsing="false" text="Algorithm" />
-                  <MenuItem fx:id="aboutButton" mnemonicParsing="false" text="About" />
+              <MenuItem fx:id="aboutAlgButton" mnemonicParsing="false" onAction="#getAlgInformation" text="Algorithm" />
+                  <MenuItem fx:id="aboutButton" mnemonicParsing="false" onAction="#getAuthorInformation" text="About" />
             </items>
           </Menu>
         </menus>
       </MenuBar>
       <HBox prefHeight="768.0" prefWidth="1024.0">
          <children>
-            <GridPane fx:id="mainVisualField" gridLinesVisible="true" prefHeight="757.0" prefWidth="900.0">
+            <GridPane fx:id="mainVisualField" gridLinesVisible="true" prefHeight="750.0" prefWidth="900.0">
               <columnConstraints>
                 <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
                 <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
@@ -92,13 +92,13 @@
                         <Insets />
                      </VBox.margin>
                   </ChoiceBox>
-                  <Button fx:id="runButton" mnemonicParsing="false" prefHeight="57.0" prefWidth="125.0" text="Run">
+                  <Button fx:id="runButton" mnemonicParsing="false" onAction="#runAlgorithm" prefHeight="57.0" prefWidth="125.0" text="Run">
                      <VBox.margin>
                         <Insets bottom="410.0" />
                      </VBox.margin>
                   </Button>
-                  <Button fx:id="stepButton" mnemonicParsing="false" prefHeight="26.0" prefWidth="125.0" text="Step" />
-                  <TextArea fx:id="textField" editable="false" prefHeight="246.0" prefWidth="125.0" promptText="Log window" stylesheets="@textarea.css">
+                  <Button fx:id="stepButton" mnemonicParsing="false" onAction="#madeOneStep" prefHeight="26.0" prefWidth="125.0" text="Step" />
+                  <TextArea fx:id="logTextField" editable="false" prefHeight="246.0" prefWidth="125.0" promptText="Log window" stylesheets="@textarea.css">
                   </TextArea>
                </children></VBox>
          </children>
