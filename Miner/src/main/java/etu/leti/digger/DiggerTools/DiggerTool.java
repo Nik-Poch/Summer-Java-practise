@@ -1,4 +1,4 @@
-package digger.DiggerTools;
+package etu.leti.digger.DiggerTools;
 
 import main.java.ore.OreTypes;
 

@@ -1,4 +1,4 @@
-package facade;
+package etu.leti.facade;
 
 public class Facade {
 }

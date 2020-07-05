@@ -1,4 +1,4 @@
-package gui;
+package etu.leti.gui;
 
 import javafx.scene.Node;
 import javafx.scene.layout.GridPane;

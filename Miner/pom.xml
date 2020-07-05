@@ -1,7 +1,7 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
     <modelVersion>4.0.0</modelVersion>
-    <groupId>org.example</groupId>
+    <groupId>etu.leti</groupId>
     <artifactId>Miner</artifactId>
     <version>1.0-SNAPSHOT</version>
     <properties>
@@ -19,6 +19,11 @@
             <groupId>org.openjfx</groupId>
             <artifactId>javafx-fxml</artifactId>
             <version>14</version>
+        </dependency>
+        <dependency>
+            <groupId>org.openjfx</groupId>
+            <artifactId>javafx-archetype-fxml</artifactId>
+            <version>0.0.5</version>
         </dependency>
         <dependency>
             <groupId>org.jetbrains</groupId>
@@ -41,7 +46,7 @@
                 <artifactId>javafx-maven-plugin</artifactId>
                 <version>0.0.4</version>
                 <configuration>
-                    <mainClass>org.example.App</mainClass>
+                    <mainClass>etu.leti.gui.Main</mainClass>
                 </configuration>
             </plugin>
         </plugins>

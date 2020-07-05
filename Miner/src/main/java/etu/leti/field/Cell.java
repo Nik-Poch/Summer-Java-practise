@@ -1,4 +1,4 @@
-package field;
+package etu.leti.field;
 
 import main.java.ore.Ore;
 

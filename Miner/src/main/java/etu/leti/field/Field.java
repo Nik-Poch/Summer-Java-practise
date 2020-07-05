@@ -1,4 +1,4 @@
-package field;
+package etu.leti.field;
 
 public class Field {
     private Cell[][] cells;

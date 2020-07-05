@@ -1,4 +1,4 @@
-package gui;
+package etu.leti.gui;
 
 import javafx.application.Application;
 import javafx.fxml.FXMLLoader;
