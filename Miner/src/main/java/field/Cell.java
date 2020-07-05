@@ -1,4 +1,4 @@
-package main.java.field;
+package field;
 
 import main.java.ore.Ore;
 

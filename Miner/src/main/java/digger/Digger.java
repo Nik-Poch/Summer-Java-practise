@@ -1,4 +1,4 @@
-package main.java.digger;
+package digger;
 
 public class Digger {
 }

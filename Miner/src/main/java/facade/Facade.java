@@ -1,4 +1,4 @@
-package main.java.facade;
+package facade;
 
 public class Facade {
 }

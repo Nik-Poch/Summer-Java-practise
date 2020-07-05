@@ -1,17 +1,17 @@
-package main.java.field;
+package field;
 
 public class Field {
     private Cell[][] cells;
     private int height;
-    private int widht;
+    private int width;
 
     public Field() {
     }
 
-    public Field(Cell[][] cells, int height, int widht) {
+    public Field(Cell[][] cells, int height, int width) {
         this.cells = cells;
         this.height = height;
-        this.widht = widht;
+        this.width = width;
     }
 
     public Cell[][] getCells() {
@@ -30,11 +30,11 @@ public class Field {
         this.height = height;
     }
 
-    public int getWidht() {
-        return widht;
+    public int getWidth() {
+        return width;
     }
 
-    public void setWidht(int widht) {
-        this.widht = widht;
+    public void setWidth(int width) {
+        this.width = width;
     }
 }
