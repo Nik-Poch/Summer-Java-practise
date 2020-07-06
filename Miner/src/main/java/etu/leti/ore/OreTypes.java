@@ -4,5 +4,6 @@ public enum OreTypes {
     GOLD_ORE,
     IRON_ORE,
     STONE_ORE,
+    SIMPLE_ORE,
     HELL
 }

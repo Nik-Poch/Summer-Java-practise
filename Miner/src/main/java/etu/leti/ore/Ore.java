@@ -1,11 +1,15 @@
 package etu.leti.ore;
 
-public abstract class Ore {
+public class Ore {
     protected Image img;
     protected boolean movable;
     protected OreTypes oreTypes;
 
     public Ore() {
+    }
+
+    public Ore(OreTypes oreTypes){
+        this.oreTypes = oreTypes;
     }
 
     public Ore(Image img, boolean movable, OreTypes oreTypes) {
