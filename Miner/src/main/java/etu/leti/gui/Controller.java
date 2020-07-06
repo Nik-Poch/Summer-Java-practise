@@ -3,8 +3,10 @@ package etu.leti.gui;
 import java.io.File;
 import java.io.FileNotFoundException;
 import java.net.URL;
+import java.util.Objects;
 import java.util.ResourceBundle;
 
+import etu.leti.gui.gridhandler.ImageCell;
 import javafx.collections.FXCollections;
 import javafx.collections.ObservableList;
 import javafx.event.ActionEvent;
@@ -14,7 +16,10 @@ import javafx.scene.control.Button;
 import javafx.scene.control.ChoiceBox;
 import javafx.scene.control.MenuItem;
 import javafx.scene.control.TextArea;
+import javafx.scene.image.Image;
+import javafx.scene.layout.ColumnConstraints;
 import javafx.scene.layout.GridPane;
+import javafx.scene.layout.RowConstraints;
 import javafx.scene.layout.VBox;
 import javafx.stage.FileChooser;
 import org.jetbrains.annotations.NotNull;
@@ -67,9 +72,7 @@ public class Controller implements Initializable {
     public void runAlgorithm(ActionEvent event) throws FileNotFoundException {
 //        Node node = GridWorker.getNodeFromGridPane(mainVisualField, 0, 0);
 
-        URL test1 = getClass().getResource(".");
-        URL test2 = getClass().getResource("src/main/resources/ground.jpg");
-//        InputStream input = getClass().getResourceAsStream("./../resources/ground.jpg");
+//        InputStream input = getClass().getClassLoader().getResourceAsStream("ground.jpg");
 //        if (input == null) {
 //            throw new FileNotFoundException("Log file not provided");
 //        }
@@ -77,6 +80,18 @@ public class Controller implements Initializable {
 //        ImageView imageView = new ImageView(image);
 //
 //        mainVisualField.add(imageView,0, 0);
+
+//        RowConstraints rowConstraints = new RowConstraints();
+//        rowConstraints.setPercentHeight(50);
+//        ColumnConstraints columnConstraints = new ColumnConstraints();
+//        columnConstraints.setPercentWidth(50);
+//
+//        mainVisualField.getRowConstraints().addAll(rowConstraints, rowConstraints);
+//        mainVisualField.getColumnConstraints().addAll(columnConstraints, columnConstraints);
+//        mainVisualField.add(new ImageCell(new Image("https://cdn.sstatic.net/Sites/stackoverflow/company/img/logos/se/se-icon.png")), 0, 0);
+
+    mainVisualField.add(new ImageCell(new Image(Objects.requireNonNull(getClass().getClassLoader().getResourceAsStream("ground.jpg")))), 0, 0);
+
     }
 
     public void madeOneStep(ActionEvent event) {
