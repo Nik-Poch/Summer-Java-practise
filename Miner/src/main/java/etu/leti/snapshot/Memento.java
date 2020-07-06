@@ -1,4 +1,4 @@
-package main.java.snapshot;
+package etu.leti.snapshot;
 
 public class Memento {
 }

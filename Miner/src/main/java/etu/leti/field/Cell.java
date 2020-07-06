@@ -1,6 +1,6 @@
 package etu.leti.field;
 
-import main.java.ore.Ore;
+import etu.leti.ore.Ore;
 
 public class Cell {
     private int posX;

@@ -1,4 +1,4 @@
-package main.java.ore;
+package etu.leti.ore;
 
 public enum OreTypes {
     GOLD_ORE,

@@ -1,6 +1,6 @@
 package etu.leti.digger.DiggerTools;
 
-import main.java.ore.OreTypes;
+import etu.leti.ore.OreTypes;
 
 public abstract class DiggerTool {
     protected OreTypes[] oreos;

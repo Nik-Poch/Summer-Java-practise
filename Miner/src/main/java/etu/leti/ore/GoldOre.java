@@ -1,4 +1,4 @@
-package main.java.ore;
+package etu.leti.ore;
 
 public class GoldOre extends Ore{
 
