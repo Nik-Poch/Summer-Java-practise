@@ -2,7 +2,6 @@ package etu.leti.ore;
 
 public class Ore {
     protected String imgFileName;
-    protected boolean movable;
     protected OreTypes oreType;
 
     public Ore() {}
@@ -11,9 +10,8 @@ public class Ore {
         this.oreType = oreType;
     }
 
-    public Ore(String imgFileName, boolean movable, OreTypes oreType) {
+    public Ore(String imgFileName, OreTypes oreType) {
         this.imgFileName = imgFileName;
-        this.movable = movable;
         this.oreType = oreType;
     }
 
@@ -23,14 +21,6 @@ public class Ore {
 
     public void setPath(String imgFileName) {
         this.imgFileName = imgFileName;
-    }
-
-    public boolean isMovable() {
-        return movable;
-    }
-
-    public void setMovable(boolean movable) {
-        this.movable = movable;
     }
 
     public OreTypes getOreType() {
