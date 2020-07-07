@@ -58,16 +58,16 @@ public class Field {
                 if (cell.isChecked()) {
                     continue;
                 }
-                if (cell.getOre().getOreTypes() == OreTypes.GOLD_ORE ||
-                        cell.getOre().getOreTypes() == OreTypes.IRON_ORE ||
-                        cell.getOre().getOreTypes() == OreTypes.STONE_ORE) {
+                if (cell.getOre().getOreType() == OreTypes.GOLD_ORE ||
+                        cell.getOre().getOreType() == OreTypes.IRON_ORE ||
+                        cell.getOre().getOreType() == OreTypes.STONE_ORE) {
 
                     ArrayList<Cell> vein = new ArrayList<>();
-                    findWayFromCell(cell.getPosX(), cell.getPosY(), cell.getOre().getOreTypes(), vein);
+                    findWayFromCell(cell.getPosX(), cell.getPosY(), cell.getOre().getOreType(), vein);
                     veins.put(i, vein);
                     i++;
 
-                } else if (cell.getOre().getOreTypes() == OreTypes.HELL) {
+                } else if (cell.getOre().getOreType() == OreTypes.HELL) {
                     this.hell = cell;
                 }
             }
@@ -89,25 +89,25 @@ public class Field {
         }
         if (cell.getPosX() + 1 < height) {
             Cell downCell = cells[cell.getPosX()+1][cell.getPosY()];
-            if (!downCell.isChecked() && downCell.getOre().getOreTypes() == type) {
+            if (!downCell.isChecked() && downCell.getOre().getOreType() == type) {
                 findWayFromCell(cell.getPosX() + 1, cell.getPosY() , type, vein);
             }
         }
         if (cell.getPosY() + 1 < width) {
             Cell rightCell = cells[cell.getPosX()][cell.getPosY() + 1];
-            if (!rightCell.isChecked() && rightCell.getOre().getOreTypes() == type) {
+            if (!rightCell.isChecked() && rightCell.getOre().getOreType() == type) {
                 findWayFromCell(cell.getPosX(), cell.getPosY() + 1, type, vein);
             }
         }
         if (cell.getPosY() - 1 >= 0) {
             Cell leftCell = cells[cell.getPosX()][cell.getPosY() - 1];
-            if (!leftCell.isChecked() && leftCell.getOre().getOreTypes() == type) {
+            if (!leftCell.isChecked() && leftCell.getOre().getOreType() == type) {
                 findWayFromCell(cell.getPosX(), cell.getPosY() - 1, type, vein);
             }
         }
         if (cell.getPosX() - 1 >= 0) {
             Cell upCell = cells[cell.getPosX() - 1][cell.getPosY()];
-            if (!upCell.isChecked() && upCell.getOre().getOreTypes() == type) {
+            if (!upCell.isChecked() && upCell.getOre().getOreType() == type) {
                 findWayFromCell(cell.getPosX() - 1, cell.getPosY(), type, vein);
             }
         }
