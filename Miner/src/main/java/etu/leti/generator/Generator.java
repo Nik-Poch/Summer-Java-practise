@@ -92,8 +92,8 @@ public class Generator
                     }
                     else
                     {
-                        rand_x = random.nextInt((x / 2) + curr_x) + curr_x;/**Радномим заново точку спауна руды*/
-                        rand_y = random.nextInt((x / 2) + curr_y) + curr_y;
+                        rand_x = random.nextInt((x / 2)-1) + curr_x;/**Радномим заново точку спауна руды*/
+                        rand_y = random.nextInt((x / 2)-1) + curr_y;
                     }
                 }
             }
