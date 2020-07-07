@@ -70,25 +70,6 @@ public class Controller implements Initializable {
     }
 
     public void runAlgorithm(ActionEvent event) throws FileNotFoundException {
-//        Node node = GridWorker.getNodeFromGridPane(mainVisualField, 0, 0);
-
-//        InputStream input = getClass().getClassLoader().getResourceAsStream("ground.jpg");
-//        if (input == null) {
-//            throw new FileNotFoundException("Log file not provided");
-//        }
-//        Image image = new Image(input);
-//        ImageView imageView = new ImageView(image);
-//
-//        mainVisualField.add(imageView,0, 0);
-
-//        RowConstraints rowConstraints = new RowConstraints();
-//        rowConstraints.setPercentHeight(50);
-//        ColumnConstraints columnConstraints = new ColumnConstraints();
-//        columnConstraints.setPercentWidth(50);
-//
-//        mainVisualField.getRowConstraints().addAll(rowConstraints, rowConstraints);
-//        mainVisualField.getColumnConstraints().addAll(columnConstraints, columnConstraints);
-//        mainVisualField.add(new ImageCell(new Image("https://cdn.sstatic.net/Sites/stackoverflow/company/img/logos/se/se-icon.png")), 0, 0);
 
     mainVisualField.add(new ImageCell(new Image(Objects.requireNonNull(getClass().getClassLoader().getResourceAsStream("ground.jpg")))), 0, 0);
 
