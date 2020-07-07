@@ -1,9 +1,10 @@
 package etu.leti.ore;
 
 public enum OreTypes {
+    GROUND,
     GOLD_ORE,
     IRON_ORE,
     STONE_ORE,
-    SIMPLE_ORE,
+    AIR,
     HELL
 }

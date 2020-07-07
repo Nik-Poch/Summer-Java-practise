@@ -2,9 +2,12 @@ package etu.leti.gui;
 
 import java.io.File;
 import java.io.FileNotFoundException;
+import java.io.IOException;
 import java.net.URL;
 import java.util.ResourceBundle;
 
+import etu.leti.field.Cell;
+import etu.leti.gui.gridhandler.GridWorker;
 import javafx.collections.FXCollections;
 import javafx.collections.ObservableList;
 import javafx.event.ActionEvent;
@@ -19,7 +22,14 @@ import javafx.scene.layout.VBox;
 import javafx.stage.FileChooser;
 import org.jetbrains.annotations.NotNull;
 
+import etu.leti.parser.MapParser;
+
 public class Controller implements Initializable {
+
+    private static final int cellWidth = 20;
+    private static final int cellHeight = 21;
+
+    MapParser mapParser;
 
     @FXML
     private VBox mainStage;
@@ -62,30 +72,26 @@ public class Controller implements Initializable {
     @Override
     public void initialize(URL location, ResourceBundle resources) {
         loadData();
+
+        mapParser = new MapParser();
     }
 
-    public void runAlgorithm(ActionEvent event) throws FileNotFoundException {
-//        Node node = GridWorker.getNodeFromGridPane(mainVisualField, 0, 0);
+    public void runAlgorithm(ActionEvent event) {
 
-        URL test1 = getClass().getResource(".");
-        URL test2 = getClass().getResource("src/main/resources/ground.jpg");
-//        InputStream input = getClass().getResourceAsStream("./../resources/ground.jpg");
-//        if (input == null) {
-//            throw new FileNotFoundException("Log file not provided");
-//        }
-//        Image image = new Image(input);
-//        ImageView imageView = new ImageView(image);
-//
-//        mainVisualField.add(imageView,0, 0);
     }
 
     public void madeOneStep(ActionEvent event) {
 
     }
 
-    public void loadFile(@NotNull ActionEvent event) {
+    public void loadFile(@NotNull ActionEvent event) throws IOException {
         final FileChooser fileChooser = new FileChooser();
         File file = fileChooser.showOpenDialog(mainStage.getScene().getWindow());
+
+        mapParser.setJsonFile(file);
+        Cell[] cellField = mapParser.parseCellArr();
+        ClassLoader loader = this.getClass().getClassLoader();
+        GridWorker.fillGridByCell(mainVisualField, cellWidth, cellHeight, cellField, loader);
     }
 
     public void saveFile(ActionEvent event) {
