@@ -2,7 +2,7 @@
 	{
 		"x" : 0,
 		"y" : 0,
-		"type" : "ground"
+		"type" : "air"
 	},
 	{
 		"x" : 0,
@@ -100,14 +100,9 @@
 		"type" : "ground"
 	},
 	{
-		"x" : 0,
-		"y" : 20,
-		"type" : "ground"
-	},
-	{
 		"x" : 1,
 		"y" : 0,
-		"type" : "ground"
+		"type" : "air"
 	},
 	{
 		"x" : 1,
@@ -205,14 +200,9 @@
 		"type" : "rock"
 	},
 	{
-		"x" : 1,
-		"y" : 20,
-		"type" : "ground"
-	},
-	{
 		"x" : 2,
 		"y" : 0,
-		"type" : "ground"
+		"type" : "air"
 	},
 	{
 		"x" : 2,
@@ -310,14 +300,9 @@
 		"type" : "ground"
 	},
 	{
-		"x" : 2,
-		"y" : 20,
-		"type" : "ground"
-	},
-	{
 		"x" : 3,
 		"y" : 0,
-		"type" : "ground"
+		"type" : "air"
 	},
 	{
 		"x" : 3,
@@ -415,14 +400,9 @@
 		"type" : "ground"
 	},
 	{
-		"x" : 3,
-		"y" : 20,
-		"type" : "ground"
-	},
-	{
 		"x" : 4,
 		"y" : 0,
-		"type" : "ground"
+		"type" : "air"
 	},
 	{
 		"x" : 4,
@@ -520,14 +500,9 @@
 		"type" : "ground"
 	},
 	{
-		"x" : 4,
-		"y" : 20,
-		"type" : "ground"
-	},
-	{
 		"x" : 5,
 		"y" : 0,
-		"type" : "ground"
+		"type" : "air"
 	},
 	{
 		"x" : 5,
@@ -625,14 +600,9 @@
 		"type" : "ground"
 	},
 	{
-		"x" : 5,
-		"y" : 20,
-		"type" : "ground"
-	},
-	{
 		"x" : 6,
 		"y" : 0,
-		"type" : "ground"
+		"type" : "air"
 	},
 	{
 		"x" : 6,
@@ -727,17 +697,12 @@
 	{
 		"x" : 6,
 		"y" : 19,
-		"type" : "ground"
-	},
-	{
-		"x" : 6,
-		"y" : 20,
 		"type" : "ground"
 	},
 	{
 		"x" : 7,
 		"y" : 0,
-		"type" : "ground"
+		"type" : "air"
 	},
 	{
 		"x" : 7,
@@ -835,19 +800,14 @@
 		"type" : "ground"
 	},
 	{
-		"x" : 7,
-		"y" : 20,
-		"type" : "ground"
-	},
-	{
 		"x" : 8,
 		"y" : 0,
-		"type" : "ground"
+		"type" : "air"
 	},
 	{
 		"x" : 8,
 		"y" : 1,
-		"type" : "iron"
+		"type" : "ground"
 	},
 	{
 		"x" : 8,
@@ -872,7 +832,7 @@
 	{
 		"x" : 8,
 		"y" : 6,
-		"type" : "ground"
+		"type" : "iron"
 	},
 	{
 		"x" : 8,
@@ -940,14 +900,9 @@
 		"type" : "iron"
 	},
 	{
-		"x" : 8,
-		"y" : 20,
-		"type" : "ground"
-	},
-	{
 		"x" : 9,
 		"y" : 0,
-		"type" : "ground"
+		"type" : "air"
 	},
 	{
 		"x" : 9,
@@ -1045,14 +1000,9 @@
 		"type" : "iron"
 	},
 	{
-		"x" : 9,
-		"y" : 20,
-		"type" : "ground"
-	},
-	{
 		"x" : 10,
 		"y" : 0,
-		"type" : "ground"
+		"type" : "air"
 	},
 	{
 		"x" : 10,
@@ -1150,14 +1100,9 @@
 		"type" : "ground"
 	},
 	{
-		"x" : 10,
-		"y" : 20,
-		"type" : "ground"
-	},
-	{
 		"x" : 11,
 		"y" : 0,
-		"type" : "ground"
+		"type" : "air"
 	},
 	{
 		"x" : 11,
@@ -1252,17 +1197,12 @@
 	{
 		"x" : 11,
 		"y" : 19,
-		"type" : "ground"
-	},
-	{
-		"x" : 11,
-		"y" : 20,
 		"type" : "ground"
 	},
 	{
 		"x" : 12,
 		"y" : 0,
-		"type" : "ground"
+		"type" : "air"
 	},
 	{
 		"x" : 12,
@@ -1360,27 +1300,22 @@
 		"type" : "ground"
 	},
 	{
-		"x" : 12,
-		"y" : 20,
-		"type" : "ground"
-	},
-	{
 		"x" : 13,
 		"y" : 0,
-		"type" : "ground"
+		"type" : "air"
 	},
 	{
 		"x" : 13,
 		"y" : 1,
+		"type" : "ground"
+	},
+	{
+		"x" : 13,
+		"y" : 2,
 		"type" : "gold"
 	},
 	{
 		"x" : 13,
-		"y" : 2,
-		"type" : "ground"
-	},
-	{
-		"x" : 13,
 		"y" : 3,
 		"type" : "ground"
 	},
@@ -1465,24 +1400,19 @@
 		"type" : "ground"
 	},
 	{
-		"x" : 13,
-		"y" : 20,
-		"type" : "hell"
-	},
-	{
 		"x" : 14,
 		"y" : 0,
-		"type" : "ground"
+		"type" : "air"
 	},
 	{
 		"x" : 14,
 		"y" : 1,
-		"type" : "gold"
+		"type" : "ground"
 	},
 	{
 		"x" : 14,
 		"y" : 2,
-		"type" : "ground"
+		"type" : "gold"
 	},
 	{
 		"x" : 14,
@@ -1570,24 +1500,19 @@
 		"type" : "ground"
 	},
 	{
-		"x" : 14,
-		"y" : 20,
-		"type" : "ground"
-	},
-	{
 		"x" : 15,
 		"y" : 0,
-		"type" : "ground"
+		"type" : "air"
 	},
 	{
 		"x" : 15,
 		"y" : 1,
-		"type" : "gold"
+		"type" : "ground"
 	},
 	{
 		"x" : 15,
 		"y" : 2,
-		"type" : "ground"
+		"type" : "gold"
 	},
 	{
 		"x" : 15,
@@ -1675,24 +1600,19 @@
 		"type" : "ground"
 	},
 	{
-		"x" : 15,
-		"y" : 20,
-		"type" : "ground"
-	},
-	{
 		"x" : 16,
 		"y" : 0,
-		"type" : "ground"
+		"type" : "air"
 	},
 	{
 		"x" : 16,
 		"y" : 1,
-		"type" : "gold"
+		"type" : "ground"
 	},
 	{
 		"x" : 16,
 		"y" : 2,
-		"type" : "ground"
+		"type" : "gold"
 	},
 	{
 		"x" : 16,
@@ -1780,27 +1700,22 @@
 		"type" : "ground"
 	},
 	{
-		"x" : 16,
-		"y" : 20,
-		"type" : "ground"
-	},
-	{
 		"x" : 17,
 		"y" : 0,
-		"type" : "ground"
+		"type" : "air"
 	},
 	{
 		"x" : 17,
 		"y" : 1,
+		"type" : "ground"
+	},
+	{
+		"x" : 17,
+		"y" : 2,
 		"type" : "gold"
 	},
 	{
 		"x" : 17,
-		"y" : 2,
-		"type" : "ground"
-	},
-	{
-		"x" : 17,
 		"y" : 3,
 		"type" : "ground"
 	},
@@ -1885,14 +1800,9 @@
 		"type" : "ground"
 	},
 	{
-		"x" : 17,
-		"y" : 20,
-		"type" : "ground"
-	},
-	{
 		"x" : 18,
 		"y" : 0,
-		"type" : "ground"
+		"type" : "air"
 	},
 	{
 		"x" : 18,
@@ -1990,14 +1900,9 @@
 		"type" : "ground"
 	},
 	{
-		"x" : 18,
-		"y" : 20,
-		"type" : "ground"
-	},
-	{
 		"x" : 19,
 		"y" : 0,
-		"type" : "ground"
+		"type" : "air"
 	},
 	{
 		"x" : 19,
@@ -2093,10 +1998,5 @@
 		"x" : 19,
 		"y" : 19,
 		"type" : "ground"
-	},
-	{
-		"x" : 19,
-		"y" : 20,
-		"type" : "ground"
-	},
+	}
 ]
