@@ -4,6 +4,7 @@ import javafx.application.Application;
 import javafx.fxml.FXMLLoader;
 import javafx.scene.Parent;
 import javafx.scene.Scene;
+import javafx.scene.image.Image;
 import javafx.stage.Stage;
 import org.jetbrains.annotations.NotNull;
 
@@ -34,6 +35,9 @@ public class Main extends Application {
         primaryStage.setMaxHeight(primaryStage.getHeight());
         primaryStage.setMaxWidth(primaryStage.getWidth());
         primaryStage.setResizable(false);
+
+        // Set application icon
+        primaryStage.getIcons().add(new Image("icon.png"));
 
         primaryStage.show();
     }
