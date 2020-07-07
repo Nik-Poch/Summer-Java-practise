@@ -1,12 +1,13 @@
 package etu.leti.field;
 
 import etu.leti.ore.Ore;
+import etu.leti.ore.OreTypes;
 
 public class Cell {
     private int posX;
     private int posY;
-    private Ore ore;
     private boolean checked;
+    private Ore ore;
 
     public Cell() { }
 
@@ -46,5 +47,9 @@ public class Cell {
 
     public void setChecked(boolean checked) {
         this.checked = checked;
+    }
+
+    public OreTypes getOreInCellType() {
+        return ore.getOreType();
     }
 }
