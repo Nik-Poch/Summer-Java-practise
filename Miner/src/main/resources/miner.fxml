@@ -30,7 +30,7 @@
         </Menu>
     </MenuBar>
     <HBox prefHeight="1024.0" prefWidth="1280.0">
-        <GridPane fx:id="mainVisualField" gridLinesVisible="true" maxHeight="740.0" maxWidth="740.0" minHeight="740.0" minWidth="740.0" prefHeight="740.0" prefWidth="740.0">
+        <GridPane fx:id="mainVisualField" alignment="CENTER" gridLinesVisible="true" maxHeight="740.0" maxWidth="705.0" minHeight="740.0" minWidth="705.0" prefHeight="740.0" prefWidth="705.0" scaleShape="false">
             <columnConstraints>
                 <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
                 <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
@@ -77,11 +77,11 @@
                 <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
             </rowConstraints>
         </GridPane>
-      <VBox alignment="BOTTOM_CENTER" prefHeight="740.0" prefWidth="285.0">
+      <VBox alignment="BOTTOM_CENTER" prefHeight="740.0" prefWidth="319.0">
          <children>
                <Button fx:id="runButton" mnemonicParsing="false" onAction="#runAlgorithm" prefHeight="57.0" prefWidth="125.0" text="Run">
                <VBox.margin>
-                  <Insets bottom="140.0" />
+                  <Insets bottom="110.0" />
                </VBox.margin>
                <font>
                   <Font size="16.0" />
@@ -105,7 +105,7 @@
                   <Font size="16.0" />
                </font>
             </Button>
-               <TextArea fx:id="logTextField" editable="false" prefHeight="320.0" prefWidth="285.0" promptText="Log window" stylesheets="@textarea.css">
+               <TextArea fx:id="logTextField" editable="false" prefHeight="320.0" prefWidth="308.0" promptText="Log window" stylesheets="@textarea.css">
                <VBox.margin>
                   <Insets />
                </VBox.margin>
