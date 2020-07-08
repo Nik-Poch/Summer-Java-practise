@@ -15,6 +15,11 @@ public class Ore {
         this.oreType = oreType;
     }
 
+    public Ore(String imgFileName, OreTypes oreType) {
+        this.imgFileName = imgFileName;
+        this.oreType = oreType;
+    }
+
     public String getPath() {
         return imgFileName;
     }
