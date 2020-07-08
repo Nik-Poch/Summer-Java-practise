@@ -45,7 +45,6 @@ int main() {
                 outfile << "\t\t\t\t\"oreType\" : \"HELL\"" << std::endl;
             } else if(j != 0) {
                 outfile << "\t\t\t\t\"imgFileName\" : \"ground.jpg\"," << std::endl;
-                outfile << "\t\t\t\t\"movable\" : true," << std::endl;
                 outfile << "\t\t\t\t\"oreType\" : \"GROUND\"" << std::endl;
             } else {
                 outfile << "\t\t\t\t\"oreType\" : \"AIR\"" << std::endl;

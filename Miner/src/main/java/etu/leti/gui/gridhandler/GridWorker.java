@@ -1,5 +1,6 @@
 package etu.leti.gui.gridhandler;
 
+import com.google.gson.JsonParseException;
 import etu.leti.field.Cell;
 import javafx.scene.Node;
 import javafx.scene.image.Image;
@@ -32,27 +33,51 @@ public class GridWorker {
     }
 
     public static void fillGridByCell(GridPane mainVisualField, int width, int height, Cell @NotNull [] cells, ClassLoader classLoader) {
-        int x, y;
+
+        int x, y, i = 0;
+
+        ImageCell[] fillGridImages = new ImageCell[cells.length];
+
         for(Cell cell : cells) {
+
+            if(cell == null) {
+                break;
+            }
+
             x = cell.getPosX();
             y = cell.getPosY();
             switch(cell.getOreInCellType()) {
                 case GROUND:
-                    mainVisualField.add(new ImageCell(new Image(Objects.requireNonNull(classLoader.getResourceAsStream("ground.jpg")))), x, y);
+                    fillGridImages[i] = new ImageCell(new Image(Objects.requireNonNull(classLoader.getResourceAsStream("ground.jpg"))));
                     break;
                 case GOLD_ORE:
-                    mainVisualField.add(new ImageCell(new Image(Objects.requireNonNull(classLoader.getResourceAsStream("gold.jpg")))), x, y);
+                    fillGridImages[i] = new ImageCell(new Image(Objects.requireNonNull(classLoader.getResourceAsStream("gold.jpg"))));
                     break;
                 case IRON_ORE:
-                    mainVisualField.add(new ImageCell(new Image(Objects.requireNonNull(classLoader.getResourceAsStream("iron.jpg")))), x, y);
+                    fillGridImages[i] = new ImageCell(new Image(Objects.requireNonNull(classLoader.getResourceAsStream("iron.jpg"))));
                     break;
                 case STONE_ORE:
-                    mainVisualField.add(new ImageCell(new Image(Objects.requireNonNull(classLoader.getResourceAsStream("stone.jpg")))), x, y);
+                    fillGridImages[i] = new ImageCell(new Image(Objects.requireNonNull(classLoader.getResourceAsStream("stone.jpg"))));
                     break;
                 case HELL:
-                    mainVisualField.add(new ImageCell(new Image(Objects.requireNonNull(classLoader.getResourceAsStream("hell.jpg")))), x, y);
+                    fillGridImages[i] = new ImageCell(new Image(Objects.requireNonNull(classLoader.getResourceAsStream("hell.jpg"))));
                     break;
+                default:
+                    fillGridImages[i] = new ImageCell(new Image(Objects.requireNonNull(classLoader.getResourceAsStream("air.png"))));
             }
+            mainVisualField.add(fillGridImages[i], x, y);
+
+            ++i;
         }
+
+        if(i == cells.length) {
+            mainVisualField.add(new ImageCell(new Image(Objects.requireNonNull(classLoader.getResourceAsStream("player.png")))), 0, 0);
+            return;
+        }
+
+        for(int j = 0; j < i; j++) {
+            mainVisualField.getChildren().remove(fillGridImages[j]);
+        }
+        throw new JsonParseException("Incorrect data for " + i + " element in Cell array from file");
     }
 }

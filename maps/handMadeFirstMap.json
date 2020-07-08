@@ -15,7 +15,6 @@
 		"ore" : 
 			{
 				"imgFileName" : "ground.jpg",
-				"movable" : true,
 				"oreType" : "GROUND"
 			}
 	},
@@ -26,7 +25,6 @@
 		"ore" : 
 			{
 				"imgFileName" : "ground.jpg",
-				"movable" : true,
 				"oreType" : "GROUND"
 			}
 	},
@@ -37,7 +35,6 @@
 		"ore" : 
 			{
 				"imgFileName" : "ground.jpg",
-				"movable" : true,
 				"oreType" : "GROUND"
 			}
 	},
@@ -48,7 +45,6 @@
 		"ore" : 
 			{
 				"imgFileName" : "ground.jpg",
-				"movable" : true,
 				"oreType" : "GROUND"
 			}
 	},
@@ -59,7 +55,6 @@
 		"ore" : 
 			{
 				"imgFileName" : "ground.jpg",
-				"movable" : true,
 				"oreType" : "GROUND"
 			}
 	},
@@ -70,7 +65,6 @@
 		"ore" : 
 			{
 				"imgFileName" : "ground.jpg",
-				"movable" : true,
 				"oreType" : "GROUND"
 			}
 	},
@@ -81,7 +75,6 @@
 		"ore" : 
 			{
 				"imgFileName" : "ground.jpg",
-				"movable" : true,
 				"oreType" : "GROUND"
 			}
 	},
@@ -92,7 +85,6 @@
 		"ore" : 
 			{
 				"imgFileName" : "ground.jpg",
-				"movable" : true,
 				"oreType" : "GROUND"
 			}
 	},
@@ -103,7 +95,6 @@
 		"ore" : 
 			{
 				"imgFileName" : "ground.jpg",
-				"movable" : true,
 				"oreType" : "GROUND"
 			}
 	},
@@ -114,7 +105,6 @@
 		"ore" : 
 			{
 				"imgFileName" : "ground.jpg",
-				"movable" : true,
 				"oreType" : "GROUND"
 			}
 	},
@@ -125,7 +115,6 @@
 		"ore" : 
 			{
 				"imgFileName" : "ground.jpg",
-				"movable" : true,
 				"oreType" : "GROUND"
 			}
 	},
@@ -136,7 +125,6 @@
 		"ore" : 
 			{
 				"imgFileName" : "ground.jpg",
-				"movable" : true,
 				"oreType" : "GROUND"
 			}
 	},
@@ -147,7 +135,6 @@
 		"ore" : 
 			{
 				"imgFileName" : "ground.jpg",
-				"movable" : true,
 				"oreType" : "GROUND"
 			}
 	},
@@ -158,7 +145,6 @@
 		"ore" : 
 			{
 				"imgFileName" : "ground.jpg",
-				"movable" : true,
 				"oreType" : "GROUND"
 			}
 	},
@@ -169,7 +155,6 @@
 		"ore" : 
 			{
 				"imgFileName" : "ground.jpg",
-				"movable" : true,
 				"oreType" : "GROUND"
 			}
 	},
@@ -180,7 +165,6 @@
 		"ore" : 
 			{
 				"imgFileName" : "ground.jpg",
-				"movable" : true,
 				"oreType" : "GROUND"
 			}
 	},
@@ -191,7 +175,6 @@
 		"ore" : 
 			{
 				"imgFileName" : "ground.jpg",
-				"movable" : true,
 				"oreType" : "GROUND"
 			}
 	},
@@ -202,7 +185,6 @@
 		"ore" : 
 			{
 				"imgFileName" : "ground.jpg",
-				"movable" : true,
 				"oreType" : "GROUND"
 			}
 	},
@@ -213,7 +195,6 @@
 		"ore" : 
 			{
 				"imgFileName" : "ground.jpg",
-				"movable" : true,
 				"oreType" : "GROUND"
 			}
 	},
@@ -224,7 +205,6 @@
 		"ore" : 
 			{
 				"imgFileName" : "ground.jpg",
-				"movable" : true,
 				"oreType" : "GROUND"
 			}
 	},
@@ -244,7 +224,6 @@
 		"ore" : 
 			{
 				"imgFileName" : "ground.jpg",
-				"movable" : true,
 				"oreType" : "GROUND"
 			}
 	},
@@ -255,7 +234,6 @@
 		"ore" : 
 			{
 				"imgFileName" : "ground.jpg",
-				"movable" : true,
 				"oreType" : "GROUND"
 			}
 	},
@@ -266,7 +244,6 @@
 		"ore" : 
 			{
 				"imgFileName" : "ground.jpg",
-				"movable" : true,
 				"oreType" : "GROUND"
 			}
 	},
@@ -277,7 +254,6 @@
 		"ore" : 
 			{
 				"imgFileName" : "ground.jpg",
-				"movable" : true,
 				"oreType" : "GROUND"
 			}
 	},
@@ -288,7 +264,6 @@
 		"ore" : 
 			{
 				"imgFileName" : "ground.jpg",
-				"movable" : true,
 				"oreType" : "GROUND"
 			}
 	},
@@ -299,7 +274,6 @@
 		"ore" : 
 			{
 				"imgFileName" : "ground.jpg",
-				"movable" : true,
 				"oreType" : "GROUND"
 			}
 	},
@@ -310,7 +284,6 @@
 		"ore" : 
 			{
 				"imgFileName" : "ground.jpg",
-				"movable" : true,
 				"oreType" : "GROUND"
 			}
 	},
@@ -343,7 +316,6 @@
 		"ore" : 
 			{
 				"imgFileName" : "ground.jpg",
-				"movable" : true,
 				"oreType" : "GROUND"
 			}
 	},
@@ -354,7 +326,6 @@
 		"ore" : 
 			{
 				"imgFileName" : "ground.jpg",
-				"movable" : true,
 				"oreType" : "GROUND"
 			}
 	},
@@ -365,7 +336,6 @@
 		"ore" : 
 			{
 				"imgFileName" : "ground.jpg",
-				"movable" : true,
 				"oreType" : "GROUND"
 			}
 	},
@@ -376,7 +346,6 @@
 		"ore" : 
 			{
 				"imgFileName" : "ground.jpg",
-				"movable" : true,
 				"oreType" : "GROUND"
 			}
 	},
@@ -387,7 +356,6 @@
 		"ore" : 
 			{
 				"imgFileName" : "ground.jpg",
-				"movable" : true,
 				"oreType" : "GROUND"
 			}
 	},
@@ -398,7 +366,6 @@
 		"ore" : 
 			{
 				"imgFileName" : "ground.jpg",
-				"movable" : true,
 				"oreType" : "GROUND"
 			}
 	},
@@ -409,7 +376,6 @@
 		"ore" : 
 			{
 				"imgFileName" : "ground.jpg",
-				"movable" : true,
 				"oreType" : "GROUND"
 			}
 	},
@@ -420,7 +386,6 @@
 		"ore" : 
 			{
 				"imgFileName" : "ground.jpg",
-				"movable" : true,
 				"oreType" : "GROUND"
 			}
 	},
@@ -453,7 +418,6 @@
 		"ore" : 
 			{
 				"imgFileName" : "ground.jpg",
-				"movable" : true,
 				"oreType" : "GROUND"
 			}
 	},
@@ -473,7 +437,6 @@
 		"ore" : 
 			{
 				"imgFileName" : "ground.jpg",
-				"movable" : true,
 				"oreType" : "GROUND"
 			}
 	},
@@ -495,7 +458,6 @@
 		"ore" : 
 			{
 				"imgFileName" : "ground.jpg",
-				"movable" : true,
 				"oreType" : "GROUND"
 			}
 	},
@@ -506,7 +468,6 @@
 		"ore" : 
 			{
 				"imgFileName" : "ground.jpg",
-				"movable" : true,
 				"oreType" : "GROUND"
 			}
 	},
@@ -517,7 +478,6 @@
 		"ore" : 
 			{
 				"imgFileName" : "ground.jpg",
-				"movable" : true,
 				"oreType" : "GROUND"
 			}
 	},
@@ -528,7 +488,6 @@
 		"ore" : 
 			{
 				"imgFileName" : "ground.jpg",
-				"movable" : true,
 				"oreType" : "GROUND"
 			}
 	},
@@ -539,7 +498,6 @@
 		"ore" : 
 			{
 				"imgFileName" : "ground.jpg",
-				"movable" : true,
 				"oreType" : "GROUND"
 			}
 	},
@@ -572,7 +530,6 @@
 		"ore" : 
 			{
 				"imgFileName" : "ground.jpg",
-				"movable" : true,
 				"oreType" : "GROUND"
 			}
 	},
@@ -583,7 +540,6 @@
 		"ore" : 
 			{
 				"imgFileName" : "ground.jpg",
-				"movable" : true,
 				"oreType" : "GROUND"
 			}
 	},
@@ -594,7 +550,6 @@
 		"ore" : 
 			{
 				"imgFileName" : "ground.jpg",
-				"movable" : true,
 				"oreType" : "GROUND"
 			}
 	},
@@ -605,7 +560,6 @@
 		"ore" : 
 			{
 				"imgFileName" : "ground.jpg",
-				"movable" : true,
 				"oreType" : "GROUND"
 			}
 	},
@@ -616,7 +570,6 @@
 		"ore" : 
 			{
 				"imgFileName" : "ground.jpg",
-				"movable" : true,
 				"oreType" : "GROUND"
 			}
 	},
@@ -627,7 +580,6 @@
 		"ore" : 
 			{
 				"imgFileName" : "ground.jpg",
-				"movable" : true,
 				"oreType" : "GROUND"
 			}
 	},
@@ -638,7 +590,6 @@
 		"ore" : 
 			{
 				"imgFileName" : "ground.jpg",
-				"movable" : true,
 				"oreType" : "GROUND"
 			}
 	},
@@ -649,7 +600,6 @@
 		"ore" : 
 			{
 				"imgFileName" : "ground.jpg",
-				"movable" : true,
 				"oreType" : "GROUND"
 			}
 	},
@@ -660,7 +610,6 @@
 		"ore" : 
 			{
 				"imgFileName" : "ground.jpg",
-				"movable" : true,
 				"oreType" : "GROUND"
 			}
 	},
@@ -671,7 +620,6 @@
 		"ore" : 
 			{
 				"imgFileName" : "ground.jpg",
-				"movable" : true,
 				"oreType" : "GROUND"
 			}
 	},
@@ -682,7 +630,6 @@
 		"ore" : 
 			{
 				"imgFileName" : "ground.jpg",
-				"movable" : true,
 				"oreType" : "GROUND"
 			}
 	},
@@ -702,7 +649,6 @@
 		"ore" : 
 			{
 				"imgFileName" : "ground.jpg",
-				"movable" : true,
 				"oreType" : "GROUND"
 			}
 	},
@@ -724,7 +670,6 @@
 		"ore" : 
 			{
 				"imgFileName" : "ground.jpg",
-				"movable" : true,
 				"oreType" : "GROUND"
 			}
 	},
@@ -746,7 +691,6 @@
 		"ore" : 
 			{
 				"imgFileName" : "ground.jpg",
-				"movable" : true,
 				"oreType" : "GROUND"
 			}
 	},
@@ -757,7 +701,6 @@
 		"ore" : 
 			{
 				"imgFileName" : "ground.jpg",
-				"movable" : true,
 				"oreType" : "GROUND"
 			}
 	},
@@ -768,7 +711,6 @@
 		"ore" : 
 			{
 				"imgFileName" : "ground.jpg",
-				"movable" : true,
 				"oreType" : "GROUND"
 			}
 	},
@@ -779,7 +721,6 @@
 		"ore" : 
 			{
 				"imgFileName" : "ground.jpg",
-				"movable" : true,
 				"oreType" : "GROUND"
 			}
 	},
@@ -790,7 +731,6 @@
 		"ore" : 
 			{
 				"imgFileName" : "ground.jpg",
-				"movable" : true,
 				"oreType" : "GROUND"
 			}
 	},
@@ -801,7 +741,6 @@
 		"ore" : 
 			{
 				"imgFileName" : "ground.jpg",
-				"movable" : true,
 				"oreType" : "GROUND"
 			}
 	},
@@ -812,7 +751,6 @@
 		"ore" : 
 			{
 				"imgFileName" : "ground.jpg",
-				"movable" : true,
 				"oreType" : "GROUND"
 			}
 	},
@@ -823,7 +761,6 @@
 		"ore" : 
 			{
 				"imgFileName" : "ground.jpg",
-				"movable" : true,
 				"oreType" : "GROUND"
 			}
 	},
@@ -834,7 +771,6 @@
 		"ore" : 
 			{
 				"imgFileName" : "ground.jpg",
-				"movable" : true,
 				"oreType" : "GROUND"
 			}
 	},
@@ -845,7 +781,6 @@
 		"ore" : 
 			{
 				"imgFileName" : "ground.jpg",
-				"movable" : true,
 				"oreType" : "GROUND"
 			}
 	},
@@ -856,7 +791,6 @@
 		"ore" : 
 			{
 				"imgFileName" : "ground.jpg",
-				"movable" : true,
 				"oreType" : "GROUND"
 			}
 	},
@@ -867,7 +801,6 @@
 		"ore" : 
 			{
 				"imgFileName" : "ground.jpg",
-				"movable" : true,
 				"oreType" : "GROUND"
 			}
 	},
@@ -878,7 +811,6 @@
 		"ore" : 
 			{
 				"imgFileName" : "ground.jpg",
-				"movable" : true,
 				"oreType" : "GROUND"
 			}
 	},
@@ -889,7 +821,6 @@
 		"ore" : 
 			{
 				"imgFileName" : "ground.jpg",
-				"movable" : true,
 				"oreType" : "GROUND"
 			}
 	},
@@ -900,7 +831,6 @@
 		"ore" : 
 			{
 				"imgFileName" : "ground.jpg",
-				"movable" : true,
 				"oreType" : "GROUND"
 			}
 	},
@@ -911,7 +841,6 @@
 		"ore" : 
 			{
 				"imgFileName" : "ground.jpg",
-				"movable" : true,
 				"oreType" : "GROUND"
 			}
 	},
@@ -931,7 +860,6 @@
 		"ore" : 
 			{
 				"imgFileName" : "ground.jpg",
-				"movable" : true,
 				"oreType" : "GROUND"
 			}
 	},
@@ -975,7 +903,6 @@
 		"ore" : 
 			{
 				"imgFileName" : "ground.jpg",
-				"movable" : true,
 				"oreType" : "GROUND"
 			}
 	},
@@ -986,7 +913,6 @@
 		"ore" : 
 			{
 				"imgFileName" : "ground.jpg",
-				"movable" : true,
 				"oreType" : "GROUND"
 			}
 	},
@@ -997,7 +923,6 @@
 		"ore" : 
 			{
 				"imgFileName" : "ground.jpg",
-				"movable" : true,
 				"oreType" : "GROUND"
 			}
 	},
@@ -1008,7 +933,6 @@
 		"ore" : 
 			{
 				"imgFileName" : "ground.jpg",
-				"movable" : true,
 				"oreType" : "GROUND"
 			}
 	},
@@ -1019,7 +943,6 @@
 		"ore" : 
 			{
 				"imgFileName" : "ground.jpg",
-				"movable" : true,
 				"oreType" : "GROUND"
 			}
 	},
@@ -1030,7 +953,6 @@
 		"ore" : 
 			{
 				"imgFileName" : "ground.jpg",
-				"movable" : true,
 				"oreType" : "GROUND"
 			}
 	},
@@ -1041,7 +963,6 @@
 		"ore" : 
 			{
 				"imgFileName" : "ground.jpg",
-				"movable" : true,
 				"oreType" : "GROUND"
 			}
 	},
@@ -1052,7 +973,6 @@
 		"ore" : 
 			{
 				"imgFileName" : "ground.jpg",
-				"movable" : true,
 				"oreType" : "GROUND"
 			}
 	},
@@ -1063,7 +983,6 @@
 		"ore" : 
 			{
 				"imgFileName" : "ground.jpg",
-				"movable" : true,
 				"oreType" : "GROUND"
 			}
 	},
@@ -1074,7 +993,6 @@
 		"ore" : 
 			{
 				"imgFileName" : "ground.jpg",
-				"movable" : true,
 				"oreType" : "GROUND"
 			}
 	},
@@ -1085,7 +1003,6 @@
 		"ore" : 
 			{
 				"imgFileName" : "ground.jpg",
-				"movable" : true,
 				"oreType" : "GROUND"
 			}
 	},
@@ -1096,7 +1013,6 @@
 		"ore" : 
 			{
 				"imgFileName" : "ground.jpg",
-				"movable" : true,
 				"oreType" : "GROUND"
 			}
 	},
@@ -1107,7 +1023,6 @@
 		"ore" : 
 			{
 				"imgFileName" : "ground.jpg",
-				"movable" : true,
 				"oreType" : "GROUND"
 			}
 	},
@@ -1118,7 +1033,6 @@
 		"ore" : 
 			{
 				"imgFileName" : "ground.jpg",
-				"movable" : true,
 				"oreType" : "GROUND"
 			}
 	},
@@ -1129,7 +1043,6 @@
 		"ore" : 
 			{
 				"imgFileName" : "ground.jpg",
-				"movable" : true,
 				"oreType" : "GROUND"
 			}
 	},
@@ -1140,7 +1053,6 @@
 		"ore" : 
 			{
 				"imgFileName" : "ground.jpg",
-				"movable" : true,
 				"oreType" : "GROUND"
 			}
 	},
@@ -1160,7 +1072,6 @@
 		"ore" : 
 			{
 				"imgFileName" : "ground.jpg",
-				"movable" : true,
 				"oreType" : "GROUND"
 			}
 	},
@@ -1171,7 +1082,6 @@
 		"ore" : 
 			{
 				"imgFileName" : "ground.jpg",
-				"movable" : true,
 				"oreType" : "GROUND"
 			}
 	},
@@ -1182,7 +1092,6 @@
 		"ore" : 
 			{
 				"imgFileName" : "ground.jpg",
-				"movable" : true,
 				"oreType" : "GROUND"
 			}
 	},
@@ -1193,7 +1102,6 @@
 		"ore" : 
 			{
 				"imgFileName" : "ground.jpg",
-				"movable" : true,
 				"oreType" : "GROUND"
 			}
 	},
@@ -1204,7 +1112,6 @@
 		"ore" : 
 			{
 				"imgFileName" : "ground.jpg",
-				"movable" : true,
 				"oreType" : "GROUND"
 			}
 	},
@@ -1215,7 +1122,6 @@
 		"ore" : 
 			{
 				"imgFileName" : "ground.jpg",
-				"movable" : true,
 				"oreType" : "GROUND"
 			}
 	},
@@ -1226,7 +1132,6 @@
 		"ore" : 
 			{
 				"imgFileName" : "ground.jpg",
-				"movable" : true,
 				"oreType" : "GROUND"
 			}
 	},
@@ -1237,7 +1142,6 @@
 		"ore" : 
 			{
 				"imgFileName" : "ground.jpg",
-				"movable" : true,
 				"oreType" : "GROUND"
 			}
 	},
@@ -1248,7 +1152,6 @@
 		"ore" : 
 			{
 				"imgFileName" : "ground.jpg",
-				"movable" : true,
 				"oreType" : "GROUND"
 			}
 	},
@@ -1259,7 +1162,6 @@
 		"ore" : 
 			{
 				"imgFileName" : "ground.jpg",
-				"movable" : true,
 				"oreType" : "GROUND"
 			}
 	},
@@ -1270,7 +1172,6 @@
 		"ore" : 
 			{
 				"imgFileName" : "ground.jpg",
-				"movable" : true,
 				"oreType" : "GROUND"
 			}
 	},
@@ -1281,7 +1182,6 @@
 		"ore" : 
 			{
 				"imgFileName" : "ground.jpg",
-				"movable" : true,
 				"oreType" : "GROUND"
 			}
 	},
@@ -1292,7 +1192,6 @@
 		"ore" : 
 			{
 				"imgFileName" : "ground.jpg",
-				"movable" : true,
 				"oreType" : "GROUND"
 			}
 	},
@@ -1303,7 +1202,6 @@
 		"ore" : 
 			{
 				"imgFileName" : "ground.jpg",
-				"movable" : true,
 				"oreType" : "GROUND"
 			}
 	},
@@ -1314,7 +1212,6 @@
 		"ore" : 
 			{
 				"imgFileName" : "ground.jpg",
-				"movable" : true,
 				"oreType" : "GROUND"
 			}
 	},
@@ -1325,7 +1222,6 @@
 		"ore" : 
 			{
 				"imgFileName" : "ground.jpg",
-				"movable" : true,
 				"oreType" : "GROUND"
 			}
 	},
@@ -1336,7 +1232,6 @@
 		"ore" : 
 			{
 				"imgFileName" : "ground.jpg",
-				"movable" : true,
 				"oreType" : "GROUND"
 			}
 	},
@@ -1347,7 +1242,6 @@
 		"ore" : 
 			{
 				"imgFileName" : "ground.jpg",
-				"movable" : true,
 				"oreType" : "GROUND"
 			}
 	},
@@ -1358,7 +1252,6 @@
 		"ore" : 
 			{
 				"imgFileName" : "ground.jpg",
-				"movable" : true,
 				"oreType" : "GROUND"
 			}
 	},
@@ -1369,7 +1262,6 @@
 		"ore" : 
 			{
 				"imgFileName" : "ground.jpg",
-				"movable" : true,
 				"oreType" : "GROUND"
 			}
 	},
@@ -1389,7 +1281,6 @@
 		"ore" : 
 			{
 				"imgFileName" : "ground.jpg",
-				"movable" : true,
 				"oreType" : "GROUND"
 			}
 	},
@@ -1400,7 +1291,6 @@
 		"ore" : 
 			{
 				"imgFileName" : "ground.jpg",
-				"movable" : true,
 				"oreType" : "GROUND"
 			}
 	},
@@ -1411,7 +1301,6 @@
 		"ore" : 
 			{
 				"imgFileName" : "ground.jpg",
-				"movable" : true,
 				"oreType" : "GROUND"
 			}
 	},
@@ -1422,7 +1311,6 @@
 		"ore" : 
 			{
 				"imgFileName" : "ground.jpg",
-				"movable" : true,
 				"oreType" : "GROUND"
 			}
 	},
@@ -1433,7 +1321,6 @@
 		"ore" : 
 			{
 				"imgFileName" : "ground.jpg",
-				"movable" : true,
 				"oreType" : "GROUND"
 			}
 	},
@@ -1444,7 +1331,6 @@
 		"ore" : 
 			{
 				"imgFileName" : "ground.jpg",
-				"movable" : true,
 				"oreType" : "GROUND"
 			}
 	},
@@ -1455,7 +1341,6 @@
 		"ore" : 
 			{
 				"imgFileName" : "ground.jpg",
-				"movable" : true,
 				"oreType" : "GROUND"
 			}
 	},
@@ -1466,7 +1351,6 @@
 		"ore" : 
 			{
 				"imgFileName" : "ground.jpg",
-				"movable" : true,
 				"oreType" : "GROUND"
 			}
 	},
@@ -1477,7 +1361,6 @@
 		"ore" : 
 			{
 				"imgFileName" : "ground.jpg",
-				"movable" : true,
 				"oreType" : "GROUND"
 			}
 	},
@@ -1488,7 +1371,6 @@
 		"ore" : 
 			{
 				"imgFileName" : "ground.jpg",
-				"movable" : true,
 				"oreType" : "GROUND"
 			}
 	},
@@ -1499,7 +1381,6 @@
 		"ore" : 
 			{
 				"imgFileName" : "ground.jpg",
-				"movable" : true,
 				"oreType" : "GROUND"
 			}
 	},
@@ -1510,7 +1391,6 @@
 		"ore" : 
 			{
 				"imgFileName" : "ground.jpg",
-				"movable" : true,
 				"oreType" : "GROUND"
 			}
 	},
@@ -1521,7 +1401,6 @@
 		"ore" : 
 			{
 				"imgFileName" : "ground.jpg",
-				"movable" : true,
 				"oreType" : "GROUND"
 			}
 	},
@@ -1532,7 +1411,6 @@
 		"ore" : 
 			{
 				"imgFileName" : "ground.jpg",
-				"movable" : true,
 				"oreType" : "GROUND"
 			}
 	},
@@ -1543,7 +1421,6 @@
 		"ore" : 
 			{
 				"imgFileName" : "ground.jpg",
-				"movable" : true,
 				"oreType" : "GROUND"
 			}
 	},
@@ -1554,7 +1431,6 @@
 		"ore" : 
 			{
 				"imgFileName" : "ground.jpg",
-				"movable" : true,
 				"oreType" : "GROUND"
 			}
 	},
@@ -1565,7 +1441,6 @@
 		"ore" : 
 			{
 				"imgFileName" : "ground.jpg",
-				"movable" : true,
 				"oreType" : "GROUND"
 			}
 	},
@@ -1576,7 +1451,6 @@
 		"ore" : 
 			{
 				"imgFileName" : "ground.jpg",
-				"movable" : true,
 				"oreType" : "GROUND"
 			}
 	},
@@ -1587,7 +1461,6 @@
 		"ore" : 
 			{
 				"imgFileName" : "ground.jpg",
-				"movable" : true,
 				"oreType" : "GROUND"
 			}
 	},
@@ -1598,7 +1471,6 @@
 		"ore" : 
 			{
 				"imgFileName" : "ground.jpg",
-				"movable" : true,
 				"oreType" : "GROUND"
 			}
 	},
@@ -1618,7 +1490,6 @@
 		"ore" : 
 			{
 				"imgFileName" : "ground.jpg",
-				"movable" : true,
 				"oreType" : "GROUND"
 			}
 	},
@@ -1629,7 +1500,6 @@
 		"ore" : 
 			{
 				"imgFileName" : "ground.jpg",
-				"movable" : true,
 				"oreType" : "GROUND"
 			}
 	},
@@ -1640,7 +1510,6 @@
 		"ore" : 
 			{
 				"imgFileName" : "ground.jpg",
-				"movable" : true,
 				"oreType" : "GROUND"
 			}
 	},
@@ -1651,7 +1520,6 @@
 		"ore" : 
 			{
 				"imgFileName" : "ground.jpg",
-				"movable" : true,
 				"oreType" : "GROUND"
 			}
 	},
@@ -1662,7 +1530,6 @@
 		"ore" : 
 			{
 				"imgFileName" : "ground.jpg",
-				"movable" : true,
 				"oreType" : "GROUND"
 			}
 	},
@@ -1673,7 +1540,6 @@
 		"ore" : 
 			{
 				"imgFileName" : "ground.jpg",
-				"movable" : true,
 				"oreType" : "GROUND"
 			}
 	},
@@ -1684,7 +1550,6 @@
 		"ore" : 
 			{
 				"imgFileName" : "ground.jpg",
-				"movable" : true,
 				"oreType" : "GROUND"
 			}
 	},
@@ -1695,7 +1560,6 @@
 		"ore" : 
 			{
 				"imgFileName" : "ground.jpg",
-				"movable" : true,
 				"oreType" : "GROUND"
 			}
 	},
@@ -1739,7 +1603,6 @@
 		"ore" : 
 			{
 				"imgFileName" : "ground.jpg",
-				"movable" : true,
 				"oreType" : "GROUND"
 			}
 	},
@@ -1750,7 +1613,6 @@
 		"ore" : 
 			{
 				"imgFileName" : "ground.jpg",
-				"movable" : true,
 				"oreType" : "GROUND"
 			}
 	},
@@ -1761,7 +1623,6 @@
 		"ore" : 
 			{
 				"imgFileName" : "ground.jpg",
-				"movable" : true,
 				"oreType" : "GROUND"
 			}
 	},
@@ -1772,7 +1633,6 @@
 		"ore" : 
 			{
 				"imgFileName" : "ground.jpg",
-				"movable" : true,
 				"oreType" : "GROUND"
 			}
 	},
@@ -1783,7 +1643,6 @@
 		"ore" : 
 			{
 				"imgFileName" : "ground.jpg",
-				"movable" : true,
 				"oreType" : "GROUND"
 			}
 	},
@@ -1794,7 +1653,6 @@
 		"ore" : 
 			{
 				"imgFileName" : "ground.jpg",
-				"movable" : true,
 				"oreType" : "GROUND"
 			}
 	},
@@ -1816,7 +1674,6 @@
 		"ore" : 
 			{
 				"imgFileName" : "ground.jpg",
-				"movable" : true,
 				"oreType" : "GROUND"
 			}
 	},
@@ -1827,7 +1684,6 @@
 		"ore" : 
 			{
 				"imgFileName" : "ground.jpg",
-				"movable" : true,
 				"oreType" : "GROUND"
 			}
 	},
@@ -1847,7 +1703,6 @@
 		"ore" : 
 			{
 				"imgFileName" : "ground.jpg",
-				"movable" : true,
 				"oreType" : "GROUND"
 			}
 	},
@@ -1913,7 +1768,6 @@
 		"ore" : 
 			{
 				"imgFileName" : "ground.jpg",
-				"movable" : true,
 				"oreType" : "GROUND"
 			}
 	},
@@ -1924,7 +1778,6 @@
 		"ore" : 
 			{
 				"imgFileName" : "ground.jpg",
-				"movable" : true,
 				"oreType" : "GROUND"
 			}
 	},
@@ -1935,7 +1788,6 @@
 		"ore" : 
 			{
 				"imgFileName" : "ground.jpg",
-				"movable" : true,
 				"oreType" : "GROUND"
 			}
 	},
@@ -1946,7 +1798,6 @@
 		"ore" : 
 			{
 				"imgFileName" : "ground.jpg",
-				"movable" : true,
 				"oreType" : "GROUND"
 			}
 	},
@@ -1990,7 +1841,6 @@
 		"ore" : 
 			{
 				"imgFileName" : "ground.jpg",
-				"movable" : true,
 				"oreType" : "GROUND"
 			}
 	},
@@ -2001,7 +1851,6 @@
 		"ore" : 
 			{
 				"imgFileName" : "ground.jpg",
-				"movable" : true,
 				"oreType" : "GROUND"
 			}
 	},
@@ -2012,7 +1861,6 @@
 		"ore" : 
 			{
 				"imgFileName" : "ground.jpg",
-				"movable" : true,
 				"oreType" : "GROUND"
 			}
 	},
@@ -2056,7 +1904,6 @@
 		"ore" : 
 			{
 				"imgFileName" : "ground.jpg",
-				"movable" : true,
 				"oreType" : "GROUND"
 			}
 	},
@@ -2076,7 +1923,6 @@
 		"ore" : 
 			{
 				"imgFileName" : "ground.jpg",
-				"movable" : true,
 				"oreType" : "GROUND"
 			}
 	},
@@ -2087,7 +1933,6 @@
 		"ore" : 
 			{
 				"imgFileName" : "ground.jpg",
-				"movable" : true,
 				"oreType" : "GROUND"
 			}
 	},
@@ -2098,7 +1943,6 @@
 		"ore" : 
 			{
 				"imgFileName" : "ground.jpg",
-				"movable" : true,
 				"oreType" : "GROUND"
 			}
 	},
@@ -2109,7 +1953,6 @@
 		"ore" : 
 			{
 				"imgFileName" : "ground.jpg",
-				"movable" : true,
 				"oreType" : "GROUND"
 			}
 	},
@@ -2142,7 +1985,6 @@
 		"ore" : 
 			{
 				"imgFileName" : "ground.jpg",
-				"movable" : true,
 				"oreType" : "GROUND"
 			}
 	},
@@ -2153,7 +1995,6 @@
 		"ore" : 
 			{
 				"imgFileName" : "ground.jpg",
-				"movable" : true,
 				"oreType" : "GROUND"
 			}
 	},
@@ -2164,7 +2005,6 @@
 		"ore" : 
 			{
 				"imgFileName" : "ground.jpg",
-				"movable" : true,
 				"oreType" : "GROUND"
 			}
 	},
@@ -2175,7 +2015,6 @@
 		"ore" : 
 			{
 				"imgFileName" : "ground.jpg",
-				"movable" : true,
 				"oreType" : "GROUND"
 			}
 	},
@@ -2186,7 +2025,6 @@
 		"ore" : 
 			{
 				"imgFileName" : "ground.jpg",
-				"movable" : true,
 				"oreType" : "GROUND"
 			}
 	},
@@ -2197,7 +2035,6 @@
 		"ore" : 
 			{
 				"imgFileName" : "ground.jpg",
-				"movable" : true,
 				"oreType" : "GROUND"
 			}
 	},
@@ -2208,7 +2045,6 @@
 		"ore" : 
 			{
 				"imgFileName" : "ground.jpg",
-				"movable" : true,
 				"oreType" : "GROUND"
 			}
 	},
@@ -2219,7 +2055,6 @@
 		"ore" : 
 			{
 				"imgFileName" : "ground.jpg",
-				"movable" : true,
 				"oreType" : "GROUND"
 			}
 	},
@@ -2230,7 +2065,6 @@
 		"ore" : 
 			{
 				"imgFileName" : "ground.jpg",
-				"movable" : true,
 				"oreType" : "GROUND"
 			}
 	},
@@ -2241,7 +2075,6 @@
 		"ore" : 
 			{
 				"imgFileName" : "ground.jpg",
-				"movable" : true,
 				"oreType" : "GROUND"
 			}
 	},
@@ -2252,7 +2085,6 @@
 		"ore" : 
 			{
 				"imgFileName" : "ground.jpg",
-				"movable" : true,
 				"oreType" : "GROUND"
 			}
 	},
@@ -2263,7 +2095,6 @@
 		"ore" : 
 			{
 				"imgFileName" : "ground.jpg",
-				"movable" : true,
 				"oreType" : "GROUND"
 			}
 	},
@@ -2285,7 +2116,6 @@
 		"ore" : 
 			{
 				"imgFileName" : "ground.jpg",
-				"movable" : true,
 				"oreType" : "GROUND"
 			}
 	},
@@ -2305,7 +2135,6 @@
 		"ore" : 
 			{
 				"imgFileName" : "ground.jpg",
-				"movable" : true,
 				"oreType" : "GROUND"
 			}
 	},
@@ -2316,7 +2145,6 @@
 		"ore" : 
 			{
 				"imgFileName" : "ground.jpg",
-				"movable" : true,
 				"oreType" : "GROUND"
 			}
 	},
@@ -2327,7 +2155,6 @@
 		"ore" : 
 			{
 				"imgFileName" : "ground.jpg",
-				"movable" : true,
 				"oreType" : "GROUND"
 			}
 	},
@@ -2338,7 +2165,6 @@
 		"ore" : 
 			{
 				"imgFileName" : "ground.jpg",
-				"movable" : true,
 				"oreType" : "GROUND"
 			}
 	},
@@ -2349,7 +2175,6 @@
 		"ore" : 
 			{
 				"imgFileName" : "ground.jpg",
-				"movable" : true,
 				"oreType" : "GROUND"
 			}
 	},
@@ -2360,7 +2185,6 @@
 		"ore" : 
 			{
 				"imgFileName" : "ground.jpg",
-				"movable" : true,
 				"oreType" : "GROUND"
 			}
 	},
@@ -2371,7 +2195,6 @@
 		"ore" : 
 			{
 				"imgFileName" : "ground.jpg",
-				"movable" : true,
 				"oreType" : "GROUND"
 			}
 	},
@@ -2382,7 +2205,6 @@
 		"ore" : 
 			{
 				"imgFileName" : "ground.jpg",
-				"movable" : true,
 				"oreType" : "GROUND"
 			}
 	},
@@ -2393,7 +2215,6 @@
 		"ore" : 
 			{
 				"imgFileName" : "ground.jpg",
-				"movable" : true,
 				"oreType" : "GROUND"
 			}
 	},
@@ -2404,7 +2225,6 @@
 		"ore" : 
 			{
 				"imgFileName" : "ground.jpg",
-				"movable" : true,
 				"oreType" : "GROUND"
 			}
 	},
@@ -2415,7 +2235,6 @@
 		"ore" : 
 			{
 				"imgFileName" : "ground.jpg",
-				"movable" : true,
 				"oreType" : "GROUND"
 			}
 	},
@@ -2426,7 +2245,6 @@
 		"ore" : 
 			{
 				"imgFileName" : "ground.jpg",
-				"movable" : true,
 				"oreType" : "GROUND"
 			}
 	},
@@ -2437,7 +2255,6 @@
 		"ore" : 
 			{
 				"imgFileName" : "ground.jpg",
-				"movable" : true,
 				"oreType" : "GROUND"
 			}
 	},
@@ -2448,7 +2265,6 @@
 		"ore" : 
 			{
 				"imgFileName" : "ground.jpg",
-				"movable" : true,
 				"oreType" : "GROUND"
 			}
 	},
@@ -2459,7 +2275,6 @@
 		"ore" : 
 			{
 				"imgFileName" : "ground.jpg",
-				"movable" : true,
 				"oreType" : "GROUND"
 			}
 	},
@@ -2470,7 +2285,6 @@
 		"ore" : 
 			{
 				"imgFileName" : "ground.jpg",
-				"movable" : true,
 				"oreType" : "GROUND"
 			}
 	},
@@ -2481,7 +2295,6 @@
 		"ore" : 
 			{
 				"imgFileName" : "ground.jpg",
-				"movable" : true,
 				"oreType" : "GROUND"
 			}
 	},
@@ -2492,7 +2305,6 @@
 		"ore" : 
 			{
 				"imgFileName" : "ground.jpg",
-				"movable" : true,
 				"oreType" : "GROUND"
 			}
 	},
@@ -2503,7 +2315,6 @@
 		"ore" : 
 			{
 				"imgFileName" : "ground.jpg",
-				"movable" : true,
 				"oreType" : "GROUND"
 			}
 	},
@@ -2514,7 +2325,6 @@
 		"ore" : 
 			{
 				"imgFileName" : "ground.jpg",
-				"movable" : true,
 				"oreType" : "GROUND"
 			}
 	},
@@ -2534,7 +2344,6 @@
 		"ore" : 
 			{
 				"imgFileName" : "ground.jpg",
-				"movable" : true,
 				"oreType" : "GROUND"
 			}
 	},
@@ -2545,7 +2354,6 @@
 		"ore" : 
 			{
 				"imgFileName" : "ground.jpg",
-				"movable" : true,
 				"oreType" : "GROUND"
 			}
 	},
@@ -2556,7 +2364,6 @@
 		"ore" : 
 			{
 				"imgFileName" : "ground.jpg",
-				"movable" : true,
 				"oreType" : "GROUND"
 			}
 	},
@@ -2567,7 +2374,6 @@
 		"ore" : 
 			{
 				"imgFileName" : "ground.jpg",
-				"movable" : true,
 				"oreType" : "GROUND"
 			}
 	},
@@ -2578,7 +2384,6 @@
 		"ore" : 
 			{
 				"imgFileName" : "ground.jpg",
-				"movable" : true,
 				"oreType" : "GROUND"
 			}
 	},
@@ -2589,7 +2394,6 @@
 		"ore" : 
 			{
 				"imgFileName" : "ground.jpg",
-				"movable" : true,
 				"oreType" : "GROUND"
 			}
 	},
@@ -2600,7 +2404,6 @@
 		"ore" : 
 			{
 				"imgFileName" : "ground.jpg",
-				"movable" : true,
 				"oreType" : "GROUND"
 			}
 	},
@@ -2611,7 +2414,6 @@
 		"ore" : 
 			{
 				"imgFileName" : "ground.jpg",
-				"movable" : true,
 				"oreType" : "GROUND"
 			}
 	},
@@ -2622,7 +2424,6 @@
 		"ore" : 
 			{
 				"imgFileName" : "ground.jpg",
-				"movable" : true,
 				"oreType" : "GROUND"
 			}
 	},
@@ -2633,7 +2434,6 @@
 		"ore" : 
 			{
 				"imgFileName" : "ground.jpg",
-				"movable" : true,
 				"oreType" : "GROUND"
 			}
 	},
@@ -2644,7 +2444,6 @@
 		"ore" : 
 			{
 				"imgFileName" : "ground.jpg",
-				"movable" : true,
 				"oreType" : "GROUND"
 			}
 	},
@@ -2655,7 +2454,6 @@
 		"ore" : 
 			{
 				"imgFileName" : "ground.jpg",
-				"movable" : true,
 				"oreType" : "GROUND"
 			}
 	},
@@ -2666,7 +2464,6 @@
 		"ore" : 
 			{
 				"imgFileName" : "ground.jpg",
-				"movable" : true,
 				"oreType" : "GROUND"
 			}
 	},
@@ -2677,7 +2474,6 @@
 		"ore" : 
 			{
 				"imgFileName" : "ground.jpg",
-				"movable" : true,
 				"oreType" : "GROUND"
 			}
 	},
@@ -2688,7 +2484,6 @@
 		"ore" : 
 			{
 				"imgFileName" : "ground.jpg",
-				"movable" : true,
 				"oreType" : "GROUND"
 			}
 	},
@@ -2699,7 +2494,6 @@
 		"ore" : 
 			{
 				"imgFileName" : "ground.jpg",
-				"movable" : true,
 				"oreType" : "GROUND"
 			}
 	},
@@ -2710,7 +2504,6 @@
 		"ore" : 
 			{
 				"imgFileName" : "ground.jpg",
-				"movable" : true,
 				"oreType" : "GROUND"
 			}
 	},
@@ -2721,7 +2514,6 @@
 		"ore" : 
 			{
 				"imgFileName" : "ground.jpg",
-				"movable" : true,
 				"oreType" : "GROUND"
 			}
 	},
@@ -2732,7 +2524,6 @@
 		"ore" : 
 			{
 				"imgFileName" : "ground.jpg",
-				"movable" : true,
 				"oreType" : "GROUND"
 			}
 	},
@@ -2743,7 +2534,6 @@
 		"ore" : 
 			{
 				"imgFileName" : "ground.jpg",
-				"movable" : true,
 				"oreType" : "GROUND"
 			}
 	},
@@ -2763,7 +2553,6 @@
 		"ore" : 
 			{
 				"imgFileName" : "ground.jpg",
-				"movable" : true,
 				"oreType" : "GROUND"
 			}
 	},
@@ -2774,7 +2563,6 @@
 		"ore" : 
 			{
 				"imgFileName" : "ground.jpg",
-				"movable" : true,
 				"oreType" : "GROUND"
 			}
 	},
@@ -2785,7 +2573,6 @@
 		"ore" : 
 			{
 				"imgFileName" : "ground.jpg",
-				"movable" : true,
 				"oreType" : "GROUND"
 			}
 	},
@@ -2796,7 +2583,6 @@
 		"ore" : 
 			{
 				"imgFileName" : "ground.jpg",
-				"movable" : true,
 				"oreType" : "GROUND"
 			}
 	},
@@ -2807,7 +2593,6 @@
 		"ore" : 
 			{
 				"imgFileName" : "ground.jpg",
-				"movable" : true,
 				"oreType" : "GROUND"
 			}
 	},
@@ -2818,7 +2603,6 @@
 		"ore" : 
 			{
 				"imgFileName" : "ground.jpg",
-				"movable" : true,
 				"oreType" : "GROUND"
 			}
 	},
@@ -2829,7 +2613,6 @@
 		"ore" : 
 			{
 				"imgFileName" : "ground.jpg",
-				"movable" : true,
 				"oreType" : "GROUND"
 			}
 	},
@@ -2840,7 +2623,6 @@
 		"ore" : 
 			{
 				"imgFileName" : "ground.jpg",
-				"movable" : true,
 				"oreType" : "GROUND"
 			}
 	},
@@ -2851,7 +2633,6 @@
 		"ore" : 
 			{
 				"imgFileName" : "ground.jpg",
-				"movable" : true,
 				"oreType" : "GROUND"
 			}
 	},
@@ -2862,7 +2643,6 @@
 		"ore" : 
 			{
 				"imgFileName" : "ground.jpg",
-				"movable" : true,
 				"oreType" : "GROUND"
 			}
 	},
@@ -2873,7 +2653,6 @@
 		"ore" : 
 			{
 				"imgFileName" : "ground.jpg",
-				"movable" : true,
 				"oreType" : "GROUND"
 			}
 	},
@@ -2884,7 +2663,6 @@
 		"ore" : 
 			{
 				"imgFileName" : "ground.jpg",
-				"movable" : true,
 				"oreType" : "GROUND"
 			}
 	},
@@ -2895,7 +2673,6 @@
 		"ore" : 
 			{
 				"imgFileName" : "ground.jpg",
-				"movable" : true,
 				"oreType" : "GROUND"
 			}
 	},
@@ -2906,7 +2683,6 @@
 		"ore" : 
 			{
 				"imgFileName" : "ground.jpg",
-				"movable" : true,
 				"oreType" : "GROUND"
 			}
 	},
@@ -2917,7 +2693,6 @@
 		"ore" : 
 			{
 				"imgFileName" : "ground.jpg",
-				"movable" : true,
 				"oreType" : "GROUND"
 			}
 	},
@@ -2928,7 +2703,6 @@
 		"ore" : 
 			{
 				"imgFileName" : "ground.jpg",
-				"movable" : true,
 				"oreType" : "GROUND"
 			}
 	},
@@ -2950,7 +2724,6 @@
 		"ore" : 
 			{
 				"imgFileName" : "ground.jpg",
-				"movable" : true,
 				"oreType" : "GROUND"
 			}
 	},
@@ -2961,7 +2734,6 @@
 		"ore" : 
 			{
 				"imgFileName" : "ground.jpg",
-				"movable" : true,
 				"oreType" : "GROUND"
 			}
 	},
@@ -2972,7 +2744,6 @@
 		"ore" : 
 			{
 				"imgFileName" : "ground.jpg",
-				"movable" : true,
 				"oreType" : "GROUND"
 			}
 	},
@@ -2992,7 +2763,6 @@
 		"ore" : 
 			{
 				"imgFileName" : "ground.jpg",
-				"movable" : true,
 				"oreType" : "GROUND"
 			}
 	},
@@ -3014,7 +2784,6 @@
 		"ore" : 
 			{
 				"imgFileName" : "ground.jpg",
-				"movable" : true,
 				"oreType" : "GROUND"
 			}
 	},
@@ -3025,7 +2794,6 @@
 		"ore" : 
 			{
 				"imgFileName" : "ground.jpg",
-				"movable" : true,
 				"oreType" : "GROUND"
 			}
 	},
@@ -3036,7 +2804,6 @@
 		"ore" : 
 			{
 				"imgFileName" : "ground.jpg",
-				"movable" : true,
 				"oreType" : "GROUND"
 			}
 	},
@@ -3047,7 +2814,6 @@
 		"ore" : 
 			{
 				"imgFileName" : "ground.jpg",
-				"movable" : true,
 				"oreType" : "GROUND"
 			}
 	},
@@ -3058,7 +2824,6 @@
 		"ore" : 
 			{
 				"imgFileName" : "ground.jpg",
-				"movable" : true,
 				"oreType" : "GROUND"
 			}
 	},
@@ -3069,7 +2834,6 @@
 		"ore" : 
 			{
 				"imgFileName" : "ground.jpg",
-				"movable" : true,
 				"oreType" : "GROUND"
 			}
 	},
@@ -3080,7 +2844,6 @@
 		"ore" : 
 			{
 				"imgFileName" : "ground.jpg",
-				"movable" : true,
 				"oreType" : "GROUND"
 			}
 	},
@@ -3091,7 +2854,6 @@
 		"ore" : 
 			{
 				"imgFileName" : "ground.jpg",
-				"movable" : true,
 				"oreType" : "GROUND"
 			}
 	},
@@ -3102,7 +2864,6 @@
 		"ore" : 
 			{
 				"imgFileName" : "ground.jpg",
-				"movable" : true,
 				"oreType" : "GROUND"
 			}
 	},
@@ -3113,7 +2874,6 @@
 		"ore" : 
 			{
 				"imgFileName" : "ground.jpg",
-				"movable" : true,
 				"oreType" : "GROUND"
 			}
 	},
@@ -3124,7 +2884,6 @@
 		"ore" : 
 			{
 				"imgFileName" : "ground.jpg",
-				"movable" : true,
 				"oreType" : "GROUND"
 			}
 	},
@@ -3135,7 +2894,6 @@
 		"ore" : 
 			{
 				"imgFileName" : "ground.jpg",
-				"movable" : true,
 				"oreType" : "GROUND"
 			}
 	},
@@ -3146,7 +2904,6 @@
 		"ore" : 
 			{
 				"imgFileName" : "ground.jpg",
-				"movable" : true,
 				"oreType" : "GROUND"
 			}
 	},
@@ -3157,7 +2914,6 @@
 		"ore" : 
 			{
 				"imgFileName" : "ground.jpg",
-				"movable" : true,
 				"oreType" : "GROUND"
 			}
 	},
@@ -3190,7 +2946,6 @@
 		"ore" : 
 			{
 				"imgFileName" : "ground.jpg",
-				"movable" : true,
 				"oreType" : "GROUND"
 			}
 	},
@@ -3221,7 +2976,6 @@
 		"ore" : 
 			{
 				"imgFileName" : "ground.jpg",
-				"movable" : true,
 				"oreType" : "GROUND"
 			}
 	},
@@ -3243,7 +2997,6 @@
 		"ore" : 
 			{
 				"imgFileName" : "ground.jpg",
-				"movable" : true,
 				"oreType" : "GROUND"
 			}
 	},
@@ -3254,7 +3007,6 @@
 		"ore" : 
 			{
 				"imgFileName" : "ground.jpg",
-				"movable" : true,
 				"oreType" : "GROUND"
 			}
 	},
@@ -3265,7 +3017,6 @@
 		"ore" : 
 			{
 				"imgFileName" : "ground.jpg",
-				"movable" : true,
 				"oreType" : "GROUND"
 			}
 	},
@@ -3276,7 +3027,6 @@
 		"ore" : 
 			{
 				"imgFileName" : "ground.jpg",
-				"movable" : true,
 				"oreType" : "GROUND"
 			}
 	},
@@ -3320,7 +3070,6 @@
 		"ore" : 
 			{
 				"imgFileName" : "ground.jpg",
-				"movable" : true,
 				"oreType" : "GROUND"
 			}
 	},
@@ -3331,7 +3080,6 @@
 		"ore" : 
 			{
 				"imgFileName" : "ground.jpg",
-				"movable" : true,
 				"oreType" : "GROUND"
 			}
 	},
@@ -3342,7 +3090,6 @@
 		"ore" : 
 			{
 				"imgFileName" : "ground.jpg",
-				"movable" : true,
 				"oreType" : "GROUND"
 			}
 	},
@@ -3353,7 +3100,6 @@
 		"ore" : 
 			{
 				"imgFileName" : "ground.jpg",
-				"movable" : true,
 				"oreType" : "GROUND"
 			}
 	},
@@ -3375,7 +3121,6 @@
 		"ore" : 
 			{
 				"imgFileName" : "ground.jpg",
-				"movable" : true,
 				"oreType" : "GROUND"
 			}
 	},
@@ -3386,7 +3131,6 @@
 		"ore" : 
 			{
 				"imgFileName" : "ground.jpg",
-				"movable" : true,
 				"oreType" : "GROUND"
 			}
 	},
@@ -3397,7 +3141,6 @@
 		"ore" : 
 			{
 				"imgFileName" : "ground.jpg",
-				"movable" : true,
 				"oreType" : "GROUND"
 			}
 	},
@@ -3408,7 +3151,6 @@
 		"ore" : 
 			{
 				"imgFileName" : "ground.jpg",
-				"movable" : true,
 				"oreType" : "GROUND"
 			}
 	},
@@ -3419,7 +3161,6 @@
 		"ore" : 
 			{
 				"imgFileName" : "ground.jpg",
-				"movable" : true,
 				"oreType" : "GROUND"
 			}
 	},
@@ -3430,7 +3171,6 @@
 		"ore" : 
 			{
 				"imgFileName" : "ground.jpg",
-				"movable" : true,
 				"oreType" : "GROUND"
 			}
 	},
@@ -3450,7 +3190,6 @@
 		"ore" : 
 			{
 				"imgFileName" : "ground.jpg",
-				"movable" : true,
 				"oreType" : "GROUND"
 			}
 	},
@@ -3472,7 +3211,6 @@
 		"ore" : 
 			{
 				"imgFileName" : "ground.jpg",
-				"movable" : true,
 				"oreType" : "GROUND"
 			}
 	},
@@ -3483,7 +3221,6 @@
 		"ore" : 
 			{
 				"imgFileName" : "ground.jpg",
-				"movable" : true,
 				"oreType" : "GROUND"
 			}
 	},
@@ -3494,7 +3231,6 @@
 		"ore" : 
 			{
 				"imgFileName" : "ground.jpg",
-				"movable" : true,
 				"oreType" : "GROUND"
 			}
 	},
@@ -3505,7 +3241,6 @@
 		"ore" : 
 			{
 				"imgFileName" : "ground.jpg",
-				"movable" : true,
 				"oreType" : "GROUND"
 			}
 	},
@@ -3527,7 +3262,6 @@
 		"ore" : 
 			{
 				"imgFileName" : "ground.jpg",
-				"movable" : true,
 				"oreType" : "GROUND"
 			}
 	},
@@ -3538,7 +3272,6 @@
 		"ore" : 
 			{
 				"imgFileName" : "ground.jpg",
-				"movable" : true,
 				"oreType" : "GROUND"
 			}
 	},
@@ -3549,7 +3282,6 @@
 		"ore" : 
 			{
 				"imgFileName" : "ground.jpg",
-				"movable" : true,
 				"oreType" : "GROUND"
 			}
 	},
@@ -3560,7 +3292,6 @@
 		"ore" : 
 			{
 				"imgFileName" : "ground.jpg",
-				"movable" : true,
 				"oreType" : "GROUND"
 			}
 	},
@@ -3571,7 +3302,6 @@
 		"ore" : 
 			{
 				"imgFileName" : "ground.jpg",
-				"movable" : true,
 				"oreType" : "GROUND"
 			}
 	},
@@ -3582,7 +3312,6 @@
 		"ore" : 
 			{
 				"imgFileName" : "ground.jpg",
-				"movable" : true,
 				"oreType" : "GROUND"
 			}
 	},
@@ -3604,7 +3333,6 @@
 		"ore" : 
 			{
 				"imgFileName" : "ground.jpg",
-				"movable" : true,
 				"oreType" : "GROUND"
 			}
 	},
@@ -3615,7 +3343,6 @@
 		"ore" : 
 			{
 				"imgFileName" : "ground.jpg",
-				"movable" : true,
 				"oreType" : "GROUND"
 			}
 	},
@@ -3626,7 +3353,6 @@
 		"ore" : 
 			{
 				"imgFileName" : "ground.jpg",
-				"movable" : true,
 				"oreType" : "GROUND"
 			}
 	},
@@ -3637,7 +3363,6 @@
 		"ore" : 
 			{
 				"imgFileName" : "ground.jpg",
-				"movable" : true,
 				"oreType" : "GROUND"
 			}
 	},
@@ -3648,7 +3373,6 @@
 		"ore" : 
 			{
 				"imgFileName" : "ground.jpg",
-				"movable" : true,
 				"oreType" : "GROUND"
 			}
 	},
@@ -3659,7 +3383,6 @@
 		"ore" : 
 			{
 				"imgFileName" : "ground.jpg",
-				"movable" : true,
 				"oreType" : "GROUND"
 			}
 	},
@@ -3679,7 +3402,6 @@
 		"ore" : 
 			{
 				"imgFileName" : "ground.jpg",
-				"movable" : true,
 				"oreType" : "GROUND"
 			}
 	},
@@ -3701,7 +3423,6 @@
 		"ore" : 
 			{
 				"imgFileName" : "ground.jpg",
-				"movable" : true,
 				"oreType" : "GROUND"
 			}
 	},
@@ -3723,7 +3444,6 @@
 		"ore" : 
 			{
 				"imgFileName" : "ground.jpg",
-				"movable" : true,
 				"oreType" : "GROUND"
 			}
 	},
@@ -3734,7 +3454,6 @@
 		"ore" : 
 			{
 				"imgFileName" : "ground.jpg",
-				"movable" : true,
 				"oreType" : "GROUND"
 			}
 	},
@@ -3756,7 +3475,6 @@
 		"ore" : 
 			{
 				"imgFileName" : "ground.jpg",
-				"movable" : true,
 				"oreType" : "GROUND"
 			}
 	},
@@ -3767,7 +3485,6 @@
 		"ore" : 
 			{
 				"imgFileName" : "ground.jpg",
-				"movable" : true,
 				"oreType" : "GROUND"
 			}
 	},
@@ -3778,7 +3495,6 @@
 		"ore" : 
 			{
 				"imgFileName" : "ground.jpg",
-				"movable" : true,
 				"oreType" : "GROUND"
 			}
 	},
@@ -3789,7 +3505,6 @@
 		"ore" : 
 			{
 				"imgFileName" : "ground.jpg",
-				"movable" : true,
 				"oreType" : "GROUND"
 			}
 	},
@@ -3800,7 +3515,6 @@
 		"ore" : 
 			{
 				"imgFileName" : "ground.jpg",
-				"movable" : true,
 				"oreType" : "GROUND"
 			}
 	},
@@ -3811,7 +3525,6 @@
 		"ore" : 
 			{
 				"imgFileName" : "ground.jpg",
-				"movable" : true,
 				"oreType" : "GROUND"
 			}
 	},
@@ -3844,7 +3557,6 @@
 		"ore" : 
 			{
 				"imgFileName" : "ground.jpg",
-				"movable" : true,
 				"oreType" : "GROUND"
 			}
 	},
@@ -3855,7 +3567,6 @@
 		"ore" : 
 			{
 				"imgFileName" : "ground.jpg",
-				"movable" : true,
 				"oreType" : "GROUND"
 			}
 	},
@@ -3866,7 +3577,6 @@
 		"ore" : 
 			{
 				"imgFileName" : "ground.jpg",
-				"movable" : true,
 				"oreType" : "GROUND"
 			}
 	},
@@ -3877,7 +3587,6 @@
 		"ore" : 
 			{
 				"imgFileName" : "ground.jpg",
-				"movable" : true,
 				"oreType" : "GROUND"
 			}
 	},
@@ -3888,7 +3597,6 @@
 		"ore" : 
 			{
 				"imgFileName" : "ground.jpg",
-				"movable" : true,
 				"oreType" : "GROUND"
 			}
 	},
@@ -3908,7 +3616,6 @@
 		"ore" : 
 			{
 				"imgFileName" : "ground.jpg",
-				"movable" : true,
 				"oreType" : "GROUND"
 			}
 	},
@@ -3930,7 +3637,6 @@
 		"ore" : 
 			{
 				"imgFileName" : "ground.jpg",
-				"movable" : true,
 				"oreType" : "GROUND"
 			}
 	},
@@ -3941,7 +3647,6 @@
 		"ore" : 
 			{
 				"imgFileName" : "ground.jpg",
-				"movable" : true,
 				"oreType" : "GROUND"
 			}
 	},
@@ -3952,7 +3657,6 @@
 		"ore" : 
 			{
 				"imgFileName" : "ground.jpg",
-				"movable" : true,
 				"oreType" : "GROUND"
 			}
 	},
@@ -3963,7 +3667,6 @@
 		"ore" : 
 			{
 				"imgFileName" : "ground.jpg",
-				"movable" : true,
 				"oreType" : "GROUND"
 			}
 	},
@@ -3974,7 +3677,6 @@
 		"ore" : 
 			{
 				"imgFileName" : "ground.jpg",
-				"movable" : true,
 				"oreType" : "GROUND"
 			}
 	},
@@ -3985,7 +3687,6 @@
 		"ore" : 
 			{
 				"imgFileName" : "ground.jpg",
-				"movable" : true,
 				"oreType" : "GROUND"
 			}
 	},
@@ -3996,7 +3697,6 @@
 		"ore" : 
 			{
 				"imgFileName" : "ground.jpg",
-				"movable" : true,
 				"oreType" : "GROUND"
 			}
 	},
@@ -4007,7 +3707,6 @@
 		"ore" : 
 			{
 				"imgFileName" : "ground.jpg",
-				"movable" : true,
 				"oreType" : "GROUND"
 			}
 	},
@@ -4018,7 +3717,6 @@
 		"ore" : 
 			{
 				"imgFileName" : "ground.jpg",
-				"movable" : true,
 				"oreType" : "GROUND"
 			}
 	},
@@ -4029,7 +3727,6 @@
 		"ore" : 
 			{
 				"imgFileName" : "ground.jpg",
-				"movable" : true,
 				"oreType" : "GROUND"
 			}
 	},
@@ -4040,7 +3737,6 @@
 		"ore" : 
 			{
 				"imgFileName" : "ground.jpg",
-				"movable" : true,
 				"oreType" : "GROUND"
 			}
 	},
@@ -4051,7 +3747,6 @@
 		"ore" : 
 			{
 				"imgFileName" : "ground.jpg",
-				"movable" : true,
 				"oreType" : "GROUND"
 			}
 	},
@@ -4062,7 +3757,6 @@
 		"ore" : 
 			{
 				"imgFileName" : "ground.jpg",
-				"movable" : true,
 				"oreType" : "GROUND"
 			}
 	},
@@ -4073,7 +3767,6 @@
 		"ore" : 
 			{
 				"imgFileName" : "ground.jpg",
-				"movable" : true,
 				"oreType" : "GROUND"
 			}
 	},
@@ -4084,7 +3777,6 @@
 		"ore" : 
 			{
 				"imgFileName" : "ground.jpg",
-				"movable" : true,
 				"oreType" : "GROUND"
 			}
 	},
@@ -4095,7 +3787,6 @@
 		"ore" : 
 			{
 				"imgFileName" : "ground.jpg",
-				"movable" : true,
 				"oreType" : "GROUND"
 			}
 	},
@@ -4106,7 +3797,6 @@
 		"ore" : 
 			{
 				"imgFileName" : "ground.jpg",
-				"movable" : true,
 				"oreType" : "GROUND"
 			}
 	},
@@ -4117,7 +3807,6 @@
 		"ore" : 
 			{
 				"imgFileName" : "ground.jpg",
-				"movable" : true,
 				"oreType" : "GROUND"
 			}
 	},
@@ -4137,7 +3826,6 @@
 		"ore" : 
 			{
 				"imgFileName" : "ground.jpg",
-				"movable" : true,
 				"oreType" : "GROUND"
 			}
 	},
@@ -4148,7 +3836,6 @@
 		"ore" : 
 			{
 				"imgFileName" : "ground.jpg",
-				"movable" : true,
 				"oreType" : "GROUND"
 			}
 	},
@@ -4159,7 +3846,6 @@
 		"ore" : 
 			{
 				"imgFileName" : "ground.jpg",
-				"movable" : true,
 				"oreType" : "GROUND"
 			}
 	},
@@ -4170,7 +3856,6 @@
 		"ore" : 
 			{
 				"imgFileName" : "ground.jpg",
-				"movable" : true,
 				"oreType" : "GROUND"
 			}
 	},
@@ -4181,7 +3866,6 @@
 		"ore" : 
 			{
 				"imgFileName" : "ground.jpg",
-				"movable" : true,
 				"oreType" : "GROUND"
 			}
 	},
@@ -4192,7 +3876,6 @@
 		"ore" : 
 			{
 				"imgFileName" : "ground.jpg",
-				"movable" : true,
 				"oreType" : "GROUND"
 			}
 	},
@@ -4203,7 +3886,6 @@
 		"ore" : 
 			{
 				"imgFileName" : "ground.jpg",
-				"movable" : true,
 				"oreType" : "GROUND"
 			}
 	},
@@ -4214,7 +3896,6 @@
 		"ore" : 
 			{
 				"imgFileName" : "ground.jpg",
-				"movable" : true,
 				"oreType" : "GROUND"
 			}
 	},
@@ -4225,7 +3906,6 @@
 		"ore" : 
 			{
 				"imgFileName" : "ground.jpg",
-				"movable" : true,
 				"oreType" : "GROUND"
 			}
 	},
@@ -4236,7 +3916,6 @@
 		"ore" : 
 			{
 				"imgFileName" : "ground.jpg",
-				"movable" : true,
 				"oreType" : "GROUND"
 			}
 	},
@@ -4247,7 +3926,6 @@
 		"ore" : 
 			{
 				"imgFileName" : "ground.jpg",
-				"movable" : true,
 				"oreType" : "GROUND"
 			}
 	},
@@ -4258,7 +3936,6 @@
 		"ore" : 
 			{
 				"imgFileName" : "ground.jpg",
-				"movable" : true,
 				"oreType" : "GROUND"
 			}
 	},
@@ -4269,7 +3946,6 @@
 		"ore" : 
 			{
 				"imgFileName" : "ground.jpg",
-				"movable" : true,
 				"oreType" : "GROUND"
 			}
 	},
@@ -4280,7 +3956,6 @@
 		"ore" : 
 			{
 				"imgFileName" : "ground.jpg",
-				"movable" : true,
 				"oreType" : "GROUND"
 			}
 	},
@@ -4291,7 +3966,6 @@
 		"ore" : 
 			{
 				"imgFileName" : "ground.jpg",
-				"movable" : true,
 				"oreType" : "GROUND"
 			}
 	},
@@ -4302,7 +3976,6 @@
 		"ore" : 
 			{
 				"imgFileName" : "ground.jpg",
-				"movable" : true,
 				"oreType" : "GROUND"
 			}
 	},
@@ -4313,7 +3986,6 @@
 		"ore" : 
 			{
 				"imgFileName" : "ground.jpg",
-				"movable" : true,
 				"oreType" : "GROUND"
 			}
 	},
@@ -4324,7 +3996,6 @@
 		"ore" : 
 			{
 				"imgFileName" : "ground.jpg",
-				"movable" : true,
 				"oreType" : "GROUND"
 			}
 	},
@@ -4335,7 +4006,6 @@
 		"ore" : 
 			{
 				"imgFileName" : "ground.jpg",
-				"movable" : true,
 				"oreType" : "GROUND"
 			}
 	},
@@ -4346,7 +4016,6 @@
 		"ore" : 
 			{
 				"imgFileName" : "ground.jpg",
-				"movable" : true,
 				"oreType" : "GROUND"
 			}
 	},
@@ -4366,7 +4035,6 @@
 		"ore" : 
 			{
 				"imgFileName" : "ground.jpg",
-				"movable" : true,
 				"oreType" : "GROUND"
 			}
 	},
@@ -4377,7 +4045,6 @@
 		"ore" : 
 			{
 				"imgFileName" : "ground.jpg",
-				"movable" : true,
 				"oreType" : "GROUND"
 			}
 	},
@@ -4388,7 +4055,6 @@
 		"ore" : 
 			{
 				"imgFileName" : "ground.jpg",
-				"movable" : true,
 				"oreType" : "GROUND"
 			}
 	},
@@ -4399,7 +4065,6 @@
 		"ore" : 
 			{
 				"imgFileName" : "ground.jpg",
-				"movable" : true,
 				"oreType" : "GROUND"
 			}
 	},
@@ -4410,7 +4075,6 @@
 		"ore" : 
 			{
 				"imgFileName" : "ground.jpg",
-				"movable" : true,
 				"oreType" : "GROUND"
 			}
 	},
@@ -4421,7 +4085,6 @@
 		"ore" : 
 			{
 				"imgFileName" : "ground.jpg",
-				"movable" : true,
 				"oreType" : "GROUND"
 			}
 	},
@@ -4432,7 +4095,6 @@
 		"ore" : 
 			{
 				"imgFileName" : "ground.jpg",
-				"movable" : true,
 				"oreType" : "GROUND"
 			}
 	},
@@ -4443,7 +4105,6 @@
 		"ore" : 
 			{
 				"imgFileName" : "ground.jpg",
-				"movable" : true,
 				"oreType" : "GROUND"
 			}
 	},
@@ -4454,7 +4115,6 @@
 		"ore" : 
 			{
 				"imgFileName" : "ground.jpg",
-				"movable" : true,
 				"oreType" : "GROUND"
 			}
 	},
@@ -4465,7 +4125,6 @@
 		"ore" : 
 			{
 				"imgFileName" : "ground.jpg",
-				"movable" : true,
 				"oreType" : "GROUND"
 			}
 	},
@@ -4476,7 +4135,6 @@
 		"ore" : 
 			{
 				"imgFileName" : "ground.jpg",
-				"movable" : true,
 				"oreType" : "GROUND"
 			}
 	},
@@ -4487,7 +4145,6 @@
 		"ore" : 
 			{
 				"imgFileName" : "ground.jpg",
-				"movable" : true,
 				"oreType" : "GROUND"
 			}
 	},
@@ -4498,7 +4155,6 @@
 		"ore" : 
 			{
 				"imgFileName" : "ground.jpg",
-				"movable" : true,
 				"oreType" : "GROUND"
 			}
 	},
@@ -4509,7 +4165,6 @@
 		"ore" : 
 			{
 				"imgFileName" : "ground.jpg",
-				"movable" : true,
 				"oreType" : "GROUND"
 			}
 	},
@@ -4520,7 +4175,6 @@
 		"ore" : 
 			{
 				"imgFileName" : "ground.jpg",
-				"movable" : true,
 				"oreType" : "GROUND"
 			}
 	},
@@ -4531,7 +4185,6 @@
 		"ore" : 
 			{
 				"imgFileName" : "ground.jpg",
-				"movable" : true,
 				"oreType" : "GROUND"
 			}
 	},
@@ -4542,7 +4195,6 @@
 		"ore" : 
 			{
 				"imgFileName" : "ground.jpg",
-				"movable" : true,
 				"oreType" : "GROUND"
 			}
 	},
@@ -4553,7 +4205,6 @@
 		"ore" : 
 			{
 				"imgFileName" : "ground.jpg",
-				"movable" : true,
 				"oreType" : "GROUND"
 			}
 	},
@@ -4564,7 +4215,6 @@
 		"ore" : 
 			{
 				"imgFileName" : "ground.jpg",
-				"movable" : true,
 				"oreType" : "GROUND"
 			}
 	},
@@ -4575,7 +4225,6 @@
 		"ore" : 
 			{
 				"imgFileName" : "ground.jpg",
-				"movable" : true,
 				"oreType" : "GROUND"
 			}
 	}
