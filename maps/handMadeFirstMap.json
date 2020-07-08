@@ -2955,7 +2955,7 @@
 		"checked" : false,
 		"ore" : 
 			{
-				"imgFileName" : "hell.jpg",
+				"imgFileName" : "hell.jpeg",
 				"movable" : true,
 				"oreType" : "HELL"
 			}

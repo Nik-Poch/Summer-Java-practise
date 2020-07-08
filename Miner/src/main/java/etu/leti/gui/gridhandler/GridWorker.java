@@ -60,7 +60,7 @@ public class GridWorker {
                     fillGridImages[i] = new ImageCell(new Image(Objects.requireNonNull(classLoader.getResourceAsStream("stone.jpg"))));
                     break;
                 case HELL:
-                    fillGridImages[i] = new ImageCell(new Image(Objects.requireNonNull(classLoader.getResourceAsStream("hell.jpg"))));
+                    fillGridImages[i] = new ImageCell(new Image(Objects.requireNonNull(classLoader.getResourceAsStream("hell.jpeg"))));
                     break;
                 default:
                     fillGridImages[i] = new ImageCell(new Image(Objects.requireNonNull(classLoader.getResourceAsStream("air.png"))));
