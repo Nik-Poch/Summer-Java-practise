@@ -6,6 +6,7 @@ import java.io.IOException;
 import java.net.URL;
 import java.util.ResourceBundle;
 
+import com.google.gson.JsonParseException;
 import etu.leti.field.Cell;
 import etu.leti.gui.gridhandler.GridWorker;
 import javafx.collections.FXCollections;
@@ -13,10 +14,7 @@ import javafx.collections.ObservableList;
 import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
 import javafx.fxml.Initializable;
-import javafx.scene.control.Button;
-import javafx.scene.control.ChoiceBox;
-import javafx.scene.control.MenuItem;
-import javafx.scene.control.TextArea;
+import javafx.scene.control.*;
 import javafx.scene.layout.GridPane;
 import javafx.scene.layout.VBox;
 import javafx.stage.FileChooser;
@@ -88,10 +86,31 @@ public class Controller implements Initializable {
         final FileChooser fileChooser = new FileChooser();
         File file = fileChooser.showOpenDialog(mainStage.getScene().getWindow());
 
+        Alert alert = new Alert(Alert.AlertType.WARNING);
+        alert.setTitle("Warning alert");
+        alert.setHeaderText("JSON map file");
+
         mapParser.setJsonFile(file);
-        Cell[] cellField = mapParser.parseCellArr();
+        Cell[] cellField;
+        try {
+            cellField = mapParser.parseCellArr();
+        } catch (FileNotFoundException exc) {
+            alert.setContentText("No valid file with map was choosen!");
+            alert.showAndWait();
+            return;
+        } catch (JsonParseException exc) {
+            alert.setContentText("JSON file data is incorrect!");
+            alert.showAndWait();
+            return;
+        }
         ClassLoader loader = this.getClass().getClassLoader();
-        GridWorker.fillGridByCell(mainVisualField, cellWidth, cellHeight, cellField, loader);
+
+        try {
+            GridWorker.fillGridByCell(mainVisualField, cellWidth, cellHeight, cellField, loader);
+        } catch (JsonParseException exc) {
+            alert.setContentText(exc.getMessage());
+            alert.showAndWait();
+        }
     }
 
     public void saveFile(ActionEvent event) {

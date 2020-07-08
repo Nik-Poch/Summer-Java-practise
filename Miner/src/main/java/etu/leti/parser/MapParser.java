@@ -4,6 +4,7 @@ import com.google.gson.Gson;
 
 import java.io.*;
 
+import com.google.gson.JsonParseException;
 import etu.leti.field.*;
 
 public class MapParser {
@@ -24,6 +25,7 @@ public class MapParser {
     }
 
     public Cell[] parseCellArr() throws IOException {
+
         if(jsonFile == null) {
             throw new FileNotFoundException("No json file was choose");
         }
@@ -36,6 +38,12 @@ public class MapParser {
         }
         reader.close();
 
-        return gson.fromJson(userJson.toString(), Cell[].class);
+        Cell[] cells = gson.fromJson(userJson.toString(), Cell[].class);
+
+        if(cells == null) {
+            throw new JsonParseException("Empty JSON map file");
+        }
+
+        return cells;
     }
 }

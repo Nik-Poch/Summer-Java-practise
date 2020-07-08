@@ -12,6 +12,7 @@ import javafx.scene.layout.Region;
  * Class for implementation of fitting image insertion into GridPane
  */
 public class ImageCell extends Region {
+
     private final ImageView imageView;
 
     public ImageCell(Image image) {
