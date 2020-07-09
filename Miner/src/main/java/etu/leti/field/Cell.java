@@ -52,4 +52,8 @@ public class Cell {
     public OreTypes getOreInCellType() {
         return ore.getOreType();
     }
+
+    public void setOreImg(String fileName) {
+        ore.setPath(fileName);
+    }
 }

@@ -3,9 +3,13 @@ package etu.leti.parser;
 import com.google.gson.Gson;
 
 import java.io.*;
+import java.util.Objects;
 
 import com.google.gson.JsonParseException;
 import etu.leti.field.*;
+import etu.leti.gui.gridhandler.ImageCell;
+import javafx.scene.image.Image;
+import org.jetbrains.annotations.NotNull;
 
 public class MapParser {
 
@@ -44,6 +48,37 @@ public class MapParser {
             throw new JsonParseException("Empty JSON map file");
         }
 
+        initFileNames(cells);
+
         return cells;
+    }
+
+    public static void initFileNames(Cell @NotNull [] cells) {
+        int i = 0;
+        for(Cell cell : cells) {
+            if(cell == null) {
+                throw new JsonParseException("Incorrect data for " + i + " element in Cell array from file");
+            }
+            switch (cell.getOreInCellType()) {
+                case GROUND:
+                    cell.setOreImg("ground.jpg");
+                    break;
+                case GOLD_ORE:
+                    cell.setOreImg("gold.jpg");
+                    break;
+                case IRON_ORE:
+                    cell.setOreImg("iron.jpg");
+                    break;
+                case STONE_ORE:
+                    cell.setOreImg("stone.jpg");
+                    break;
+                case HELL:
+                    cell.setOreImg("hell.jpeg");
+                    break;
+                default:
+                    cell.setOreImg("air.png");
+            }
+            i++;
+        }
     }
 }
