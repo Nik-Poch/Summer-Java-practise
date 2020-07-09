@@ -99,7 +99,6 @@ public class Controller implements Initializable {
             return;
         }
 
-        ClassLoader loader = this.getClass().getClassLoader();
         try {
             fieldVisualizer.fillGridByCell(cellField);
         } catch (JsonParseException exc) {
@@ -117,8 +116,8 @@ public class Controller implements Initializable {
         fieldVisualizer.resetField();
     }
 
-    public void generateMap() {
-
+    public void generateMap(ActionEvent event) {
+        fieldVisualizer.createNewMap();
     }
 
     public void getAlgInformation(ActionEvent event) {
