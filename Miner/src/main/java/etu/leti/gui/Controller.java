@@ -13,10 +13,14 @@ import javafx.collections.ObservableList;
 import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
 import javafx.fxml.Initializable;
+import javafx.scene.Scene;
 import javafx.scene.control.*;
 import javafx.scene.layout.GridPane;
+import javafx.scene.layout.StackPane;
 import javafx.scene.layout.VBox;
 import javafx.stage.FileChooser;
+import javafx.stage.Modality;
+import javafx.stage.Stage;
 import org.jetbrains.annotations.NotNull;
 
 import etu.leti.parser.MapParser;
@@ -28,6 +32,7 @@ public class Controller implements Initializable {
 
     private MapParser mapParser;
     private FieldVisualizer fieldVisualizer;
+    Stage primaryStage;
 
     @FXML
     private VBox mainStage;
@@ -125,7 +130,11 @@ public class Controller implements Initializable {
     }
 
     public void getAuthorInformation(ActionEvent event) {
+        ExtraWindowShower.showAboutWindow(primaryStage);
+    }
 
+    public void setStage(Stage primaryStage){
+        this.primaryStage = primaryStage;
     }
 
     private void loadData() {
