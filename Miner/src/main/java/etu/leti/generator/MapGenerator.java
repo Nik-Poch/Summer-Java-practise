@@ -67,7 +67,10 @@ public class MapGenerator
 
     private void randomizeVeinsCount() {
         rand = random.nextInt(100 ) + 1;//Рандомим 1 или 2 жилы в каждой четверти с вероятностью 70% в бОльшую сторону
-        if (rand>30) {
+        if (rand>60) {
+            countVeinsInSector = 3;
+        }
+        if (rand>10) {
             countVeinsInSector = 2;
         }
         else
@@ -97,6 +100,24 @@ public class MapGenerator
         field = new Cell[x][y];
     }
 
+    private int checkNeighbors(int xC, int yC, int prevX, int PrevY) {
+       for(int i = yC-1;i<yC+1;++i)
+       {
+           for(int j = xC-1;j<xC+1;++j)
+           {
+               if (i>0 && j>0 && j<x && i<y) {
+                   if(field[j][i]!=null )
+                   {
+                       if (field[j][i].getOre().getOreType()!=field[prevX][PrevY].getOre().getOreType())
+                       {
+                           return 0;
+                       }
+                   }
+               }
+           }
+       }
+       return 1;
+    }
 
     public Cell[][] generateMap() {
         rand = random.nextInt(x);
@@ -117,15 +138,20 @@ public class MapGenerator
                             randX = random.nextInt(3) - 1;//Радномим Отклонение
                             if (randX == 0) { //если по х отклонение 0, то смотрим у
                                 randY = random.nextInt(3) - 1;//существует вероятность два раза получить 0, 1\9 примерно, можно поправить, но пока забил
+                                if (randX == 0 && randY == 0){
+                                    k--;
+                                }
                             }
                             else
                                 randY = 0;//если по х УЖЕ есть отклонение, то у делаем 0, так как по-диагонали нельзя ставить руду
                             if (veinX + randX < x && veinY + randY <y && veinX + randX > 0 && veinY + randY > 0) {
-                                if (field[veinX + randX][veinY + randY] == null) {//Проверка на то, что не попали в другую жилу
+                                if (field[veinX + randX][veinY + randY] == null && checkNeighbors(veinX+ randX,veinY + randY,veinX,veinY)==1) {//Проверка на то, что не попали в другую жилу
                                     veinX += randX;//Сменяем последнюю координату жилы
                                     veinY += randY;
                                     field[veinX][veinY] = new Cell(veinX, veinY, new Ore(picture.get(randOre), ore.get(randOre)));//Ставим блок
                                 }
+                                //else
+                                    //k--;
                             }
                         }
                     } else {
