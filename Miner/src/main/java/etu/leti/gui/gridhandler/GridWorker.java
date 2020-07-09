@@ -90,6 +90,9 @@ public class GridWorker {
     }
 
     public void cleanGridCells() {
+        if(fillGridImages == null) {
+            return;
+        }
         for (ImageCell fillGridImage : fillGridImages) {
             mainVisualField.getChildren().remove(fillGridImage);
         }

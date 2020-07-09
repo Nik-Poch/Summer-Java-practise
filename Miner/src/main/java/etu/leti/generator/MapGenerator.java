@@ -35,15 +35,15 @@ public class MapGenerator
         ore.put(10, OreTypes.GROUND);
 
         picture = new HashMap<>();
-        picture.put(1, "gold.png");
+        picture.put(1, "gold.jpg");
         picture.put(2, "iron.jpg");
-        picture.put(3, "stone.png");
+        picture.put(3, "stone.jpg");
         picture.put(4, "hell.jpeg");
         picture.put(10, "ground.jpg");
     }
 
     private void changeQuarter(int arg, int x, int y) {
-        if (arg==0)//Меняем крайние точки в зависимости от четверти, где находимся
+        if (arg == 0)//Меняем крайние точки в зависимости от четверти, где находимся
         { currX = 0; currY = 0;}
         if (arg==1)
         { currX = x/2; currY = 0;}
@@ -73,10 +73,10 @@ public class MapGenerator
     }
 
     private void dirtFiller(int x, int y) {
-        for (int i = 0;i<y;i++) {
+        for (int i = 0;i < y;i++) {
             for (int j = 0; j < x; j++) {
                 if (field[j][i] == null) {
-                    field[j][i] = new Cell(x, y, new Ore(picture.get(10), ore.get(10)));//Заполняем землей все пустые клетки
+                    field[j][i] = new Cell(j, i, new Ore(picture.get(10), ore.get(10)));//Заполняем землей все пустые клетки
                 }
             }
         }
@@ -84,7 +84,7 @@ public class MapGenerator
 
     public Cell[][] generateMap() {
         rand = random.nextInt(x-1);
-        field[rand][y-1] = new Cell(rand, y-1, new Ore(picture.get(4), ore.get(5)));//Постановка ада
+        field[rand][y-1] = new Cell(rand, y-1, new Ore(picture.get(4), ore.get(4)));//Постановка ада
 
         for (int i = 0; i < 4; ++i) {
             randomizeVeinsCount();
