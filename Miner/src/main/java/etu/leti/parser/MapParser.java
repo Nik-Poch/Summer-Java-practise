@@ -3,8 +3,10 @@ package etu.leti.parser;
 import com.google.gson.Gson;
 
 import java.io.*;
+import java.nio.file.StandardOpenOption;
 import java.util.Objects;
 
+import com.google.gson.GsonBuilder;
 import com.google.gson.JsonParseException;
 import etu.leti.field.*;
 import etu.leti.gui.gridhandler.ImageCell;
@@ -17,7 +19,10 @@ public class MapParser {
     private final Gson gson;
 
     public MapParser() {
-        gson = new Gson();
+        gson = new GsonBuilder()
+                .setPrettyPrinting()
+                .excludeFieldsWithoutExposeAnnotation()
+                .create();
     }
 
     public File getJsonFile() {
@@ -51,6 +56,24 @@ public class MapParser {
         initFileNames(cells);
 
         return cells;
+    }
+
+    public void writeCellArray(Cell[] cellArray) throws IOException {
+
+        if(jsonFile == null) {
+            throw new FileNotFoundException("No json file was choose");
+        }
+
+        if(jsonFile.exists()) {
+            jsonFile.delete();
+        }
+        jsonFile.createNewFile();
+
+        String jsonStr = gson.toJson(cellArray);
+
+        BufferedWriter writer = new BufferedWriter(new FileWriter(jsonFile));
+        writer.write(jsonStr);
+        writer.close();
     }
 
     public static void initFileNames(Cell @NotNull [] cells) {

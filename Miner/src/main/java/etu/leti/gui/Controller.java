@@ -28,13 +28,15 @@ public class Controller implements Initializable {
 
     private MapParser mapParser;
     private FieldVisualizer fieldVisualizer;
-
-    @FXML
-    private VBox mainStage;
+    private Cell[] cellField;
 
     // For ChooseBox variants
     ObservableList<String> listOfModesNames = FXCollections.observableArrayList();
+    // For save/load file
+    private Alert alert;
 
+    @FXML
+    private VBox mainStage;
     @FXML
     private GridPane mainVisualField;
     @FXML
@@ -47,7 +49,6 @@ public class Controller implements Initializable {
     private TextArea logTextField;
 
     // MENU BAR ITEMS
-
     @FXML
     private MenuItem saveButton;
     @FXML
@@ -64,6 +65,7 @@ public class Controller implements Initializable {
     @Override
     public void initialize(URL location, ResourceBundle resources) {
         loadData();
+        initAlert();
 
         mapParser = new MapParser();
         fieldVisualizer = new FieldVisualizer(mainVisualField, this.getClass().getClassLoader(), fieldWidth, fieldHeight);
@@ -81,12 +83,8 @@ public class Controller implements Initializable {
         final FileChooser fileChooser = new FileChooser();
         File file = fileChooser.showOpenDialog(mainStage.getScene().getWindow());
 
-        Alert alert = new Alert(Alert.AlertType.WARNING);
-        alert.setTitle("Warning alert");
-        alert.setHeaderText("JSON map file");
-
         mapParser.setJsonFile(file);
-        Cell[] cellField;
+
         try {
             cellField = mapParser.parseCellArr();
         } catch (FileNotFoundException exc) {
@@ -107,17 +105,21 @@ public class Controller implements Initializable {
         }
     }
 
-    public void saveFile(ActionEvent event) {
+    public void saveFile(ActionEvent event) throws IOException {
         final FileChooser fileChooser = new FileChooser();
         File file = fileChooser.showOpenDialog(mainStage.getScene().getWindow());
+
+        mapParser.setJsonFile(file);
+        mapParser.writeCellArray(cellField);
     }
 
     public void resetField(ActionEvent event) {
         fieldVisualizer.resetField();
+        cellField = null;
     }
 
     public void generateMap(ActionEvent event) {
-        fieldVisualizer.createNewMap();
+        cellField = fieldVisualizer.createNewMap();
     }
 
     public void getAlgInformation(ActionEvent event) {
@@ -135,5 +137,11 @@ public class Controller implements Initializable {
         String justResultStr = "Just result";
         listOfModesNames.addAll(stepByStepStr, justResultStr);
         modeChooseBox.getItems().addAll(listOfModesNames);
+    }
+
+    private void initAlert() {
+        alert = new Alert(Alert.AlertType.WARNING);
+        alert.setTitle("Warning alert");
+        alert.setHeaderText("JSON map file");
     }
 }
