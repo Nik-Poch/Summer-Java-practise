@@ -74,17 +74,17 @@ public class MapGenerator
 
     private void dirtFiller(int x, int y) {
         for (int i = 0;i<y;i++) {
-            for (int j = 0; j < x; ++j) {
-                if (field[x][y] == null) {
-                    field[x][y] = new Cell(x, y, new Ore(picture.get(10), ore.get(10)));//Заполняем землей все пустые клетки
+            for (int j = 0; j < x; j++) {
+                if (field[j][i] == null) {
+                    field[j][i] = new Cell(x, y, new Ore(picture.get(10), ore.get(10)));//Заполняем землей все пустые клетки
                 }
             }
         }
     }
 
     public Cell[][] generateMap() {
-        rand = random.nextInt(x);
-        field[rand][y] = new Cell(rand, y, new Ore(picture.get(4), ore.get(5)));//Постановка ада
+        rand = random.nextInt(x-1);
+        field[rand][y-1] = new Cell(rand, y-1, new Ore(picture.get(4), ore.get(5)));//Постановка ада
 
         for (int i = 0; i < 4; ++i) {
             randomizeVeinsCount();
@@ -104,7 +104,7 @@ public class MapGenerator
                             }
                             else
                                 randY = 0;//если по х УЖЕ есть отклонение, то у делаем 0, так как по-диагонали нельзя ставить руду
-                            if (veinX + randX < x && veinY + randY <y && veinX + randX <0 && veinY + randY < 0) {
+                            if (veinX + randX < x && veinY + randY <y && veinX + randX > 0 && veinY + randY > 0) {
                                 if (field[veinX + randX][veinY + randY] == null) {//Проверка на то, что не попали в другую жилу
                                     veinX += randX;//Сменяем последнюю координату жилы
                                     veinY += randY;
