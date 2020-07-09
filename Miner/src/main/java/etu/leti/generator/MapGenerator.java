@@ -45,14 +45,14 @@ public class MapGenerator
     }
 
     private void changeQuarter(int arg, int x, int y) {
-        if (arg==0)//Меняем крайние точки в зависимости от четверти, где находимся
+        if (arg == 0)//Меняем крайние точки в зависимости от четверти, где находимся
         { currX = 0; currY = 0;}
-        if (arg==1)
-        { currX = x/2; currY = 0;}
-        if (arg==2)
-        { currX = 0; currY = y/2;}
-        if (arg==3)
-        { currX = x/2; currY = y/2;}
+        if (arg == 1)
+        { currX = x / 2; currY = 0;}
+        if (arg == 2)
+        { currX = 0; currY = y / 2;}
+        if (arg == 3)
+        { currX = x / 2; currY = y / 2;}
     }
 
     private void randomizeOre(int arg, int x, int y) {
@@ -67,25 +67,25 @@ public class MapGenerator
 
     private void randomizeVeinsCount() {
         rand = random.nextInt(100 ) + 1;//Рандомим 1 или 2 жилы в каждой четверти с вероятностью 70% в бОльшую сторону
-        if (rand>60) {
+        if (rand > 60) {
             countVeinsInSector = 3;
         }
-        if (rand>10) {
+        if (rand > 10) {
             countVeinsInSector = 2;
-        }
-        else
+        } else {
             countVeinsInSector = 1;
+        }
     }
 
 
     private void dirtAndAirFiller(int x, int y) {
-        for (int i = 0;i<1;i++) {
-            for (int j = 0; j < x; j++){
+        for (int i = 0; i < 1; ++i) {
+            for (int j = 0; j < x; ++j){
                 field[j][i] = new Cell(j, i, new Ore(picture.get(11), ore.get(11)));//Заполняем землей все пустые клетки
             }
         }
-        for (int i = 1;i<y;i++) {
-            for (int j = 0; j < x; j++) {
+        for (int i = 1; i < y; ++i) {
+            for (int j = 0; j < x; ++j) {
                 if (field[j][i] == null) {
                     field[j][i] = new Cell(j, i, new Ore(picture.get(10), ore.get(10)));//Заполняем землей все пустые клетки
                 }
@@ -101,15 +101,11 @@ public class MapGenerator
     }
 
     private int checkNeighbors(int xC, int yC, int prevX, int PrevY) {
-       for(int i = yC-1;i<yC+1;++i)
-       {
-           for(int j = xC-1;j<xC+1;++j)
-           {
-               if (i>0 && j>0 && j<x && i<y) {
-                   if(field[j][i]!=null )
-                   {
-                       if (field[j][i].getOre().getOreType()!=field[prevX][PrevY].getOre().getOreType())
-                       {
+       for(int i = yC - 1; i < yC + 1; ++i) {
+           for(int j = xC - 1;j < xC + 1; ++j) {
+               if (i > 0 && j > 0 && j < x && i < y) {
+                   if(field[j][i]!=null ) {
+                       if (field[j][i].getOre().getOreType()!=field[prevX][PrevY].getOre().getOreType()) {
                            return 0;
                        }
                    }
