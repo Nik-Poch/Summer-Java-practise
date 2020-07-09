@@ -6,15 +6,18 @@ import javafx.scene.text.Text;
 import javafx.stage.Modality;
 import javafx.stage.Stage;
 
+import java.awt.*;
+
 public class ExtraWindowShower {
+
     public static void showAboutWindow(Stage primaryStage) {
         StackPane authorInfLayout = new StackPane();
         Scene authInfScene = new Scene(authorInfLayout, 230, 100);
+        authInfScene.getStylesheets().add("author.css");
 
         Text text = new Text();
-        text.setText("Hello, world!");
+        text.setText("Pochaev Nikita\nMaria Lisok\nDmitry Perelygin");
         authorInfLayout.getChildren().add(text);
-//        scene.getStylesheets().add("style.css");
 
         Stage authInfWindow = new Stage();
         authInfWindow.setTitle("About authors");
@@ -33,4 +36,5 @@ public class ExtraWindowShower {
 
         authInfWindow.show();
     }
+
 }
