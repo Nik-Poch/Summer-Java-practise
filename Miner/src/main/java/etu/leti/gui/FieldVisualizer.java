@@ -10,8 +10,6 @@ import etu.leti.gui.gridhandler.GridWorker;
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.List;
-import java.util.stream.IntStream;
-import java.util.stream.Stream;
 
 public class FieldVisualizer {
 
@@ -42,10 +40,13 @@ public class FieldVisualizer {
         fieldHeight = height;
     }
 
-    public void createNewMap() {
+    public Cell[] createNewMap() {
         Cell[] generatedMap = convertArray(mapGenerator.generateMap());
         resetField();
+        mapGenerator.reset();
         fillGridByCell(generatedMap);
+
+        return generatedMap;
     }
 
     private Cell @NotNull [] convertArray(Cell[] @NotNull [] arr) {
