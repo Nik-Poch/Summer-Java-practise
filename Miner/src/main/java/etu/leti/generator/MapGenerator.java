@@ -74,6 +74,7 @@ public class MapGenerator
             countVeinsInSector = 1;
     }
 
+
     private void dirtAndAirFiller(int x, int y) {
         for (int i = 0;i<1;i++) {
             for (int j = 0; j < x; j++){

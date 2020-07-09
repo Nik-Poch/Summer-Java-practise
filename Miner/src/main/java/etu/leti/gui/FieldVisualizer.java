@@ -44,6 +44,7 @@ public class FieldVisualizer {
 
     public void createNewMap() {
         Cell[] generatedMap = convertArray(mapGenerator.generateMap());
+//        Cell[][] generatedMap = mapGenerator.generateMap();
         resetField();
         fillGridByCell(generatedMap);
     }
