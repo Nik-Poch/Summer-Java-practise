@@ -8,7 +8,6 @@ import java.util.ResourceBundle;
 
 import com.google.gson.JsonParseException;
 import etu.leti.field.Cell;
-import etu.leti.gui.gridhandler.GridWorker;
 import javafx.collections.FXCollections;
 import javafx.collections.ObservableList;
 import javafx.event.ActionEvent;
@@ -24,10 +23,11 @@ import etu.leti.parser.MapParser;
 
 public class Controller implements Initializable {
 
-    private static final int cellWidth = 20;
-    private static final int cellHeight = 21;
+    private static final int fieldWidth = 20;
+    private static final int fieldHeight = 21;
 
-    MapParser mapParser;
+    private MapParser mapParser;
+    private FieldVisualizer fieldVisualizer;
 
     @FXML
     private VBox mainStage;
@@ -37,16 +37,12 @@ public class Controller implements Initializable {
 
     @FXML
     private GridPane mainVisualField;
-
     @FXML
     private Button runButton;
-
     @FXML
     private Button stepButton;
-
     @FXML
     private ChoiceBox<String> modeChooseBox;
-
     @FXML
     private TextArea logTextField;
 
@@ -54,16 +50,14 @@ public class Controller implements Initializable {
 
     @FXML
     private MenuItem saveButton;
-
     @FXML
     private MenuItem loadButton;
-
     @FXML
     private MenuItem resetButton;
-
+    @FXML
+    private MenuItem generateMapButton;
     @FXML
     private MenuItem aboutAlgButton;
-
     @FXML
     private MenuItem aboutButton;
 
@@ -72,6 +66,7 @@ public class Controller implements Initializable {
         loadData();
 
         mapParser = new MapParser();
+        fieldVisualizer = new FieldVisualizer(mainVisualField, this.getClass().getClassLoader(), fieldWidth, fieldHeight);
     }
 
     public void runAlgorithm(ActionEvent event) {
@@ -103,10 +98,10 @@ public class Controller implements Initializable {
             alert.showAndWait();
             return;
         }
-        ClassLoader loader = this.getClass().getClassLoader();
 
+        ClassLoader loader = this.getClass().getClassLoader();
         try {
-            GridWorker.fillGridByCell(mainVisualField, cellWidth, cellHeight, cellField, loader);
+            fieldVisualizer.fillGridByCell(cellField);
         } catch (JsonParseException exc) {
             alert.setContentText(exc.getMessage());
             alert.showAndWait();
@@ -119,6 +114,10 @@ public class Controller implements Initializable {
     }
 
     public void resetField(ActionEvent event) {
+        fieldVisualizer.resetField();
+    }
+
+    public void generateMap() {
 
     }
 
