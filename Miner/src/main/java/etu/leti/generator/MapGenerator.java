@@ -91,10 +91,9 @@ public class MapGenerator
     }
 
     public void reset() {
-        int currX = 0, currY = 0, randX = 0, randY = 0;
-        int randOre = 0, randSize = 0, countVeinsInSector = 0, rand = 0;
-        int veinX = 0, veinY = 0;
-        int x = 0 , y = 0;
+        currX = 0; currY = 0; randX = 0; randY = 0;
+        randOre = 0; randSize = 0; countVeinsInSector = 0; rand = 0;
+        veinX = 0; veinY = 0;
         field = new Cell[x][y];
     }
 
