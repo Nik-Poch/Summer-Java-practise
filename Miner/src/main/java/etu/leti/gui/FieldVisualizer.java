@@ -10,8 +10,6 @@ import etu.leti.gui.gridhandler.GridWorker;
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.List;
-import java.util.stream.IntStream;
-import java.util.stream.Stream;
 
 public class FieldVisualizer {
 
@@ -46,6 +44,7 @@ public class FieldVisualizer {
         Cell[] generatedMap = convertArray(mapGenerator.generateMap());
 //        Cell[][] generatedMap = mapGenerator.generateMap();
         resetField();
+        mapGenerator.reset();
         fillGridByCell(generatedMap);
     }
 
