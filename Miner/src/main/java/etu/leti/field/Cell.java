@@ -1,12 +1,17 @@
 package etu.leti.field;
 
+import com.google.gson.annotations.Expose;
 import etu.leti.ore.Ore;
 import etu.leti.ore.OreTypes;
 
 public class Cell {
+    @Expose
     private int posX;
+    @Expose
     private int posY;
+    @Expose(serialize = false, deserialize = true)
     private boolean checked;
+    @Expose
     private Ore ore;
 
     public Cell() { }

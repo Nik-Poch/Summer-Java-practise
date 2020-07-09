@@ -1,7 +1,11 @@
 package etu.leti.ore;
 
+import com.google.gson.annotations.Expose;
+
 public class Ore {
+    @Expose(serialize = false, deserialize = true)
     protected String imgFileName;
+    @Expose
     protected OreTypes oreType;
 
     public Ore() {}
