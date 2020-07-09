@@ -1,12 +1,20 @@
 package etu.leti.gui;
 
+import javafx.event.ActionEvent;
+import javafx.fxml.FXML;
+import javafx.fxml.FXMLLoader;
+import javafx.scene.Parent;
 import javafx.scene.Scene;
 import javafx.scene.layout.StackPane;
 import javafx.scene.text.Text;
 import javafx.stage.Modality;
 import javafx.stage.Stage;
+import javafx.stage.StageStyle;
+import org.jetbrains.annotations.NotNull;
 
 import java.awt.*;
+import java.io.IOException;
+import java.net.URL;
 
 public class ExtraWindowShower {
 
@@ -37,4 +45,15 @@ public class ExtraWindowShower {
         authInfWindow.show();
     }
 
+    public static void showProgInfoWindow(Stage primaryStage, @NotNull ClassLoader loader) throws IOException {
+        Stage algStage = new Stage();
+        FXMLLoader fxmlLoader = new FXMLLoader(loader.getResource("algorithm.fxml"));
+
+        Parent root = fxmlLoader.load();
+        algStage.initModality(Modality.WINDOW_MODAL);
+        algStage.setTitle("About algorithm");
+
+        algStage.setScene(new Scene(root));
+        algStage.show();
+    }
 }

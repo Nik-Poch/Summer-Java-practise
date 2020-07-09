@@ -125,8 +125,8 @@ public class Controller implements Initializable {
         fieldVisualizer.createNewMap();
     }
 
-    public void getAlgInformation(ActionEvent event) {
-
+    public void getAlgInformation(ActionEvent event) throws IOException {
+        ExtraWindowShower.showProgInfoWindow(primaryStage, getClass().getClassLoader());
     }
 
     public void getAuthorInformation(ActionEvent event) {
