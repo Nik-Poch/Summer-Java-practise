@@ -84,17 +84,16 @@ public class MapGenerator
 
     public Cell[][] generateMap() {
         rand = random.nextInt(x);
-        field[rand][y] = new Cell(rand,y, new Ore(picture.get(4), ore.get(5)));//Постановка ада
+        field[rand][y] = new Cell(rand, y, new Ore(picture.get(4), ore.get(5)));//Постановка ада
 
-        for (int i = 0; i < 4; i++) {
+        for (int i = 0; i < 4; ++i) {
             randomizeVeinsCount();
             changeQuarter(i, x, y);
             for (int n = 0; n < countVeinsInSector; ++n) {
-                randomizeOre(1,x,y);
-                for(int g = 0;g<10;g++)//Даем 10 попыток попасть "сердцем" жилы в пустое место
-                {
+                randomizeOre(1, x, y);
+                for(int g = 0; g < 10; ++g) { // Даём 10 попыток попасть "сердцем" жилы в пустое место
                     if (field[randX][randY] == null) {
-                        g=10;
+                        g = 10;
                         field[randX][randY] = new Cell(randX, randY, new Ore(picture.get(randOre), ore.get(randOre)));//Ставим первую руду
                         for (int k = 0; k < randSize; ++k) {
                             veinX = randX;//Запоминаем точку, где поставили
