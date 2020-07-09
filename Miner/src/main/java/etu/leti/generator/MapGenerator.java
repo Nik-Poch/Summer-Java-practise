@@ -33,13 +33,15 @@ public class MapGenerator
         ore.put(3, OreTypes.STONE_ORE);
         ore.put(4, OreTypes.HELL);
         ore.put(10, OreTypes.GROUND);
+        ore.put(11, OreTypes.AIR);
 
         picture = new HashMap<>();
-        picture.put(1, "gold.png");
+        picture.put(1, "gold.jpg");
         picture.put(2, "iron.jpg");
-        picture.put(3, "stone.png");
+        picture.put(3, "stone.jpg");
         picture.put(4, "hell.jpeg");
         picture.put(10, "ground.jpg");
+        picture.put(11, "air.jpg");
     }
 
     private void changeQuarter(int arg, int x, int y) {
@@ -55,16 +57,16 @@ public class MapGenerator
 
     private void randomizeOre(int arg, int x, int y) {
 
-        randX = random.nextInt((x / 2) - 1) + currX;//Радномим точку спауна руды
-        randY = random.nextInt((x / 2) - 1) + currY;
+        randX = random.nextInt((x / 2)) + currX;//Радномим точку спауна руды
+        randY = random.nextInt((x / 2)) + currY;
         if (arg == 1) {
-            randOre = random.nextInt(2) + 1;//Радномим тип руды
-            randSize = random.nextInt(4) + random.nextInt(3) + 1;//Радномим размер жилы нормальный распределением (почти)
+            randOre = random.nextInt(3) + 1;//Радномим тип руды
+            randSize = random.nextInt(4) + random.nextInt(4) + 2;//Радномим размер жилы нормальный распределением (почти)
         }
     }
 
     private void randomizeVeinsCount() {
-        rand = random.nextInt(99 ) + 1;//Рандомим 1 или 2 жилы в каждой четверти с вероятностью 70% в бОльшую сторону
+        rand = random.nextInt(100 ) + 1;//Рандомим 1 или 2 жилы в каждой четверти с вероятностью 70% в бОльшую сторону
         if (rand>30) {
             countVeinsInSector = 2;
         }
@@ -72,19 +74,24 @@ public class MapGenerator
             countVeinsInSector = 1;
     }
 
-    private void dirtFiller(int x, int y) {
-        for (int i = 0;i<y;i++) {
+    private void dirtAndAirFiller(int x, int y) {
+        for (int i = 0;i<1;i++) {
+            for (int j = 0; j < x; j++){
+                field[j][i] = new Cell(j, i, new Ore(picture.get(11), ore.get(11)));//Заполняем землей все пустые клетки
+            }
+        }
+        for (int i = 1;i<y;i++) {
             for (int j = 0; j < x; j++) {
                 if (field[j][i] == null) {
-                    field[j][i] = new Cell(x, y, new Ore(picture.get(10), ore.get(10)));//Заполняем землей все пустые клетки
+                    field[j][i] = new Cell(j, i, new Ore(picture.get(10), ore.get(10)));//Заполняем землей все пустые клетки
                 }
             }
         }
     }
 
     public Cell[][] generateMap() {
-        rand = random.nextInt(x-1);
-        field[rand][y-1] = new Cell(rand, y-1, new Ore(picture.get(4), ore.get(5)));//Постановка ада
+        rand = random.nextInt(x);
+        field[rand][y-1] = new Cell(rand, y-1, new Ore(picture.get(4), ore.get(4)));//Постановка ада
 
         for (int i = 0; i < 4; ++i) {
             randomizeVeinsCount();
@@ -98,9 +105,9 @@ public class MapGenerator
                         for (int k = 0; k < randSize; ++k) {
                             veinX = randX;//Запоминаем точку, где поставили
                             veinY = randY;
-                            randX = random.nextInt(2) - 1;//Радномим Отклонение
+                            randX = random.nextInt(3) - 1;//Радномим Отклонение
                             if (randX == 0) { //если по х отклонение 0, то смотрим у
-                                randY = random.nextInt(2) - 1;//существует вероятность два раза получить 0, 1\9 примерно, можно поправить, но пока забил
+                                randY = random.nextInt(3) - 1;//существует вероятность два раза получить 0, 1\9 примерно, можно поправить, но пока забил
                             }
                             else
                                 randY = 0;//если по х УЖЕ есть отклонение, то у делаем 0, так как по-диагонали нельзя ставить руду
@@ -119,7 +126,7 @@ public class MapGenerator
             }
 
         }
-        dirtFiller(x, y);
+        dirtAndAirFiller(x, y);
         return field;
     }
 }
