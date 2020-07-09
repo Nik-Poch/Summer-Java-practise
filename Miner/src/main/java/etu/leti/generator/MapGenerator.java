@@ -111,9 +111,9 @@ public class MapGenerator
                     if (field[randX][randY] == null) {
                         g = 10;
                         field[randX][randY] = new Cell(randX, randY, new Ore(picture.get(randOre), ore.get(randOre)));//Ставим первую руду
+                        veinX = randX;//Запоминаем точку, где поставили
+                        veinY = randY;
                         for (int k = 0; k < randSize; ++k) {
-                            veinX = randX;//Запоминаем точку, где поставили
-                            veinY = randY;
                             randX = random.nextInt(3) - 1;//Радномим Отклонение
                             if (randX == 0) { //если по х отклонение 0, то смотрим у
                                 randY = random.nextInt(3) - 1;//существует вероятность два раза получить 0, 1\9 примерно, можно поправить, но пока забил
