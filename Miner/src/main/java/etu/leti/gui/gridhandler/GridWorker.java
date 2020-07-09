@@ -12,10 +12,16 @@ import java.util.Objects;
 
 public class GridWorker {
 
+    private final GridPane mainVisualField;
+    private ImageCell[] fillGridImages;
+    private ImageCell playerImg;
+
+    public GridWorker(GridPane mainVisualField) {
+        this.mainVisualField = mainVisualField;
+    }
+
     /**
-     * Get a specific node from gridpane by is column and row index
-     * @param gridPane
-     * Grid for searching
+     * Get a specific node from GridPane by is column and row index
      * @param col
      * Column index
      * @param row
@@ -23,8 +29,8 @@ public class GridWorker {
      * @return
      * Node with specified coordinates
      */
-    public static @Nullable Node getNodeFromGridPane(@NotNull GridPane gridPane, int col, int row) {
-        for (Node node : gridPane.getChildren()) {
+    public @Nullable Node getNodeFromGridPane(int col, int row) {
+        for (Node node : mainVisualField.getChildren()) {
             if (GridPane.getColumnIndex(node) == col && GridPane.getRowIndex(node) == row) {
                 return node;
             }
@@ -32,11 +38,13 @@ public class GridWorker {
         return null;
     }
 
-    public static void fillGridByCell(GridPane mainVisualField, int width, int height, Cell @NotNull [] cells, ClassLoader classLoader) {
+    public void fillGridByCell(Cell @NotNull [] cells, @NotNull ClassLoader classLoader) {
+
+        playerImg = new ImageCell(new Image(Objects.requireNonNull(classLoader.getResourceAsStream("player.png"))));
 
         int x, y, i = 0;
 
-        ImageCell[] fillGridImages = new ImageCell[cells.length];
+        fillGridImages = new ImageCell[cells.length];
 
         for(Cell cell : cells) {
 
@@ -71,7 +79,7 @@ public class GridWorker {
         }
 
         if(i == cells.length) {
-            mainVisualField.add(new ImageCell(new Image(Objects.requireNonNull(classLoader.getResourceAsStream("player.png")))), 0, 0);
+            mainVisualField.add(playerImg, 0, 0);
             return;
         }
 
@@ -79,5 +87,14 @@ public class GridWorker {
             mainVisualField.getChildren().remove(fillGridImages[j]);
         }
         throw new JsonParseException("Incorrect data for " + i + " element in Cell array from file");
+    }
+
+    public void cleanGridCells() {
+        for (ImageCell fillGridImage : fillGridImages) {
+            mainVisualField.getChildren().remove(fillGridImage);
+        }
+        if(playerImg != null) {
+            mainVisualField.getChildren().remove(playerImg);
+        }
     }
 }

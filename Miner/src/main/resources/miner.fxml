@@ -23,6 +23,7 @@
         </Menu>
         <Menu mnemonicParsing="false" text="Edit">
             <MenuItem fx:id="resetButton" mnemonicParsing="false" onAction="#resetField" text="Reset" />
+         <MenuItem fx:id="generateMapButton" mnemonicParsing="false" onAction="#generateMap" text="Generate" />
         </Menu>
         <Menu mnemonicParsing="false" text="Help">
             <MenuItem fx:id="aboutAlgButton" mnemonicParsing="false" onAction="#getAlgInformation" text="Algorithm" />
@@ -77,40 +78,41 @@
                 <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
             </rowConstraints>
         </GridPane>
-      <VBox alignment="BOTTOM_CENTER" prefHeight="740.0" prefWidth="319.0">
-         <children>
-               <Button fx:id="runButton" mnemonicParsing="false" onAction="#runAlgorithm" prefHeight="57.0" prefWidth="125.0" text="Run">
-               <VBox.margin>
-                  <Insets bottom="110.0" />
-               </VBox.margin>
-               <font>
-                  <Font size="16.0" />
-               </font>
-            </Button>
+        <VBox alignment="BOTTOM_CENTER" prefHeight="740.0" prefWidth="319.0">
+            <Button fx:id="runButton" mnemonicParsing="false" onAction="#runAlgorithm" prefHeight="57.0"
+                    prefWidth="125.0" text="Run">
+                <VBox.margin>
+                    <Insets bottom="110.0"/>
+                </VBox.margin>
+                <font>
+                    <Font size="16.0"/>
+                </font>
+         </Button>
             <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Run mode">
-               <font>
-                  <Font size="16.0" />
-               </font>
+                <font>
+                    <Font size="16.0"/>
+                </font>
             </Text>
-               <ChoiceBox fx:id="modeChooseBox" prefWidth="150.0">
-               <VBox.margin>
-                  <Insets bottom="60.0" />
-               </VBox.margin>
-            </ChoiceBox>
-               <Button fx:id="stepButton" mnemonicParsing="false" onAction="#madeOneStep" prefHeight="26.0" prefWidth="125.0" text="Step">
-               <VBox.margin>
-                  <Insets bottom="60.0" />
-               </VBox.margin>
-               <font>
-                  <Font size="16.0" />
-               </font>
-            </Button>
-               <TextArea fx:id="logTextField" editable="false" prefHeight="320.0" prefWidth="308.0" promptText="Log window" stylesheets="@textarea.css">
-               <VBox.margin>
-                  <Insets />
-               </VBox.margin>
-            </TextArea>
-         </children>
-      </VBox>
+            <ChoiceBox fx:id="modeChooseBox" prefWidth="150.0">
+                <VBox.margin>
+                    <Insets bottom="60.0"/>
+                </VBox.margin>
+         </ChoiceBox>
+            <Button fx:id="stepButton" mnemonicParsing="false" onAction="#madeOneStep" prefHeight="26.0"
+                    prefWidth="125.0" text="Step">
+                <VBox.margin>
+                    <Insets bottom="60.0"/>
+                </VBox.margin>
+                <font>
+                    <Font size="16.0"/>
+                </font>
+         </Button>
+            <TextArea fx:id="logTextField" editable="false" prefHeight="320.0" prefWidth="308.0" promptText="Log window"
+                      stylesheets="@textarea.css">
+                <VBox.margin>
+                    <Insets/>
+                </VBox.margin>
+         </TextArea>
+        </VBox>
     </HBox>
 </VBox>
