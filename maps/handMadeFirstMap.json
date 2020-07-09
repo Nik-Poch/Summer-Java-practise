@@ -14,7 +14,6 @@
 		"checked" : false,
 		"ore" : 
 			{
-				"imgFileName" : "ground.jpg",
 				"oreType" : "GROUND"
 			}
 	},
@@ -24,7 +23,6 @@
 		"checked" : false,
 		"ore" : 
 			{
-				"imgFileName" : "ground.jpg",
 				"oreType" : "GROUND"
 			}
 	},
@@ -34,7 +32,6 @@
 		"checked" : false,
 		"ore" : 
 			{
-				"imgFileName" : "ground.jpg",
 				"oreType" : "GROUND"
 			}
 	},
@@ -44,7 +41,6 @@
 		"checked" : false,
 		"ore" : 
 			{
-				"imgFileName" : "ground.jpg",
 				"oreType" : "GROUND"
 			}
 	},
@@ -54,7 +50,6 @@
 		"checked" : false,
 		"ore" : 
 			{
-				"imgFileName" : "ground.jpg",
 				"oreType" : "GROUND"
 			}
 	},
@@ -64,7 +59,6 @@
 		"checked" : false,
 		"ore" : 
 			{
-				"imgFileName" : "ground.jpg",
 				"oreType" : "GROUND"
 			}
 	},
@@ -74,7 +68,6 @@
 		"checked" : false,
 		"ore" : 
 			{
-				"imgFileName" : "ground.jpg",
 				"oreType" : "GROUND"
 			}
 	},
@@ -84,7 +77,6 @@
 		"checked" : false,
 		"ore" : 
 			{
-				"imgFileName" : "ground.jpg",
 				"oreType" : "GROUND"
 			}
 	},
@@ -94,7 +86,6 @@
 		"checked" : false,
 		"ore" : 
 			{
-				"imgFileName" : "ground.jpg",
 				"oreType" : "GROUND"
 			}
 	},
@@ -104,7 +95,6 @@
 		"checked" : false,
 		"ore" : 
 			{
-				"imgFileName" : "ground.jpg",
 				"oreType" : "GROUND"
 			}
 	},
@@ -114,7 +104,6 @@
 		"checked" : false,
 		"ore" : 
 			{
-				"imgFileName" : "ground.jpg",
 				"oreType" : "GROUND"
 			}
 	},
@@ -124,7 +113,6 @@
 		"checked" : false,
 		"ore" : 
 			{
-				"imgFileName" : "ground.jpg",
 				"oreType" : "GROUND"
 			}
 	},
@@ -134,7 +122,6 @@
 		"checked" : false,
 		"ore" : 
 			{
-				"imgFileName" : "ground.jpg",
 				"oreType" : "GROUND"
 			}
 	},
@@ -144,7 +131,6 @@
 		"checked" : false,
 		"ore" : 
 			{
-				"imgFileName" : "ground.jpg",
 				"oreType" : "GROUND"
 			}
 	},
@@ -154,7 +140,6 @@
 		"checked" : false,
 		"ore" : 
 			{
-				"imgFileName" : "ground.jpg",
 				"oreType" : "GROUND"
 			}
 	},
@@ -164,7 +149,6 @@
 		"checked" : false,
 		"ore" : 
 			{
-				"imgFileName" : "ground.jpg",
 				"oreType" : "GROUND"
 			}
 	},
@@ -174,7 +158,6 @@
 		"checked" : false,
 		"ore" : 
 			{
-				"imgFileName" : "ground.jpg",
 				"oreType" : "GROUND"
 			}
 	},
@@ -184,7 +167,6 @@
 		"checked" : false,
 		"ore" : 
 			{
-				"imgFileName" : "ground.jpg",
 				"oreType" : "GROUND"
 			}
 	},
@@ -194,7 +176,6 @@
 		"checked" : false,
 		"ore" : 
 			{
-				"imgFileName" : "ground.jpg",
 				"oreType" : "GROUND"
 			}
 	},
@@ -204,7 +185,6 @@
 		"checked" : false,
 		"ore" : 
 			{
-				"imgFileName" : "ground.jpg",
 				"oreType" : "GROUND"
 			}
 	},
@@ -223,7 +203,6 @@
 		"checked" : false,
 		"ore" : 
 			{
-				"imgFileName" : "ground.jpg",
 				"oreType" : "GROUND"
 			}
 	},
@@ -233,7 +212,6 @@
 		"checked" : false,
 		"ore" : 
 			{
-				"imgFileName" : "ground.jpg",
 				"oreType" : "GROUND"
 			}
 	},
@@ -243,7 +221,6 @@
 		"checked" : false,
 		"ore" : 
 			{
-				"imgFileName" : "ground.jpg",
 				"oreType" : "GROUND"
 			}
 	},
@@ -253,7 +230,6 @@
 		"checked" : false,
 		"ore" : 
 			{
-				"imgFileName" : "ground.jpg",
 				"oreType" : "GROUND"
 			}
 	},
@@ -263,7 +239,6 @@
 		"checked" : false,
 		"ore" : 
 			{
-				"imgFileName" : "ground.jpg",
 				"oreType" : "GROUND"
 			}
 	},
@@ -273,7 +248,6 @@
 		"checked" : false,
 		"ore" : 
 			{
-				"imgFileName" : "ground.jpg",
 				"oreType" : "GROUND"
 			}
 	},
@@ -283,7 +257,6 @@
 		"checked" : false,
 		"ore" : 
 			{
-				"imgFileName" : "ground.jpg",
 				"oreType" : "GROUND"
 			}
 	},
@@ -293,8 +266,6 @@
 		"checked" : false,
 		"ore" : 
 			{
-				"imgFileName" : "iron.jpg",
-				"movable" : true,
 				"oreType" : "IRON_ORE"
 			}
 	},
@@ -304,8 +275,6 @@
 		"checked" : false,
 		"ore" : 
 			{
-				"imgFileName" : "iron.jpg",
-				"movable" : true,
 				"oreType" : "IRON_ORE"
 			}
 	},
@@ -315,7 +284,6 @@
 		"checked" : false,
 		"ore" : 
 			{
-				"imgFileName" : "ground.jpg",
 				"oreType" : "GROUND"
 			}
 	},
@@ -325,7 +293,6 @@
 		"checked" : false,
 		"ore" : 
 			{
-				"imgFileName" : "ground.jpg",
 				"oreType" : "GROUND"
 			}
 	},
@@ -335,7 +302,6 @@
 		"checked" : false,
 		"ore" : 
 			{
-				"imgFileName" : "ground.jpg",
 				"oreType" : "GROUND"
 			}
 	},
@@ -345,7 +311,6 @@
 		"checked" : false,
 		"ore" : 
 			{
-				"imgFileName" : "ground.jpg",
 				"oreType" : "GROUND"
 			}
 	},
@@ -355,7 +320,6 @@
 		"checked" : false,
 		"ore" : 
 			{
-				"imgFileName" : "ground.jpg",
 				"oreType" : "GROUND"
 			}
 	},
@@ -365,7 +329,6 @@
 		"checked" : false,
 		"ore" : 
 			{
-				"imgFileName" : "ground.jpg",
 				"oreType" : "GROUND"
 			}
 	},
@@ -375,7 +338,6 @@
 		"checked" : false,
 		"ore" : 
 			{
-				"imgFileName" : "ground.jpg",
 				"oreType" : "GROUND"
 			}
 	},
@@ -385,7 +347,6 @@
 		"checked" : false,
 		"ore" : 
 			{
-				"imgFileName" : "ground.jpg",
 				"oreType" : "GROUND"
 			}
 	},
@@ -395,8 +356,6 @@
 		"checked" : false,
 		"ore" : 
 			{
-				"imgFileName" : "stone.jpg",
-				"movable" : true,
 				"oreType" : "STONE_ORE"
 			}
 	},
@@ -406,8 +365,6 @@
 		"checked" : false,
 		"ore" : 
 			{
-				"imgFileName" : "stone.jpg",
-				"movable" : true,
 				"oreType" : "STONE_ORE"
 			}
 	},
@@ -417,7 +374,6 @@
 		"checked" : false,
 		"ore" : 
 			{
-				"imgFileName" : "ground.jpg",
 				"oreType" : "GROUND"
 			}
 	},
@@ -436,7 +392,6 @@
 		"checked" : false,
 		"ore" : 
 			{
-				"imgFileName" : "ground.jpg",
 				"oreType" : "GROUND"
 			}
 	},
@@ -446,8 +401,6 @@
 		"checked" : false,
 		"ore" : 
 			{
-				"imgFileName" : "stone.jpg",
-				"movable" : true,
 				"oreType" : "STONE_ORE"
 			}
 	},
@@ -457,7 +410,6 @@
 		"checked" : false,
 		"ore" : 
 			{
-				"imgFileName" : "ground.jpg",
 				"oreType" : "GROUND"
 			}
 	},
@@ -467,7 +419,6 @@
 		"checked" : false,
 		"ore" : 
 			{
-				"imgFileName" : "ground.jpg",
 				"oreType" : "GROUND"
 			}
 	},
@@ -477,7 +428,6 @@
 		"checked" : false,
 		"ore" : 
 			{
-				"imgFileName" : "ground.jpg",
 				"oreType" : "GROUND"
 			}
 	},
@@ -487,7 +437,6 @@
 		"checked" : false,
 		"ore" : 
 			{
-				"imgFileName" : "ground.jpg",
 				"oreType" : "GROUND"
 			}
 	},
@@ -497,7 +446,6 @@
 		"checked" : false,
 		"ore" : 
 			{
-				"imgFileName" : "ground.jpg",
 				"oreType" : "GROUND"
 			}
 	},
@@ -507,8 +455,6 @@
 		"checked" : false,
 		"ore" : 
 			{
-				"imgFileName" : "iron.jpg",
-				"movable" : true,
 				"oreType" : "IRON_ORE"
 			}
 	},
@@ -518,8 +464,6 @@
 		"checked" : false,
 		"ore" : 
 			{
-				"imgFileName" : "iron.jpg",
-				"movable" : true,
 				"oreType" : "IRON_ORE"
 			}
 	},
@@ -529,7 +473,6 @@
 		"checked" : false,
 		"ore" : 
 			{
-				"imgFileName" : "ground.jpg",
 				"oreType" : "GROUND"
 			}
 	},
@@ -539,7 +482,6 @@
 		"checked" : false,
 		"ore" : 
 			{
-				"imgFileName" : "ground.jpg",
 				"oreType" : "GROUND"
 			}
 	},
@@ -549,7 +491,6 @@
 		"checked" : false,
 		"ore" : 
 			{
-				"imgFileName" : "ground.jpg",
 				"oreType" : "GROUND"
 			}
 	},
@@ -559,7 +500,6 @@
 		"checked" : false,
 		"ore" : 
 			{
-				"imgFileName" : "ground.jpg",
 				"oreType" : "GROUND"
 			}
 	},
@@ -569,7 +509,6 @@
 		"checked" : false,
 		"ore" : 
 			{
-				"imgFileName" : "ground.jpg",
 				"oreType" : "GROUND"
 			}
 	},
@@ -579,7 +518,6 @@
 		"checked" : false,
 		"ore" : 
 			{
-				"imgFileName" : "ground.jpg",
 				"oreType" : "GROUND"
 			}
 	},
@@ -589,7 +527,6 @@
 		"checked" : false,
 		"ore" : 
 			{
-				"imgFileName" : "ground.jpg",
 				"oreType" : "GROUND"
 			}
 	},
@@ -599,7 +536,6 @@
 		"checked" : false,
 		"ore" : 
 			{
-				"imgFileName" : "ground.jpg",
 				"oreType" : "GROUND"
 			}
 	},
@@ -609,7 +545,6 @@
 		"checked" : false,
 		"ore" : 
 			{
-				"imgFileName" : "ground.jpg",
 				"oreType" : "GROUND"
 			}
 	},
@@ -619,7 +554,6 @@
 		"checked" : false,
 		"ore" : 
 			{
-				"imgFileName" : "ground.jpg",
 				"oreType" : "GROUND"
 			}
 	},
@@ -629,7 +563,6 @@
 		"checked" : false,
 		"ore" : 
 			{
-				"imgFileName" : "ground.jpg",
 				"oreType" : "GROUND"
 			}
 	},
@@ -648,7 +581,6 @@
 		"checked" : false,
 		"ore" : 
 			{
-				"imgFileName" : "ground.jpg",
 				"oreType" : "GROUND"
 			}
 	},
@@ -658,8 +590,6 @@
 		"checked" : false,
 		"ore" : 
 			{
-				"imgFileName" : "stone.jpg",
-				"movable" : true,
 				"oreType" : "STONE_ORE"
 			}
 	},
@@ -669,7 +599,6 @@
 		"checked" : false,
 		"ore" : 
 			{
-				"imgFileName" : "ground.jpg",
 				"oreType" : "GROUND"
 			}
 	},
@@ -679,8 +608,6 @@
 		"checked" : false,
 		"ore" : 
 			{
-				"imgFileName" : "stone.jpg",
-				"movable" : true,
 				"oreType" : "STONE_ORE"
 			}
 	},
@@ -690,7 +617,6 @@
 		"checked" : false,
 		"ore" : 
 			{
-				"imgFileName" : "ground.jpg",
 				"oreType" : "GROUND"
 			}
 	},
@@ -700,7 +626,6 @@
 		"checked" : false,
 		"ore" : 
 			{
-				"imgFileName" : "ground.jpg",
 				"oreType" : "GROUND"
 			}
 	},
@@ -710,7 +635,6 @@
 		"checked" : false,
 		"ore" : 
 			{
-				"imgFileName" : "ground.jpg",
 				"oreType" : "GROUND"
 			}
 	},
@@ -720,7 +644,6 @@
 		"checked" : false,
 		"ore" : 
 			{
-				"imgFileName" : "ground.jpg",
 				"oreType" : "GROUND"
 			}
 	},
@@ -730,7 +653,6 @@
 		"checked" : false,
 		"ore" : 
 			{
-				"imgFileName" : "ground.jpg",
 				"oreType" : "GROUND"
 			}
 	},
@@ -740,7 +662,6 @@
 		"checked" : false,
 		"ore" : 
 			{
-				"imgFileName" : "ground.jpg",
 				"oreType" : "GROUND"
 			}
 	},
@@ -750,7 +671,6 @@
 		"checked" : false,
 		"ore" : 
 			{
-				"imgFileName" : "ground.jpg",
 				"oreType" : "GROUND"
 			}
 	},
@@ -760,7 +680,6 @@
 		"checked" : false,
 		"ore" : 
 			{
-				"imgFileName" : "ground.jpg",
 				"oreType" : "GROUND"
 			}
 	},
@@ -770,7 +689,6 @@
 		"checked" : false,
 		"ore" : 
 			{
-				"imgFileName" : "ground.jpg",
 				"oreType" : "GROUND"
 			}
 	},
@@ -780,7 +698,6 @@
 		"checked" : false,
 		"ore" : 
 			{
-				"imgFileName" : "ground.jpg",
 				"oreType" : "GROUND"
 			}
 	},
@@ -790,7 +707,6 @@
 		"checked" : false,
 		"ore" : 
 			{
-				"imgFileName" : "ground.jpg",
 				"oreType" : "GROUND"
 			}
 	},
@@ -800,7 +716,6 @@
 		"checked" : false,
 		"ore" : 
 			{
-				"imgFileName" : "ground.jpg",
 				"oreType" : "GROUND"
 			}
 	},
@@ -810,7 +725,6 @@
 		"checked" : false,
 		"ore" : 
 			{
-				"imgFileName" : "ground.jpg",
 				"oreType" : "GROUND"
 			}
 	},
@@ -820,7 +734,6 @@
 		"checked" : false,
 		"ore" : 
 			{
-				"imgFileName" : "ground.jpg",
 				"oreType" : "GROUND"
 			}
 	},
@@ -830,7 +743,6 @@
 		"checked" : false,
 		"ore" : 
 			{
-				"imgFileName" : "ground.jpg",
 				"oreType" : "GROUND"
 			}
 	},
@@ -840,7 +752,6 @@
 		"checked" : false,
 		"ore" : 
 			{
-				"imgFileName" : "ground.jpg",
 				"oreType" : "GROUND"
 			}
 	},
@@ -859,7 +770,6 @@
 		"checked" : false,
 		"ore" : 
 			{
-				"imgFileName" : "ground.jpg",
 				"oreType" : "GROUND"
 			}
 	},
@@ -869,8 +779,6 @@
 		"checked" : false,
 		"ore" : 
 			{
-				"imgFileName" : "stone.jpg",
-				"movable" : true,
 				"oreType" : "STONE_ORE"
 			}
 	},
@@ -880,8 +788,6 @@
 		"checked" : false,
 		"ore" : 
 			{
-				"imgFileName" : "stone.jpg",
-				"movable" : true,
 				"oreType" : "STONE_ORE"
 			}
 	},
@@ -891,8 +797,6 @@
 		"checked" : false,
 		"ore" : 
 			{
-				"imgFileName" : "stone.jpg",
-				"movable" : true,
 				"oreType" : "STONE_ORE"
 			}
 	},
@@ -902,7 +806,6 @@
 		"checked" : false,
 		"ore" : 
 			{
-				"imgFileName" : "ground.jpg",
 				"oreType" : "GROUND"
 			}
 	},
@@ -912,7 +815,6 @@
 		"checked" : false,
 		"ore" : 
 			{
-				"imgFileName" : "ground.jpg",
 				"oreType" : "GROUND"
 			}
 	},
@@ -922,7 +824,6 @@
 		"checked" : false,
 		"ore" : 
 			{
-				"imgFileName" : "ground.jpg",
 				"oreType" : "GROUND"
 			}
 	},
@@ -932,7 +833,6 @@
 		"checked" : false,
 		"ore" : 
 			{
-				"imgFileName" : "ground.jpg",
 				"oreType" : "GROUND"
 			}
 	},
@@ -942,7 +842,6 @@
 		"checked" : false,
 		"ore" : 
 			{
-				"imgFileName" : "ground.jpg",
 				"oreType" : "GROUND"
 			}
 	},
@@ -952,7 +851,6 @@
 		"checked" : false,
 		"ore" : 
 			{
-				"imgFileName" : "ground.jpg",
 				"oreType" : "GROUND"
 			}
 	},
@@ -962,7 +860,6 @@
 		"checked" : false,
 		"ore" : 
 			{
-				"imgFileName" : "ground.jpg",
 				"oreType" : "GROUND"
 			}
 	},
@@ -972,7 +869,6 @@
 		"checked" : false,
 		"ore" : 
 			{
-				"imgFileName" : "ground.jpg",
 				"oreType" : "GROUND"
 			}
 	},
@@ -982,7 +878,6 @@
 		"checked" : false,
 		"ore" : 
 			{
-				"imgFileName" : "ground.jpg",
 				"oreType" : "GROUND"
 			}
 	},
@@ -992,7 +887,6 @@
 		"checked" : false,
 		"ore" : 
 			{
-				"imgFileName" : "ground.jpg",
 				"oreType" : "GROUND"
 			}
 	},
@@ -1002,7 +896,6 @@
 		"checked" : false,
 		"ore" : 
 			{
-				"imgFileName" : "ground.jpg",
 				"oreType" : "GROUND"
 			}
 	},
@@ -1012,7 +905,6 @@
 		"checked" : false,
 		"ore" : 
 			{
-				"imgFileName" : "ground.jpg",
 				"oreType" : "GROUND"
 			}
 	},
@@ -1022,7 +914,6 @@
 		"checked" : false,
 		"ore" : 
 			{
-				"imgFileName" : "ground.jpg",
 				"oreType" : "GROUND"
 			}
 	},
@@ -1032,7 +923,6 @@
 		"checked" : false,
 		"ore" : 
 			{
-				"imgFileName" : "ground.jpg",
 				"oreType" : "GROUND"
 			}
 	},
@@ -1042,7 +932,6 @@
 		"checked" : false,
 		"ore" : 
 			{
-				"imgFileName" : "ground.jpg",
 				"oreType" : "GROUND"
 			}
 	},
@@ -1052,7 +941,6 @@
 		"checked" : false,
 		"ore" : 
 			{
-				"imgFileName" : "ground.jpg",
 				"oreType" : "GROUND"
 			}
 	},
@@ -1071,7 +959,6 @@
 		"checked" : false,
 		"ore" : 
 			{
-				"imgFileName" : "ground.jpg",
 				"oreType" : "GROUND"
 			}
 	},
@@ -1081,7 +968,6 @@
 		"checked" : false,
 		"ore" : 
 			{
-				"imgFileName" : "ground.jpg",
 				"oreType" : "GROUND"
 			}
 	},
@@ -1091,7 +977,6 @@
 		"checked" : false,
 		"ore" : 
 			{
-				"imgFileName" : "ground.jpg",
 				"oreType" : "GROUND"
 			}
 	},
@@ -1101,7 +986,6 @@
 		"checked" : false,
 		"ore" : 
 			{
-				"imgFileName" : "ground.jpg",
 				"oreType" : "GROUND"
 			}
 	},
@@ -1111,7 +995,6 @@
 		"checked" : false,
 		"ore" : 
 			{
-				"imgFileName" : "ground.jpg",
 				"oreType" : "GROUND"
 			}
 	},
@@ -1121,7 +1004,6 @@
 		"checked" : false,
 		"ore" : 
 			{
-				"imgFileName" : "ground.jpg",
 				"oreType" : "GROUND"
 			}
 	},
@@ -1131,7 +1013,6 @@
 		"checked" : false,
 		"ore" : 
 			{
-				"imgFileName" : "ground.jpg",
 				"oreType" : "GROUND"
 			}
 	},
@@ -1141,7 +1022,6 @@
 		"checked" : false,
 		"ore" : 
 			{
-				"imgFileName" : "ground.jpg",
 				"oreType" : "GROUND"
 			}
 	},
@@ -1151,7 +1031,6 @@
 		"checked" : false,
 		"ore" : 
 			{
-				"imgFileName" : "ground.jpg",
 				"oreType" : "GROUND"
 			}
 	},
@@ -1161,7 +1040,6 @@
 		"checked" : false,
 		"ore" : 
 			{
-				"imgFileName" : "ground.jpg",
 				"oreType" : "GROUND"
 			}
 	},
@@ -1171,7 +1049,6 @@
 		"checked" : false,
 		"ore" : 
 			{
-				"imgFileName" : "ground.jpg",
 				"oreType" : "GROUND"
 			}
 	},
@@ -1181,7 +1058,6 @@
 		"checked" : false,
 		"ore" : 
 			{
-				"imgFileName" : "ground.jpg",
 				"oreType" : "GROUND"
 			}
 	},
@@ -1191,7 +1067,6 @@
 		"checked" : false,
 		"ore" : 
 			{
-				"imgFileName" : "ground.jpg",
 				"oreType" : "GROUND"
 			}
 	},
@@ -1201,7 +1076,6 @@
 		"checked" : false,
 		"ore" : 
 			{
-				"imgFileName" : "ground.jpg",
 				"oreType" : "GROUND"
 			}
 	},
@@ -1211,7 +1085,6 @@
 		"checked" : false,
 		"ore" : 
 			{
-				"imgFileName" : "ground.jpg",
 				"oreType" : "GROUND"
 			}
 	},
@@ -1221,7 +1094,6 @@
 		"checked" : false,
 		"ore" : 
 			{
-				"imgFileName" : "ground.jpg",
 				"oreType" : "GROUND"
 			}
 	},
@@ -1231,7 +1103,6 @@
 		"checked" : false,
 		"ore" : 
 			{
-				"imgFileName" : "ground.jpg",
 				"oreType" : "GROUND"
 			}
 	},
@@ -1241,7 +1112,6 @@
 		"checked" : false,
 		"ore" : 
 			{
-				"imgFileName" : "ground.jpg",
 				"oreType" : "GROUND"
 			}
 	},
@@ -1251,7 +1121,6 @@
 		"checked" : false,
 		"ore" : 
 			{
-				"imgFileName" : "ground.jpg",
 				"oreType" : "GROUND"
 			}
 	},
@@ -1261,7 +1130,6 @@
 		"checked" : false,
 		"ore" : 
 			{
-				"imgFileName" : "ground.jpg",
 				"oreType" : "GROUND"
 			}
 	},
@@ -1280,7 +1148,6 @@
 		"checked" : false,
 		"ore" : 
 			{
-				"imgFileName" : "ground.jpg",
 				"oreType" : "GROUND"
 			}
 	},
@@ -1290,7 +1157,6 @@
 		"checked" : false,
 		"ore" : 
 			{
-				"imgFileName" : "ground.jpg",
 				"oreType" : "GROUND"
 			}
 	},
@@ -1300,7 +1166,6 @@
 		"checked" : false,
 		"ore" : 
 			{
-				"imgFileName" : "ground.jpg",
 				"oreType" : "GROUND"
 			}
 	},
@@ -1310,7 +1175,6 @@
 		"checked" : false,
 		"ore" : 
 			{
-				"imgFileName" : "ground.jpg",
 				"oreType" : "GROUND"
 			}
 	},
@@ -1320,7 +1184,6 @@
 		"checked" : false,
 		"ore" : 
 			{
-				"imgFileName" : "ground.jpg",
 				"oreType" : "GROUND"
 			}
 	},
@@ -1330,7 +1193,6 @@
 		"checked" : false,
 		"ore" : 
 			{
-				"imgFileName" : "ground.jpg",
 				"oreType" : "GROUND"
 			}
 	},
@@ -1340,7 +1202,6 @@
 		"checked" : false,
 		"ore" : 
 			{
-				"imgFileName" : "ground.jpg",
 				"oreType" : "GROUND"
 			}
 	},
@@ -1350,7 +1211,6 @@
 		"checked" : false,
 		"ore" : 
 			{
-				"imgFileName" : "ground.jpg",
 				"oreType" : "GROUND"
 			}
 	},
@@ -1360,7 +1220,6 @@
 		"checked" : false,
 		"ore" : 
 			{
-				"imgFileName" : "ground.jpg",
 				"oreType" : "GROUND"
 			}
 	},
@@ -1370,7 +1229,6 @@
 		"checked" : false,
 		"ore" : 
 			{
-				"imgFileName" : "ground.jpg",
 				"oreType" : "GROUND"
 			}
 	},
@@ -1380,7 +1238,6 @@
 		"checked" : false,
 		"ore" : 
 			{
-				"imgFileName" : "ground.jpg",
 				"oreType" : "GROUND"
 			}
 	},
@@ -1390,7 +1247,6 @@
 		"checked" : false,
 		"ore" : 
 			{
-				"imgFileName" : "ground.jpg",
 				"oreType" : "GROUND"
 			}
 	},
@@ -1400,7 +1256,6 @@
 		"checked" : false,
 		"ore" : 
 			{
-				"imgFileName" : "ground.jpg",
 				"oreType" : "GROUND"
 			}
 	},
@@ -1410,7 +1265,6 @@
 		"checked" : false,
 		"ore" : 
 			{
-				"imgFileName" : "ground.jpg",
 				"oreType" : "GROUND"
 			}
 	},
@@ -1420,7 +1274,6 @@
 		"checked" : false,
 		"ore" : 
 			{
-				"imgFileName" : "ground.jpg",
 				"oreType" : "GROUND"
 			}
 	},
@@ -1430,7 +1283,6 @@
 		"checked" : false,
 		"ore" : 
 			{
-				"imgFileName" : "ground.jpg",
 				"oreType" : "GROUND"
 			}
 	},
@@ -1440,7 +1292,6 @@
 		"checked" : false,
 		"ore" : 
 			{
-				"imgFileName" : "ground.jpg",
 				"oreType" : "GROUND"
 			}
 	},
@@ -1450,7 +1301,6 @@
 		"checked" : false,
 		"ore" : 
 			{
-				"imgFileName" : "ground.jpg",
 				"oreType" : "GROUND"
 			}
 	},
@@ -1460,7 +1310,6 @@
 		"checked" : false,
 		"ore" : 
 			{
-				"imgFileName" : "ground.jpg",
 				"oreType" : "GROUND"
 			}
 	},
@@ -1470,7 +1319,6 @@
 		"checked" : false,
 		"ore" : 
 			{
-				"imgFileName" : "ground.jpg",
 				"oreType" : "GROUND"
 			}
 	},
@@ -1489,7 +1337,6 @@
 		"checked" : false,
 		"ore" : 
 			{
-				"imgFileName" : "ground.jpg",
 				"oreType" : "GROUND"
 			}
 	},
@@ -1499,7 +1346,6 @@
 		"checked" : false,
 		"ore" : 
 			{
-				"imgFileName" : "ground.jpg",
 				"oreType" : "GROUND"
 			}
 	},
@@ -1509,7 +1355,6 @@
 		"checked" : false,
 		"ore" : 
 			{
-				"imgFileName" : "ground.jpg",
 				"oreType" : "GROUND"
 			}
 	},
@@ -1519,7 +1364,6 @@
 		"checked" : false,
 		"ore" : 
 			{
-				"imgFileName" : "ground.jpg",
 				"oreType" : "GROUND"
 			}
 	},
@@ -1529,7 +1373,6 @@
 		"checked" : false,
 		"ore" : 
 			{
-				"imgFileName" : "ground.jpg",
 				"oreType" : "GROUND"
 			}
 	},
@@ -1539,7 +1382,6 @@
 		"checked" : false,
 		"ore" : 
 			{
-				"imgFileName" : "ground.jpg",
 				"oreType" : "GROUND"
 			}
 	},
@@ -1549,7 +1391,6 @@
 		"checked" : false,
 		"ore" : 
 			{
-				"imgFileName" : "ground.jpg",
 				"oreType" : "GROUND"
 			}
 	},
@@ -1559,7 +1400,6 @@
 		"checked" : false,
 		"ore" : 
 			{
-				"imgFileName" : "ground.jpg",
 				"oreType" : "GROUND"
 			}
 	},
@@ -1569,8 +1409,6 @@
 		"checked" : false,
 		"ore" : 
 			{
-				"imgFileName" : "gold.jpg",
-				"movable" : true,
 				"oreType" : "GOLD_ORE"
 			}
 	},
@@ -1580,8 +1418,6 @@
 		"checked" : false,
 		"ore" : 
 			{
-				"imgFileName" : "gold.jpg",
-				"movable" : true,
 				"oreType" : "GOLD_ORE"
 			}
 	},
@@ -1591,8 +1427,6 @@
 		"checked" : false,
 		"ore" : 
 			{
-				"imgFileName" : "gold.jpg",
-				"movable" : true,
 				"oreType" : "GOLD_ORE"
 			}
 	},
@@ -1602,7 +1436,6 @@
 		"checked" : false,
 		"ore" : 
 			{
-				"imgFileName" : "ground.jpg",
 				"oreType" : "GROUND"
 			}
 	},
@@ -1612,7 +1445,6 @@
 		"checked" : false,
 		"ore" : 
 			{
-				"imgFileName" : "ground.jpg",
 				"oreType" : "GROUND"
 			}
 	},
@@ -1622,7 +1454,6 @@
 		"checked" : false,
 		"ore" : 
 			{
-				"imgFileName" : "ground.jpg",
 				"oreType" : "GROUND"
 			}
 	},
@@ -1632,7 +1463,6 @@
 		"checked" : false,
 		"ore" : 
 			{
-				"imgFileName" : "ground.jpg",
 				"oreType" : "GROUND"
 			}
 	},
@@ -1642,7 +1472,6 @@
 		"checked" : false,
 		"ore" : 
 			{
-				"imgFileName" : "ground.jpg",
 				"oreType" : "GROUND"
 			}
 	},
@@ -1652,7 +1481,6 @@
 		"checked" : false,
 		"ore" : 
 			{
-				"imgFileName" : "ground.jpg",
 				"oreType" : "GROUND"
 			}
 	},
@@ -1662,8 +1490,6 @@
 		"checked" : false,
 		"ore" : 
 			{
-				"imgFileName" : "iron.jpg",
-				"movable" : true,
 				"oreType" : "IRON_ORE"
 			}
 	},
@@ -1673,7 +1499,6 @@
 		"checked" : false,
 		"ore" : 
 			{
-				"imgFileName" : "ground.jpg",
 				"oreType" : "GROUND"
 			}
 	},
@@ -1683,7 +1508,6 @@
 		"checked" : false,
 		"ore" : 
 			{
-				"imgFileName" : "ground.jpg",
 				"oreType" : "GROUND"
 			}
 	},
@@ -1702,7 +1526,6 @@
 		"checked" : false,
 		"ore" : 
 			{
-				"imgFileName" : "ground.jpg",
 				"oreType" : "GROUND"
 			}
 	},
@@ -1712,8 +1535,6 @@
 		"checked" : false,
 		"ore" : 
 			{
-				"imgFileName" : "iron.jpg",
-				"movable" : true,
 				"oreType" : "IRON_ORE"
 			}
 	},
@@ -1723,8 +1544,6 @@
 		"checked" : false,
 		"ore" : 
 			{
-				"imgFileName" : "iron.jpg",
-				"movable" : true,
 				"oreType" : "IRON_ORE"
 			}
 	},
@@ -1734,8 +1553,6 @@
 		"checked" : false,
 		"ore" : 
 			{
-				"imgFileName" : "iron.jpg",
-				"movable" : true,
 				"oreType" : "IRON_ORE"
 			}
 	},
@@ -1745,8 +1562,6 @@
 		"checked" : false,
 		"ore" : 
 			{
-				"imgFileName" : "iron.jpg",
-				"movable" : true,
 				"oreType" : "IRON_ORE"
 			}
 	},
@@ -1756,8 +1571,6 @@
 		"checked" : false,
 		"ore" : 
 			{
-				"imgFileName" : "iron.jpg",
-				"movable" : true,
 				"oreType" : "IRON_ORE"
 			}
 	},
@@ -1767,7 +1580,6 @@
 		"checked" : false,
 		"ore" : 
 			{
-				"imgFileName" : "ground.jpg",
 				"oreType" : "GROUND"
 			}
 	},
@@ -1777,7 +1589,6 @@
 		"checked" : false,
 		"ore" : 
 			{
-				"imgFileName" : "ground.jpg",
 				"oreType" : "GROUND"
 			}
 	},
@@ -1787,7 +1598,6 @@
 		"checked" : false,
 		"ore" : 
 			{
-				"imgFileName" : "ground.jpg",
 				"oreType" : "GROUND"
 			}
 	},
@@ -1797,7 +1607,6 @@
 		"checked" : false,
 		"ore" : 
 			{
-				"imgFileName" : "ground.jpg",
 				"oreType" : "GROUND"
 			}
 	},
@@ -1807,8 +1616,6 @@
 		"checked" : false,
 		"ore" : 
 			{
-				"imgFileName" : "gold.jpg",
-				"movable" : true,
 				"oreType" : "GOLD_ORE"
 			}
 	},
@@ -1818,8 +1625,6 @@
 		"checked" : false,
 		"ore" : 
 			{
-				"imgFileName" : "gold.jpg",
-				"movable" : true,
 				"oreType" : "GOLD_ORE"
 			}
 	},
@@ -1829,8 +1634,6 @@
 		"checked" : false,
 		"ore" : 
 			{
-				"imgFileName" : "gold.jpg",
-				"movable" : true,
 				"oreType" : "GOLD_ORE"
 			}
 	},
@@ -1840,7 +1643,6 @@
 		"checked" : false,
 		"ore" : 
 			{
-				"imgFileName" : "ground.jpg",
 				"oreType" : "GROUND"
 			}
 	},
@@ -1850,7 +1652,6 @@
 		"checked" : false,
 		"ore" : 
 			{
-				"imgFileName" : "ground.jpg",
 				"oreType" : "GROUND"
 			}
 	},
@@ -1860,7 +1661,6 @@
 		"checked" : false,
 		"ore" : 
 			{
-				"imgFileName" : "ground.jpg",
 				"oreType" : "GROUND"
 			}
 	},
@@ -1870,8 +1670,6 @@
 		"checked" : false,
 		"ore" : 
 			{
-				"imgFileName" : "iron.jpg",
-				"movable" : true,
 				"oreType" : "IRON_ORE"
 			}
 	},
@@ -1881,8 +1679,6 @@
 		"checked" : false,
 		"ore" : 
 			{
-				"imgFileName" : "iron.jpg",
-				"movable" : true,
 				"oreType" : "IRON_ORE"
 			}
 	},
@@ -1892,8 +1688,6 @@
 		"checked" : false,
 		"ore" : 
 			{
-				"imgFileName" : "iron.jpg",
-				"movable" : true,
 				"oreType" : "IRON_ORE"
 			}
 	},
@@ -1903,7 +1697,6 @@
 		"checked" : false,
 		"ore" : 
 			{
-				"imgFileName" : "ground.jpg",
 				"oreType" : "GROUND"
 			}
 	},
@@ -1922,7 +1715,6 @@
 		"checked" : false,
 		"ore" : 
 			{
-				"imgFileName" : "ground.jpg",
 				"oreType" : "GROUND"
 			}
 	},
@@ -1932,7 +1724,6 @@
 		"checked" : false,
 		"ore" : 
 			{
-				"imgFileName" : "ground.jpg",
 				"oreType" : "GROUND"
 			}
 	},
@@ -1942,7 +1733,6 @@
 		"checked" : false,
 		"ore" : 
 			{
-				"imgFileName" : "ground.jpg",
 				"oreType" : "GROUND"
 			}
 	},
@@ -1952,7 +1742,6 @@
 		"checked" : false,
 		"ore" : 
 			{
-				"imgFileName" : "ground.jpg",
 				"oreType" : "GROUND"
 			}
 	},
@@ -1962,8 +1751,6 @@
 		"checked" : false,
 		"ore" : 
 			{
-				"imgFileName" : "iron.jpg",
-				"movable" : true,
 				"oreType" : "IRON_ORE"
 			}
 	},
@@ -1973,8 +1760,6 @@
 		"checked" : false,
 		"ore" : 
 			{
-				"imgFileName" : "iron.jpg",
-				"movable" : true,
 				"oreType" : "IRON_ORE"
 			}
 	},
@@ -1984,7 +1769,6 @@
 		"checked" : false,
 		"ore" : 
 			{
-				"imgFileName" : "ground.jpg",
 				"oreType" : "GROUND"
 			}
 	},
@@ -1994,7 +1778,6 @@
 		"checked" : false,
 		"ore" : 
 			{
-				"imgFileName" : "ground.jpg",
 				"oreType" : "GROUND"
 			}
 	},
@@ -2004,7 +1787,6 @@
 		"checked" : false,
 		"ore" : 
 			{
-				"imgFileName" : "ground.jpg",
 				"oreType" : "GROUND"
 			}
 	},
@@ -2014,7 +1796,6 @@
 		"checked" : false,
 		"ore" : 
 			{
-				"imgFileName" : "ground.jpg",
 				"oreType" : "GROUND"
 			}
 	},
@@ -2024,7 +1805,6 @@
 		"checked" : false,
 		"ore" : 
 			{
-				"imgFileName" : "ground.jpg",
 				"oreType" : "GROUND"
 			}
 	},
@@ -2034,7 +1814,6 @@
 		"checked" : false,
 		"ore" : 
 			{
-				"imgFileName" : "ground.jpg",
 				"oreType" : "GROUND"
 			}
 	},
@@ -2044,7 +1823,6 @@
 		"checked" : false,
 		"ore" : 
 			{
-				"imgFileName" : "ground.jpg",
 				"oreType" : "GROUND"
 			}
 	},
@@ -2054,7 +1832,6 @@
 		"checked" : false,
 		"ore" : 
 			{
-				"imgFileName" : "ground.jpg",
 				"oreType" : "GROUND"
 			}
 	},
@@ -2064,7 +1841,6 @@
 		"checked" : false,
 		"ore" : 
 			{
-				"imgFileName" : "ground.jpg",
 				"oreType" : "GROUND"
 			}
 	},
@@ -2074,7 +1850,6 @@
 		"checked" : false,
 		"ore" : 
 			{
-				"imgFileName" : "ground.jpg",
 				"oreType" : "GROUND"
 			}
 	},
@@ -2084,7 +1859,6 @@
 		"checked" : false,
 		"ore" : 
 			{
-				"imgFileName" : "ground.jpg",
 				"oreType" : "GROUND"
 			}
 	},
@@ -2094,7 +1868,6 @@
 		"checked" : false,
 		"ore" : 
 			{
-				"imgFileName" : "ground.jpg",
 				"oreType" : "GROUND"
 			}
 	},
@@ -2104,8 +1877,6 @@
 		"checked" : false,
 		"ore" : 
 			{
-				"imgFileName" : "iron.jpg",
-				"movable" : true,
 				"oreType" : "IRON_ORE"
 			}
 	},
@@ -2115,7 +1886,6 @@
 		"checked" : false,
 		"ore" : 
 			{
-				"imgFileName" : "ground.jpg",
 				"oreType" : "GROUND"
 			}
 	},
@@ -2134,7 +1904,6 @@
 		"checked" : false,
 		"ore" : 
 			{
-				"imgFileName" : "ground.jpg",
 				"oreType" : "GROUND"
 			}
 	},
@@ -2144,7 +1913,6 @@
 		"checked" : false,
 		"ore" : 
 			{
-				"imgFileName" : "ground.jpg",
 				"oreType" : "GROUND"
 			}
 	},
@@ -2154,7 +1922,6 @@
 		"checked" : false,
 		"ore" : 
 			{
-				"imgFileName" : "ground.jpg",
 				"oreType" : "GROUND"
 			}
 	},
@@ -2164,7 +1931,6 @@
 		"checked" : false,
 		"ore" : 
 			{
-				"imgFileName" : "ground.jpg",
 				"oreType" : "GROUND"
 			}
 	},
@@ -2174,7 +1940,6 @@
 		"checked" : false,
 		"ore" : 
 			{
-				"imgFileName" : "ground.jpg",
 				"oreType" : "GROUND"
 			}
 	},
@@ -2184,7 +1949,6 @@
 		"checked" : false,
 		"ore" : 
 			{
-				"imgFileName" : "ground.jpg",
 				"oreType" : "GROUND"
 			}
 	},
@@ -2194,7 +1958,6 @@
 		"checked" : false,
 		"ore" : 
 			{
-				"imgFileName" : "ground.jpg",
 				"oreType" : "GROUND"
 			}
 	},
@@ -2204,7 +1967,6 @@
 		"checked" : false,
 		"ore" : 
 			{
-				"imgFileName" : "ground.jpg",
 				"oreType" : "GROUND"
 			}
 	},
@@ -2214,7 +1976,6 @@
 		"checked" : false,
 		"ore" : 
 			{
-				"imgFileName" : "ground.jpg",
 				"oreType" : "GROUND"
 			}
 	},
@@ -2224,7 +1985,6 @@
 		"checked" : false,
 		"ore" : 
 			{
-				"imgFileName" : "ground.jpg",
 				"oreType" : "GROUND"
 			}
 	},
@@ -2234,7 +1994,6 @@
 		"checked" : false,
 		"ore" : 
 			{
-				"imgFileName" : "ground.jpg",
 				"oreType" : "GROUND"
 			}
 	},
@@ -2244,7 +2003,6 @@
 		"checked" : false,
 		"ore" : 
 			{
-				"imgFileName" : "ground.jpg",
 				"oreType" : "GROUND"
 			}
 	},
@@ -2254,7 +2012,6 @@
 		"checked" : false,
 		"ore" : 
 			{
-				"imgFileName" : "ground.jpg",
 				"oreType" : "GROUND"
 			}
 	},
@@ -2264,7 +2021,6 @@
 		"checked" : false,
 		"ore" : 
 			{
-				"imgFileName" : "ground.jpg",
 				"oreType" : "GROUND"
 			}
 	},
@@ -2274,7 +2030,6 @@
 		"checked" : false,
 		"ore" : 
 			{
-				"imgFileName" : "ground.jpg",
 				"oreType" : "GROUND"
 			}
 	},
@@ -2284,7 +2039,6 @@
 		"checked" : false,
 		"ore" : 
 			{
-				"imgFileName" : "ground.jpg",
 				"oreType" : "GROUND"
 			}
 	},
@@ -2294,7 +2048,6 @@
 		"checked" : false,
 		"ore" : 
 			{
-				"imgFileName" : "ground.jpg",
 				"oreType" : "GROUND"
 			}
 	},
@@ -2304,7 +2057,6 @@
 		"checked" : false,
 		"ore" : 
 			{
-				"imgFileName" : "ground.jpg",
 				"oreType" : "GROUND"
 			}
 	},
@@ -2314,7 +2066,6 @@
 		"checked" : false,
 		"ore" : 
 			{
-				"imgFileName" : "ground.jpg",
 				"oreType" : "GROUND"
 			}
 	},
@@ -2324,7 +2075,6 @@
 		"checked" : false,
 		"ore" : 
 			{
-				"imgFileName" : "ground.jpg",
 				"oreType" : "GROUND"
 			}
 	},
@@ -2343,7 +2093,6 @@
 		"checked" : false,
 		"ore" : 
 			{
-				"imgFileName" : "ground.jpg",
 				"oreType" : "GROUND"
 			}
 	},
@@ -2353,7 +2102,6 @@
 		"checked" : false,
 		"ore" : 
 			{
-				"imgFileName" : "ground.jpg",
 				"oreType" : "GROUND"
 			}
 	},
@@ -2363,7 +2111,6 @@
 		"checked" : false,
 		"ore" : 
 			{
-				"imgFileName" : "ground.jpg",
 				"oreType" : "GROUND"
 			}
 	},
@@ -2373,7 +2120,6 @@
 		"checked" : false,
 		"ore" : 
 			{
-				"imgFileName" : "ground.jpg",
 				"oreType" : "GROUND"
 			}
 	},
@@ -2383,7 +2129,6 @@
 		"checked" : false,
 		"ore" : 
 			{
-				"imgFileName" : "ground.jpg",
 				"oreType" : "GROUND"
 			}
 	},
@@ -2393,7 +2138,6 @@
 		"checked" : false,
 		"ore" : 
 			{
-				"imgFileName" : "ground.jpg",
 				"oreType" : "GROUND"
 			}
 	},
@@ -2403,7 +2147,6 @@
 		"checked" : false,
 		"ore" : 
 			{
-				"imgFileName" : "ground.jpg",
 				"oreType" : "GROUND"
 			}
 	},
@@ -2413,7 +2156,6 @@
 		"checked" : false,
 		"ore" : 
 			{
-				"imgFileName" : "ground.jpg",
 				"oreType" : "GROUND"
 			}
 	},
@@ -2423,7 +2165,6 @@
 		"checked" : false,
 		"ore" : 
 			{
-				"imgFileName" : "ground.jpg",
 				"oreType" : "GROUND"
 			}
 	},
@@ -2433,7 +2174,6 @@
 		"checked" : false,
 		"ore" : 
 			{
-				"imgFileName" : "ground.jpg",
 				"oreType" : "GROUND"
 			}
 	},
@@ -2443,7 +2183,6 @@
 		"checked" : false,
 		"ore" : 
 			{
-				"imgFileName" : "ground.jpg",
 				"oreType" : "GROUND"
 			}
 	},
@@ -2453,7 +2192,6 @@
 		"checked" : false,
 		"ore" : 
 			{
-				"imgFileName" : "ground.jpg",
 				"oreType" : "GROUND"
 			}
 	},
@@ -2463,7 +2201,6 @@
 		"checked" : false,
 		"ore" : 
 			{
-				"imgFileName" : "ground.jpg",
 				"oreType" : "GROUND"
 			}
 	},
@@ -2473,7 +2210,6 @@
 		"checked" : false,
 		"ore" : 
 			{
-				"imgFileName" : "ground.jpg",
 				"oreType" : "GROUND"
 			}
 	},
@@ -2483,7 +2219,6 @@
 		"checked" : false,
 		"ore" : 
 			{
-				"imgFileName" : "ground.jpg",
 				"oreType" : "GROUND"
 			}
 	},
@@ -2493,7 +2228,6 @@
 		"checked" : false,
 		"ore" : 
 			{
-				"imgFileName" : "ground.jpg",
 				"oreType" : "GROUND"
 			}
 	},
@@ -2503,7 +2237,6 @@
 		"checked" : false,
 		"ore" : 
 			{
-				"imgFileName" : "ground.jpg",
 				"oreType" : "GROUND"
 			}
 	},
@@ -2513,7 +2246,6 @@
 		"checked" : false,
 		"ore" : 
 			{
-				"imgFileName" : "ground.jpg",
 				"oreType" : "GROUND"
 			}
 	},
@@ -2523,7 +2255,6 @@
 		"checked" : false,
 		"ore" : 
 			{
-				"imgFileName" : "ground.jpg",
 				"oreType" : "GROUND"
 			}
 	},
@@ -2533,7 +2264,6 @@
 		"checked" : false,
 		"ore" : 
 			{
-				"imgFileName" : "ground.jpg",
 				"oreType" : "GROUND"
 			}
 	},
@@ -2552,7 +2282,6 @@
 		"checked" : false,
 		"ore" : 
 			{
-				"imgFileName" : "ground.jpg",
 				"oreType" : "GROUND"
 			}
 	},
@@ -2562,7 +2291,6 @@
 		"checked" : false,
 		"ore" : 
 			{
-				"imgFileName" : "ground.jpg",
 				"oreType" : "GROUND"
 			}
 	},
@@ -2572,7 +2300,6 @@
 		"checked" : false,
 		"ore" : 
 			{
-				"imgFileName" : "ground.jpg",
 				"oreType" : "GROUND"
 			}
 	},
@@ -2582,7 +2309,6 @@
 		"checked" : false,
 		"ore" : 
 			{
-				"imgFileName" : "ground.jpg",
 				"oreType" : "GROUND"
 			}
 	},
@@ -2592,7 +2318,6 @@
 		"checked" : false,
 		"ore" : 
 			{
-				"imgFileName" : "ground.jpg",
 				"oreType" : "GROUND"
 			}
 	},
@@ -2602,7 +2327,6 @@
 		"checked" : false,
 		"ore" : 
 			{
-				"imgFileName" : "ground.jpg",
 				"oreType" : "GROUND"
 			}
 	},
@@ -2612,7 +2336,6 @@
 		"checked" : false,
 		"ore" : 
 			{
-				"imgFileName" : "ground.jpg",
 				"oreType" : "GROUND"
 			}
 	},
@@ -2622,7 +2345,6 @@
 		"checked" : false,
 		"ore" : 
 			{
-				"imgFileName" : "ground.jpg",
 				"oreType" : "GROUND"
 			}
 	},
@@ -2632,7 +2354,6 @@
 		"checked" : false,
 		"ore" : 
 			{
-				"imgFileName" : "ground.jpg",
 				"oreType" : "GROUND"
 			}
 	},
@@ -2642,7 +2363,6 @@
 		"checked" : false,
 		"ore" : 
 			{
-				"imgFileName" : "ground.jpg",
 				"oreType" : "GROUND"
 			}
 	},
@@ -2652,7 +2372,6 @@
 		"checked" : false,
 		"ore" : 
 			{
-				"imgFileName" : "ground.jpg",
 				"oreType" : "GROUND"
 			}
 	},
@@ -2662,7 +2381,6 @@
 		"checked" : false,
 		"ore" : 
 			{
-				"imgFileName" : "ground.jpg",
 				"oreType" : "GROUND"
 			}
 	},
@@ -2672,7 +2390,6 @@
 		"checked" : false,
 		"ore" : 
 			{
-				"imgFileName" : "ground.jpg",
 				"oreType" : "GROUND"
 			}
 	},
@@ -2682,7 +2399,6 @@
 		"checked" : false,
 		"ore" : 
 			{
-				"imgFileName" : "ground.jpg",
 				"oreType" : "GROUND"
 			}
 	},
@@ -2692,7 +2408,6 @@
 		"checked" : false,
 		"ore" : 
 			{
-				"imgFileName" : "ground.jpg",
 				"oreType" : "GROUND"
 			}
 	},
@@ -2702,7 +2417,6 @@
 		"checked" : false,
 		"ore" : 
 			{
-				"imgFileName" : "ground.jpg",
 				"oreType" : "GROUND"
 			}
 	},
@@ -2712,8 +2426,6 @@
 		"checked" : false,
 		"ore" : 
 			{
-				"imgFileName" : "stone.jpg",
-				"movable" : true,
 				"oreType" : "STONE_ORE"
 			}
 	},
@@ -2723,7 +2435,6 @@
 		"checked" : false,
 		"ore" : 
 			{
-				"imgFileName" : "ground.jpg",
 				"oreType" : "GROUND"
 			}
 	},
@@ -2733,7 +2444,6 @@
 		"checked" : false,
 		"ore" : 
 			{
-				"imgFileName" : "ground.jpg",
 				"oreType" : "GROUND"
 			}
 	},
@@ -2743,7 +2453,6 @@
 		"checked" : false,
 		"ore" : 
 			{
-				"imgFileName" : "ground.jpg",
 				"oreType" : "GROUND"
 			}
 	},
@@ -2762,7 +2471,6 @@
 		"checked" : false,
 		"ore" : 
 			{
-				"imgFileName" : "ground.jpg",
 				"oreType" : "GROUND"
 			}
 	},
@@ -2772,8 +2480,6 @@
 		"checked" : false,
 		"ore" : 
 			{
-				"imgFileName" : "gold.jpg",
-				"movable" : true,
 				"oreType" : "GOLD_ORE"
 			}
 	},
@@ -2783,7 +2489,6 @@
 		"checked" : false,
 		"ore" : 
 			{
-				"imgFileName" : "ground.jpg",
 				"oreType" : "GROUND"
 			}
 	},
@@ -2793,7 +2498,6 @@
 		"checked" : false,
 		"ore" : 
 			{
-				"imgFileName" : "ground.jpg",
 				"oreType" : "GROUND"
 			}
 	},
@@ -2803,7 +2507,6 @@
 		"checked" : false,
 		"ore" : 
 			{
-				"imgFileName" : "ground.jpg",
 				"oreType" : "GROUND"
 			}
 	},
@@ -2813,7 +2516,6 @@
 		"checked" : false,
 		"ore" : 
 			{
-				"imgFileName" : "ground.jpg",
 				"oreType" : "GROUND"
 			}
 	},
@@ -2823,7 +2525,6 @@
 		"checked" : false,
 		"ore" : 
 			{
-				"imgFileName" : "ground.jpg",
 				"oreType" : "GROUND"
 			}
 	},
@@ -2833,7 +2534,6 @@
 		"checked" : false,
 		"ore" : 
 			{
-				"imgFileName" : "ground.jpg",
 				"oreType" : "GROUND"
 			}
 	},
@@ -2843,7 +2543,6 @@
 		"checked" : false,
 		"ore" : 
 			{
-				"imgFileName" : "ground.jpg",
 				"oreType" : "GROUND"
 			}
 	},
@@ -2853,7 +2552,6 @@
 		"checked" : false,
 		"ore" : 
 			{
-				"imgFileName" : "ground.jpg",
 				"oreType" : "GROUND"
 			}
 	},
@@ -2863,7 +2561,6 @@
 		"checked" : false,
 		"ore" : 
 			{
-				"imgFileName" : "ground.jpg",
 				"oreType" : "GROUND"
 			}
 	},
@@ -2873,7 +2570,6 @@
 		"checked" : false,
 		"ore" : 
 			{
-				"imgFileName" : "ground.jpg",
 				"oreType" : "GROUND"
 			}
 	},
@@ -2883,7 +2579,6 @@
 		"checked" : false,
 		"ore" : 
 			{
-				"imgFileName" : "ground.jpg",
 				"oreType" : "GROUND"
 			}
 	},
@@ -2893,7 +2588,6 @@
 		"checked" : false,
 		"ore" : 
 			{
-				"imgFileName" : "ground.jpg",
 				"oreType" : "GROUND"
 			}
 	},
@@ -2903,7 +2597,6 @@
 		"checked" : false,
 		"ore" : 
 			{
-				"imgFileName" : "ground.jpg",
 				"oreType" : "GROUND"
 			}
 	},
@@ -2913,7 +2606,6 @@
 		"checked" : false,
 		"ore" : 
 			{
-				"imgFileName" : "ground.jpg",
 				"oreType" : "GROUND"
 			}
 	},
@@ -2923,8 +2615,6 @@
 		"checked" : false,
 		"ore" : 
 			{
-				"imgFileName" : "stone.jpg",
-				"movable" : true,
 				"oreType" : "STONE_ORE"
 			}
 	},
@@ -2934,8 +2624,6 @@
 		"checked" : false,
 		"ore" : 
 			{
-				"imgFileName" : "stone.jpg",
-				"movable" : true,
 				"oreType" : "STONE_ORE"
 			}
 	},
@@ -2945,7 +2633,6 @@
 		"checked" : false,
 		"ore" : 
 			{
-				"imgFileName" : "ground.jpg",
 				"oreType" : "GROUND"
 			}
 	},
@@ -2955,8 +2642,6 @@
 		"checked" : false,
 		"ore" : 
 			{
-				"imgFileName" : "hell.jpeg",
-				"movable" : true,
 				"oreType" : "HELL"
 			}
 	},
@@ -2975,7 +2660,6 @@
 		"checked" : false,
 		"ore" : 
 			{
-				"imgFileName" : "ground.jpg",
 				"oreType" : "GROUND"
 			}
 	},
@@ -2985,8 +2669,6 @@
 		"checked" : false,
 		"ore" : 
 			{
-				"imgFileName" : "gold.jpg",
-				"movable" : true,
 				"oreType" : "GOLD_ORE"
 			}
 	},
@@ -2996,7 +2678,6 @@
 		"checked" : false,
 		"ore" : 
 			{
-				"imgFileName" : "ground.jpg",
 				"oreType" : "GROUND"
 			}
 	},
@@ -3006,7 +2687,6 @@
 		"checked" : false,
 		"ore" : 
 			{
-				"imgFileName" : "ground.jpg",
 				"oreType" : "GROUND"
 			}
 	},
@@ -3016,7 +2696,6 @@
 		"checked" : false,
 		"ore" : 
 			{
-				"imgFileName" : "ground.jpg",
 				"oreType" : "GROUND"
 			}
 	},
@@ -3026,7 +2705,6 @@
 		"checked" : false,
 		"ore" : 
 			{
-				"imgFileName" : "ground.jpg",
 				"oreType" : "GROUND"
 			}
 	},
@@ -3036,8 +2714,6 @@
 		"checked" : false,
 		"ore" : 
 			{
-				"imgFileName" : "stone.jpg",
-				"movable" : true,
 				"oreType" : "STONE_ORE"
 			}
 	},
@@ -3047,8 +2723,6 @@
 		"checked" : false,
 		"ore" : 
 			{
-				"imgFileName" : "stone.jpg",
-				"movable" : true,
 				"oreType" : "STONE_ORE"
 			}
 	},
@@ -3058,8 +2732,6 @@
 		"checked" : false,
 		"ore" : 
 			{
-				"imgFileName" : "stone.jpg",
-				"movable" : true,
 				"oreType" : "STONE_ORE"
 			}
 	},
@@ -3069,7 +2741,6 @@
 		"checked" : false,
 		"ore" : 
 			{
-				"imgFileName" : "ground.jpg",
 				"oreType" : "GROUND"
 			}
 	},
@@ -3079,7 +2750,6 @@
 		"checked" : false,
 		"ore" : 
 			{
-				"imgFileName" : "ground.jpg",
 				"oreType" : "GROUND"
 			}
 	},
@@ -3089,7 +2759,6 @@
 		"checked" : false,
 		"ore" : 
 			{
-				"imgFileName" : "ground.jpg",
 				"oreType" : "GROUND"
 			}
 	},
@@ -3099,7 +2768,6 @@
 		"checked" : false,
 		"ore" : 
 			{
-				"imgFileName" : "ground.jpg",
 				"oreType" : "GROUND"
 			}
 	},
@@ -3109,8 +2777,6 @@
 		"checked" : false,
 		"ore" : 
 			{
-				"imgFileName" : "iron.jpg",
-				"movable" : true,
 				"oreType" : "IRON_ORE"
 			}
 	},
@@ -3120,7 +2786,6 @@
 		"checked" : false,
 		"ore" : 
 			{
-				"imgFileName" : "ground.jpg",
 				"oreType" : "GROUND"
 			}
 	},
@@ -3130,7 +2795,6 @@
 		"checked" : false,
 		"ore" : 
 			{
-				"imgFileName" : "ground.jpg",
 				"oreType" : "GROUND"
 			}
 	},
@@ -3140,7 +2804,6 @@
 		"checked" : false,
 		"ore" : 
 			{
-				"imgFileName" : "ground.jpg",
 				"oreType" : "GROUND"
 			}
 	},
@@ -3150,7 +2813,6 @@
 		"checked" : false,
 		"ore" : 
 			{
-				"imgFileName" : "ground.jpg",
 				"oreType" : "GROUND"
 			}
 	},
@@ -3160,7 +2822,6 @@
 		"checked" : false,
 		"ore" : 
 			{
-				"imgFileName" : "ground.jpg",
 				"oreType" : "GROUND"
 			}
 	},
@@ -3170,7 +2831,6 @@
 		"checked" : false,
 		"ore" : 
 			{
-				"imgFileName" : "ground.jpg",
 				"oreType" : "GROUND"
 			}
 	},
@@ -3189,7 +2849,6 @@
 		"checked" : false,
 		"ore" : 
 			{
-				"imgFileName" : "ground.jpg",
 				"oreType" : "GROUND"
 			}
 	},
@@ -3199,8 +2858,6 @@
 		"checked" : false,
 		"ore" : 
 			{
-				"imgFileName" : "gold.jpg",
-				"movable" : true,
 				"oreType" : "GOLD_ORE"
 			}
 	},
@@ -3210,7 +2867,6 @@
 		"checked" : false,
 		"ore" : 
 			{
-				"imgFileName" : "ground.jpg",
 				"oreType" : "GROUND"
 			}
 	},
@@ -3220,7 +2876,6 @@
 		"checked" : false,
 		"ore" : 
 			{
-				"imgFileName" : "ground.jpg",
 				"oreType" : "GROUND"
 			}
 	},
@@ -3230,7 +2885,6 @@
 		"checked" : false,
 		"ore" : 
 			{
-				"imgFileName" : "ground.jpg",
 				"oreType" : "GROUND"
 			}
 	},
@@ -3240,7 +2894,6 @@
 		"checked" : false,
 		"ore" : 
 			{
-				"imgFileName" : "ground.jpg",
 				"oreType" : "GROUND"
 			}
 	},
@@ -3250,8 +2903,6 @@
 		"checked" : false,
 		"ore" : 
 			{
-				"imgFileName" : "stone.jpg",
-				"movable" : true,
 				"oreType" : "STONE_ORE"
 			}
 	},
@@ -3261,7 +2912,6 @@
 		"checked" : false,
 		"ore" : 
 			{
-				"imgFileName" : "ground.jpg",
 				"oreType" : "GROUND"
 			}
 	},
@@ -3271,7 +2921,6 @@
 		"checked" : false,
 		"ore" : 
 			{
-				"imgFileName" : "ground.jpg",
 				"oreType" : "GROUND"
 			}
 	},
@@ -3281,7 +2930,6 @@
 		"checked" : false,
 		"ore" : 
 			{
-				"imgFileName" : "ground.jpg",
 				"oreType" : "GROUND"
 			}
 	},
@@ -3291,7 +2939,6 @@
 		"checked" : false,
 		"ore" : 
 			{
-				"imgFileName" : "ground.jpg",
 				"oreType" : "GROUND"
 			}
 	},
@@ -3301,7 +2948,6 @@
 		"checked" : false,
 		"ore" : 
 			{
-				"imgFileName" : "ground.jpg",
 				"oreType" : "GROUND"
 			}
 	},
@@ -3311,7 +2957,6 @@
 		"checked" : false,
 		"ore" : 
 			{
-				"imgFileName" : "ground.jpg",
 				"oreType" : "GROUND"
 			}
 	},
@@ -3321,8 +2966,6 @@
 		"checked" : false,
 		"ore" : 
 			{
-				"imgFileName" : "iron.jpg",
-				"movable" : true,
 				"oreType" : "IRON_ORE"
 			}
 	},
@@ -3332,7 +2975,6 @@
 		"checked" : false,
 		"ore" : 
 			{
-				"imgFileName" : "ground.jpg",
 				"oreType" : "GROUND"
 			}
 	},
@@ -3342,7 +2984,6 @@
 		"checked" : false,
 		"ore" : 
 			{
-				"imgFileName" : "ground.jpg",
 				"oreType" : "GROUND"
 			}
 	},
@@ -3352,7 +2993,6 @@
 		"checked" : false,
 		"ore" : 
 			{
-				"imgFileName" : "ground.jpg",
 				"oreType" : "GROUND"
 			}
 	},
@@ -3362,7 +3002,6 @@
 		"checked" : false,
 		"ore" : 
 			{
-				"imgFileName" : "ground.jpg",
 				"oreType" : "GROUND"
 			}
 	},
@@ -3372,7 +3011,6 @@
 		"checked" : false,
 		"ore" : 
 			{
-				"imgFileName" : "ground.jpg",
 				"oreType" : "GROUND"
 			}
 	},
@@ -3382,7 +3020,6 @@
 		"checked" : false,
 		"ore" : 
 			{
-				"imgFileName" : "ground.jpg",
 				"oreType" : "GROUND"
 			}
 	},
@@ -3401,7 +3038,6 @@
 		"checked" : false,
 		"ore" : 
 			{
-				"imgFileName" : "ground.jpg",
 				"oreType" : "GROUND"
 			}
 	},
@@ -3411,8 +3047,6 @@
 		"checked" : false,
 		"ore" : 
 			{
-				"imgFileName" : "gold.jpg",
-				"movable" : true,
 				"oreType" : "GOLD_ORE"
 			}
 	},
@@ -3422,7 +3056,6 @@
 		"checked" : false,
 		"ore" : 
 			{
-				"imgFileName" : "ground.jpg",
 				"oreType" : "GROUND"
 			}
 	},
@@ -3432,8 +3065,6 @@
 		"checked" : false,
 		"ore" : 
 			{
-				"imgFileName" : "stone.jpg",
-				"movable" : true,
 				"oreType" : "STONE_ORE"
 			}
 	},
@@ -3443,7 +3074,6 @@
 		"checked" : false,
 		"ore" : 
 			{
-				"imgFileName" : "ground.jpg",
 				"oreType" : "GROUND"
 			}
 	},
@@ -3453,7 +3083,6 @@
 		"checked" : false,
 		"ore" : 
 			{
-				"imgFileName" : "ground.jpg",
 				"oreType" : "GROUND"
 			}
 	},
@@ -3463,8 +3092,6 @@
 		"checked" : false,
 		"ore" : 
 			{
-				"imgFileName" : "stone.jpg",
-				"movable" : true,
 				"oreType" : "STONE_ORE"
 			}
 	},
@@ -3474,7 +3101,6 @@
 		"checked" : false,
 		"ore" : 
 			{
-				"imgFileName" : "ground.jpg",
 				"oreType" : "GROUND"
 			}
 	},
@@ -3484,7 +3110,6 @@
 		"checked" : false,
 		"ore" : 
 			{
-				"imgFileName" : "ground.jpg",
 				"oreType" : "GROUND"
 			}
 	},
@@ -3494,7 +3119,6 @@
 		"checked" : false,
 		"ore" : 
 			{
-				"imgFileName" : "ground.jpg",
 				"oreType" : "GROUND"
 			}
 	},
@@ -3504,7 +3128,6 @@
 		"checked" : false,
 		"ore" : 
 			{
-				"imgFileName" : "ground.jpg",
 				"oreType" : "GROUND"
 			}
 	},
@@ -3514,7 +3137,6 @@
 		"checked" : false,
 		"ore" : 
 			{
-				"imgFileName" : "ground.jpg",
 				"oreType" : "GROUND"
 			}
 	},
@@ -3524,7 +3146,6 @@
 		"checked" : false,
 		"ore" : 
 			{
-				"imgFileName" : "ground.jpg",
 				"oreType" : "GROUND"
 			}
 	},
@@ -3534,8 +3155,6 @@
 		"checked" : false,
 		"ore" : 
 			{
-				"imgFileName" : "iron.jpg",
-				"movable" : true,
 				"oreType" : "IRON_ORE"
 			}
 	},
@@ -3545,8 +3164,6 @@
 		"checked" : false,
 		"ore" : 
 			{
-				"imgFileName" : "iron.jpg",
-				"movable" : true,
 				"oreType" : "IRON_ORE"
 			}
 	},
@@ -3556,7 +3173,6 @@
 		"checked" : false,
 		"ore" : 
 			{
-				"imgFileName" : "ground.jpg",
 				"oreType" : "GROUND"
 			}
 	},
@@ -3566,7 +3182,6 @@
 		"checked" : false,
 		"ore" : 
 			{
-				"imgFileName" : "ground.jpg",
 				"oreType" : "GROUND"
 			}
 	},
@@ -3576,7 +3191,6 @@
 		"checked" : false,
 		"ore" : 
 			{
-				"imgFileName" : "ground.jpg",
 				"oreType" : "GROUND"
 			}
 	},
@@ -3586,7 +3200,6 @@
 		"checked" : false,
 		"ore" : 
 			{
-				"imgFileName" : "ground.jpg",
 				"oreType" : "GROUND"
 			}
 	},
@@ -3596,7 +3209,6 @@
 		"checked" : false,
 		"ore" : 
 			{
-				"imgFileName" : "ground.jpg",
 				"oreType" : "GROUND"
 			}
 	},
@@ -3615,7 +3227,6 @@
 		"checked" : false,
 		"ore" : 
 			{
-				"imgFileName" : "ground.jpg",
 				"oreType" : "GROUND"
 			}
 	},
@@ -3625,8 +3236,6 @@
 		"checked" : false,
 		"ore" : 
 			{
-				"imgFileName" : "gold.jpg",
-				"movable" : true,
 				"oreType" : "GOLD_ORE"
 			}
 	},
@@ -3636,7 +3245,6 @@
 		"checked" : false,
 		"ore" : 
 			{
-				"imgFileName" : "ground.jpg",
 				"oreType" : "GROUND"
 			}
 	},
@@ -3646,7 +3254,6 @@
 		"checked" : false,
 		"ore" : 
 			{
-				"imgFileName" : "ground.jpg",
 				"oreType" : "GROUND"
 			}
 	},
@@ -3656,7 +3263,6 @@
 		"checked" : false,
 		"ore" : 
 			{
-				"imgFileName" : "ground.jpg",
 				"oreType" : "GROUND"
 			}
 	},
@@ -3666,7 +3272,6 @@
 		"checked" : false,
 		"ore" : 
 			{
-				"imgFileName" : "ground.jpg",
 				"oreType" : "GROUND"
 			}
 	},
@@ -3676,7 +3281,6 @@
 		"checked" : false,
 		"ore" : 
 			{
-				"imgFileName" : "ground.jpg",
 				"oreType" : "GROUND"
 			}
 	},
@@ -3686,7 +3290,6 @@
 		"checked" : false,
 		"ore" : 
 			{
-				"imgFileName" : "ground.jpg",
 				"oreType" : "GROUND"
 			}
 	},
@@ -3696,7 +3299,6 @@
 		"checked" : false,
 		"ore" : 
 			{
-				"imgFileName" : "ground.jpg",
 				"oreType" : "GROUND"
 			}
 	},
@@ -3706,7 +3308,6 @@
 		"checked" : false,
 		"ore" : 
 			{
-				"imgFileName" : "ground.jpg",
 				"oreType" : "GROUND"
 			}
 	},
@@ -3716,7 +3317,6 @@
 		"checked" : false,
 		"ore" : 
 			{
-				"imgFileName" : "ground.jpg",
 				"oreType" : "GROUND"
 			}
 	},
@@ -3726,7 +3326,6 @@
 		"checked" : false,
 		"ore" : 
 			{
-				"imgFileName" : "ground.jpg",
 				"oreType" : "GROUND"
 			}
 	},
@@ -3736,7 +3335,6 @@
 		"checked" : false,
 		"ore" : 
 			{
-				"imgFileName" : "ground.jpg",
 				"oreType" : "GROUND"
 			}
 	},
@@ -3746,7 +3344,6 @@
 		"checked" : false,
 		"ore" : 
 			{
-				"imgFileName" : "ground.jpg",
 				"oreType" : "GROUND"
 			}
 	},
@@ -3756,7 +3353,6 @@
 		"checked" : false,
 		"ore" : 
 			{
-				"imgFileName" : "ground.jpg",
 				"oreType" : "GROUND"
 			}
 	},
@@ -3766,7 +3362,6 @@
 		"checked" : false,
 		"ore" : 
 			{
-				"imgFileName" : "ground.jpg",
 				"oreType" : "GROUND"
 			}
 	},
@@ -3776,7 +3371,6 @@
 		"checked" : false,
 		"ore" : 
 			{
-				"imgFileName" : "ground.jpg",
 				"oreType" : "GROUND"
 			}
 	},
@@ -3786,7 +3380,6 @@
 		"checked" : false,
 		"ore" : 
 			{
-				"imgFileName" : "ground.jpg",
 				"oreType" : "GROUND"
 			}
 	},
@@ -3796,7 +3389,6 @@
 		"checked" : false,
 		"ore" : 
 			{
-				"imgFileName" : "ground.jpg",
 				"oreType" : "GROUND"
 			}
 	},
@@ -3806,7 +3398,6 @@
 		"checked" : false,
 		"ore" : 
 			{
-				"imgFileName" : "ground.jpg",
 				"oreType" : "GROUND"
 			}
 	},
@@ -3825,7 +3416,6 @@
 		"checked" : false,
 		"ore" : 
 			{
-				"imgFileName" : "ground.jpg",
 				"oreType" : "GROUND"
 			}
 	},
@@ -3835,7 +3425,6 @@
 		"checked" : false,
 		"ore" : 
 			{
-				"imgFileName" : "ground.jpg",
 				"oreType" : "GROUND"
 			}
 	},
@@ -3845,7 +3434,6 @@
 		"checked" : false,
 		"ore" : 
 			{
-				"imgFileName" : "ground.jpg",
 				"oreType" : "GROUND"
 			}
 	},
@@ -3855,7 +3443,6 @@
 		"checked" : false,
 		"ore" : 
 			{
-				"imgFileName" : "ground.jpg",
 				"oreType" : "GROUND"
 			}
 	},
@@ -3865,7 +3452,6 @@
 		"checked" : false,
 		"ore" : 
 			{
-				"imgFileName" : "ground.jpg",
 				"oreType" : "GROUND"
 			}
 	},
@@ -3875,7 +3461,6 @@
 		"checked" : false,
 		"ore" : 
 			{
-				"imgFileName" : "ground.jpg",
 				"oreType" : "GROUND"
 			}
 	},
@@ -3885,7 +3470,6 @@
 		"checked" : false,
 		"ore" : 
 			{
-				"imgFileName" : "ground.jpg",
 				"oreType" : "GROUND"
 			}
 	},
@@ -3895,7 +3479,6 @@
 		"checked" : false,
 		"ore" : 
 			{
-				"imgFileName" : "ground.jpg",
 				"oreType" : "GROUND"
 			}
 	},
@@ -3905,7 +3488,6 @@
 		"checked" : false,
 		"ore" : 
 			{
-				"imgFileName" : "ground.jpg",
 				"oreType" : "GROUND"
 			}
 	},
@@ -3915,7 +3497,6 @@
 		"checked" : false,
 		"ore" : 
 			{
-				"imgFileName" : "ground.jpg",
 				"oreType" : "GROUND"
 			}
 	},
@@ -3925,7 +3506,6 @@
 		"checked" : false,
 		"ore" : 
 			{
-				"imgFileName" : "ground.jpg",
 				"oreType" : "GROUND"
 			}
 	},
@@ -3935,7 +3515,6 @@
 		"checked" : false,
 		"ore" : 
 			{
-				"imgFileName" : "ground.jpg",
 				"oreType" : "GROUND"
 			}
 	},
@@ -3945,7 +3524,6 @@
 		"checked" : false,
 		"ore" : 
 			{
-				"imgFileName" : "ground.jpg",
 				"oreType" : "GROUND"
 			}
 	},
@@ -3955,7 +3533,6 @@
 		"checked" : false,
 		"ore" : 
 			{
-				"imgFileName" : "ground.jpg",
 				"oreType" : "GROUND"
 			}
 	},
@@ -3965,7 +3542,6 @@
 		"checked" : false,
 		"ore" : 
 			{
-				"imgFileName" : "ground.jpg",
 				"oreType" : "GROUND"
 			}
 	},
@@ -3975,7 +3551,6 @@
 		"checked" : false,
 		"ore" : 
 			{
-				"imgFileName" : "ground.jpg",
 				"oreType" : "GROUND"
 			}
 	},
@@ -3985,7 +3560,6 @@
 		"checked" : false,
 		"ore" : 
 			{
-				"imgFileName" : "ground.jpg",
 				"oreType" : "GROUND"
 			}
 	},
@@ -3995,7 +3569,6 @@
 		"checked" : false,
 		"ore" : 
 			{
-				"imgFileName" : "ground.jpg",
 				"oreType" : "GROUND"
 			}
 	},
@@ -4005,7 +3578,6 @@
 		"checked" : false,
 		"ore" : 
 			{
-				"imgFileName" : "ground.jpg",
 				"oreType" : "GROUND"
 			}
 	},
@@ -4015,7 +3587,6 @@
 		"checked" : false,
 		"ore" : 
 			{
-				"imgFileName" : "ground.jpg",
 				"oreType" : "GROUND"
 			}
 	},
@@ -4034,7 +3605,6 @@
 		"checked" : false,
 		"ore" : 
 			{
-				"imgFileName" : "ground.jpg",
 				"oreType" : "GROUND"
 			}
 	},
@@ -4044,7 +3614,6 @@
 		"checked" : false,
 		"ore" : 
 			{
-				"imgFileName" : "ground.jpg",
 				"oreType" : "GROUND"
 			}
 	},
@@ -4054,7 +3623,6 @@
 		"checked" : false,
 		"ore" : 
 			{
-				"imgFileName" : "ground.jpg",
 				"oreType" : "GROUND"
 			}
 	},
@@ -4064,7 +3632,6 @@
 		"checked" : false,
 		"ore" : 
 			{
-				"imgFileName" : "ground.jpg",
 				"oreType" : "GROUND"
 			}
 	},
@@ -4074,7 +3641,6 @@
 		"checked" : false,
 		"ore" : 
 			{
-				"imgFileName" : "ground.jpg",
 				"oreType" : "GROUND"
 			}
 	},
@@ -4084,7 +3650,6 @@
 		"checked" : false,
 		"ore" : 
 			{
-				"imgFileName" : "ground.jpg",
 				"oreType" : "GROUND"
 			}
 	},
@@ -4094,7 +3659,6 @@
 		"checked" : false,
 		"ore" : 
 			{
-				"imgFileName" : "ground.jpg",
 				"oreType" : "GROUND"
 			}
 	},
@@ -4104,7 +3668,6 @@
 		"checked" : false,
 		"ore" : 
 			{
-				"imgFileName" : "ground.jpg",
 				"oreType" : "GROUND"
 			}
 	},
@@ -4114,7 +3677,6 @@
 		"checked" : false,
 		"ore" : 
 			{
-				"imgFileName" : "ground.jpg",
 				"oreType" : "GROUND"
 			}
 	},
@@ -4124,7 +3686,6 @@
 		"checked" : false,
 		"ore" : 
 			{
-				"imgFileName" : "ground.jpg",
 				"oreType" : "GROUND"
 			}
 	},
@@ -4134,7 +3695,6 @@
 		"checked" : false,
 		"ore" : 
 			{
-				"imgFileName" : "ground.jpg",
 				"oreType" : "GROUND"
 			}
 	},
@@ -4144,7 +3704,6 @@
 		"checked" : false,
 		"ore" : 
 			{
-				"imgFileName" : "ground.jpg",
 				"oreType" : "GROUND"
 			}
 	},
@@ -4154,7 +3713,6 @@
 		"checked" : false,
 		"ore" : 
 			{
-				"imgFileName" : "ground.jpg",
 				"oreType" : "GROUND"
 			}
 	},
@@ -4164,7 +3722,6 @@
 		"checked" : false,
 		"ore" : 
 			{
-				"imgFileName" : "ground.jpg",
 				"oreType" : "GROUND"
 			}
 	},
@@ -4174,7 +3731,6 @@
 		"checked" : false,
 		"ore" : 
 			{
-				"imgFileName" : "ground.jpg",
 				"oreType" : "GROUND"
 			}
 	},
@@ -4184,7 +3740,6 @@
 		"checked" : false,
 		"ore" : 
 			{
-				"imgFileName" : "ground.jpg",
 				"oreType" : "GROUND"
 			}
 	},
@@ -4194,7 +3749,6 @@
 		"checked" : false,
 		"ore" : 
 			{
-				"imgFileName" : "ground.jpg",
 				"oreType" : "GROUND"
 			}
 	},
@@ -4204,7 +3758,6 @@
 		"checked" : false,
 		"ore" : 
 			{
-				"imgFileName" : "ground.jpg",
 				"oreType" : "GROUND"
 			}
 	},
@@ -4214,7 +3767,6 @@
 		"checked" : false,
 		"ore" : 
 			{
-				"imgFileName" : "ground.jpg",
 				"oreType" : "GROUND"
 			}
 	},
@@ -4224,7 +3776,6 @@
 		"checked" : false,
 		"ore" : 
 			{
-				"imgFileName" : "ground.jpg",
 				"oreType" : "GROUND"
 			}
 	}

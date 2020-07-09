@@ -40,12 +40,13 @@ public class FieldVisualizer {
         fieldHeight = height;
     }
 
-    public void createNewMap() {
+    public Cell[] createNewMap() {
         Cell[] generatedMap = convertArray(mapGenerator.generateMap());
-//        Cell[][] generatedMap = mapGenerator.generateMap();
         resetField();
         mapGenerator.reset();
         fillGridByCell(generatedMap);
+
+        return generatedMap;
     }
 
     private Cell @NotNull [] convertArray(Cell[] @NotNull [] arr) {
