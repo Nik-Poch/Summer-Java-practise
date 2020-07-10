@@ -172,8 +172,13 @@ public class Graph {
                 double weight = node.getWeight();
                 double distance = vertex.getMinDistance() + weight;
                 if(distance < node.getMinDistance()){
-                    graph.get(node.getVertex()).get(vertex.getVertex()).setMinDistance(distance);
-                    graph.get(node.getVertex()).get(vertex.getVertex()).setPrev(vertex);
+                    for(Node buf : graph.get(node.getVertex())){
+                        if(buf.getVertex() == vertex.getVertex()){
+                            buf.setMinDistance(distance);
+                            buf.setPrev(vertex);
+                            break;
+                        }
+                    }
                     node.setMinDistance(distance);
                     node.setPrev(vertex);
                     vertexQueue.add(node);
