@@ -278,4 +278,8 @@ public class Graph {
         shortestWay();
         return cellsOfShortestWay;
     }
+
+    public Cell getHellCell() {
+        return hellCell;
+    }
 }
