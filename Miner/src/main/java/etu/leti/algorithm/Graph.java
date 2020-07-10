@@ -211,7 +211,7 @@ public class Graph {
             int distX = Math.abs(from.getPosX() - to.getPosX());
             int startPosY;
             int startPosX;
-            if(from.getPosY() < to.getPosY()){
+            if(from.getPosX() < to.getPosX()){
                 startPosY = from.getPosY();
                 startPosX = from.getPosX();
             }else{
@@ -221,6 +221,7 @@ public class Graph {
             for(int i = 0; i < distX; i++){
                 cellsOfShortestWay.add(field.getCells()[++startPosX][startPosY]);
             }
+            startPosY = Math.min(from.getPosY(), to.getPosY());
             for (int i = 0; i < distY; i++){
                 cellsOfShortestWay.add(field.getCells()[startPosX][++startPosY]);
             }
