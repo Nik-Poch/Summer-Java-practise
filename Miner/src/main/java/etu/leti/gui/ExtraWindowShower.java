@@ -1,7 +1,5 @@
 package etu.leti.gui;
 
-import javafx.event.ActionEvent;
-import javafx.fxml.FXML;
 import javafx.fxml.FXMLLoader;
 import javafx.scene.Parent;
 import javafx.scene.Scene;
@@ -9,19 +7,16 @@ import javafx.scene.layout.StackPane;
 import javafx.scene.text.Text;
 import javafx.stage.Modality;
 import javafx.stage.Stage;
-import javafx.stage.StageStyle;
 import org.jetbrains.annotations.NotNull;
 
-import java.awt.*;
 import java.io.IOException;
-import java.net.URL;
 
 public class ExtraWindowShower {
 
     public static void showAboutWindow(Stage primaryStage) {
         StackPane authorInfLayout = new StackPane();
         Scene authInfScene = new Scene(authorInfLayout, 230, 100);
-        authInfScene.getStylesheets().add("author.css");
+        authInfScene.getStylesheets().add("css/author.css");
 
         Text text = new Text();
         text.setText("Pochaev Nikita\nMaria Lisok\nDmitry Perelygin");
@@ -47,7 +42,7 @@ public class ExtraWindowShower {
 
     public static void showProgInfoWindow(Stage primaryStage, @NotNull ClassLoader loader) throws IOException {
         Stage algStage = new Stage();
-        FXMLLoader fxmlLoader = new FXMLLoader(loader.getResource("algorithm.fxml"));
+        FXMLLoader fxmlLoader = new FXMLLoader(loader.getResource("canvas/algorithm.fxml"));
 
         Parent root = fxmlLoader.load();
         algStage.initModality(Modality.WINDOW_MODAL);

@@ -108,7 +108,7 @@
                 </font>
             </Button>
             <TextArea fx:id="logTextField" editable="false" prefHeight="320.0" prefWidth="308.0" promptText="Log window"
-                      stylesheets="@textarea.css">
+                      stylesheets="@../css/textarea.css">
                 <VBox.margin>
                     <Insets/>
                 </VBox.margin>

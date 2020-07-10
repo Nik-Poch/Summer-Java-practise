@@ -3,14 +3,10 @@ package etu.leti.parser;
 import com.google.gson.Gson;
 
 import java.io.*;
-import java.nio.file.StandardOpenOption;
-import java.util.Objects;
 
 import com.google.gson.GsonBuilder;
 import com.google.gson.JsonParseException;
 import etu.leti.field.*;
-import etu.leti.gui.gridhandler.ImageCell;
-import javafx.scene.image.Image;
 import org.jetbrains.annotations.NotNull;
 
 public class MapParser {
@@ -84,22 +80,22 @@ public class MapParser {
             }
             switch (cell.getOreInCellType()) {
                 case GROUND:
-                    cell.setOreImg("ground.jpg");
+                    cell.setOreImg("img/ground.jpg");
                     break;
                 case GOLD_ORE:
-                    cell.setOreImg("gold.jpg");
+                    cell.setOreImg("img/gold.jpg");
                     break;
                 case IRON_ORE:
-                    cell.setOreImg("iron.jpg");
+                    cell.setOreImg("img/iron.jpg");
                     break;
                 case STONE_ORE:
-                    cell.setOreImg("stone.jpg");
+                    cell.setOreImg("img/stone.jpg");
                     break;
                 case HELL:
-                    cell.setOreImg("hell.jpeg");
+                    cell.setOreImg("img/hell.jpeg");
                     break;
                 default:
-                    cell.setOreImg("air.png");
+                    cell.setOreImg("img/air.png");
             }
             i++;
         }

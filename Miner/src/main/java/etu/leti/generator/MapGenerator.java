@@ -36,11 +36,11 @@ public class MapGenerator
         ore.put(11, OreTypes.AIR);
 
         picture = new HashMap<>();
-        picture.put(1, "gold.jpg");
-        picture.put(2, "iron.jpg");
-        picture.put(3, "stone.jpg");
-        picture.put(4, "hell.jpeg");
-        picture.put(10, "ground.jpg");
+        picture.put(1, "img/gold.jpg");
+        picture.put(2, "img/iron.jpg");
+        picture.put(3, "img/stone.jpg");
+        picture.put(4, "img/hell.jpeg");
+        picture.put(10, "img/ground.jpg");
         picture.put(11, "air.jpg");
     }
 

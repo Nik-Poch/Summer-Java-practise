@@ -25,7 +25,7 @@ public class Main extends Application {
     public void start(@NotNull Stage primaryStage) throws Exception{
         window = primaryStage;
 
-        URL scene = getClass().getClassLoader().getResource("miner.fxml");
+        URL scene = getClass().getClassLoader().getResource("canvas/miner.fxml");
         assert scene != null;
 
         FXMLLoader fxmlLoader = new FXMLLoader(scene);
@@ -41,7 +41,7 @@ public class Main extends Application {
         primaryStage.setResizable(false);
 
         // Set application icon
-        primaryStage.getIcons().add(new Image("icon.png"));
+        primaryStage.getIcons().add(new Image("img/icon.png"));
 
         primaryStage.show();
     }
