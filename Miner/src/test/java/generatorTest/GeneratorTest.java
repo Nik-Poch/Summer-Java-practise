@@ -1,7 +1,6 @@
 package generatorTest;
 
 import etu.leti.field.Cell;
-import etu.leti.ore.Ore;
 import etu.leti.ore.OreTypes;
 import org.junit.Assert;
 import org.junit.Before;
