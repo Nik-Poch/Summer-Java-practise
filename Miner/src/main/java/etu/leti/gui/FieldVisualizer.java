@@ -4,7 +4,6 @@ import etu.leti.algorithm.Graph;
 import etu.leti.field.Field;
 import etu.leti.generator.MapGenerator;
 import javafx.scene.layout.GridPane;
-import org.jetbrains.annotations.Contract;
 import org.jetbrains.annotations.NotNull;
 
 import etu.leti.field.Cell;
@@ -93,7 +92,7 @@ public class FieldVisualizer {
     }
 
     public boolean makeOneStep() {
-        if(shortestWayCurrPos == 0) {
+        if(shortestWayCurrPos == -1) {
             return true;
         }
 

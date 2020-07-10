@@ -88,9 +88,8 @@ public class Controller implements Initializable {
             fieldVisualizer.showResultWay();
         } else {
             fieldVisualizer.stepByStepWay();
+            runButton.setDisable(true);
         }
-
-        runButton.setDisable(true);
     }
 
     public void madeOneStep(ActionEvent event) {
@@ -184,6 +183,7 @@ public class Controller implements Initializable {
         if(modeChoiceBox.getValue().equals("Step by step")) {
             currentMode = Mode.STEP_BY_STEP;
         } else if(modeChoiceBox.getValue().equals("Just result")) {
+            runButton.setDisable(false);
             currentMode = Mode.JUST_RESULT;
         }
     }

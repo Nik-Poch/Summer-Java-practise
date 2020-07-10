@@ -18,7 +18,7 @@ public class GridWorker {
     private final ClassLoader classLoader;
     private ImageCell lastImage;
 
-    public GridWorker(GridPane mainVisualField, ClassLoader classLoader) {
+    public GridWorker(GridPane mainVisualField, @NotNull ClassLoader classLoader) {
         this.mainVisualField = mainVisualField;
         this.classLoader = classLoader;
         lastImage = null;
@@ -90,11 +90,29 @@ public class GridWorker {
         throw new JsonParseException("Incorrect data for " + i + " element in Cell array from file");
     }
 
+    public void deleteCharacter() {
+        mainVisualField.getChildren().remove(playerImg);
+    }
+
     public void showOneStep(Cell @NotNull [] shortestWay, int shortestWayCurrPos) {
+        if(shortestWayCurrPos == shortestWay.length - 1) {
+            return;
+        }
+
+        if(playerImg != null) {
+            mainVisualField.getChildren().remove(playerImg);
+            playerImg = null;
+        }
+
         int x = shortestWay[shortestWayCurrPos].getPosX();
         int y = shortestWay[shortestWayCurrPos].getPosY();
+        int extraX, extraY;
+
         if(lastImage != null) {
-            fillGridImages[shortestWay[shortestWayCurrPos + 1].getPosX()][shortestWay[shortestWayCurrPos + 1].getPosY()] = lastImage;
+            extraX = shortestWay[shortestWayCurrPos + 1].getPosX();
+            extraY = shortestWay[shortestWayCurrPos + 1].getPosY();
+            fillGridImages[extraX][extraY] = lastImage;
+            mainVisualField.add(fillGridImages[extraX][extraY], extraX, extraY);
         }
 
         lastImage = fillGridImages[x][y];
@@ -154,16 +172,24 @@ public class GridWorker {
     }
 
     public void cleanGridCells() {
-        if(fillGridImages == null) {
-            return;
-        }
-        for(ImageCell[] cellArr : fillGridImages) {
-            for (ImageCell cell : cellArr) {
-                mainVisualField.getChildren().remove(cell);
-            }
-        }
+//        if(fillGridImages == null) {
+//            return;
+//        } else {
+//            for(ImageCell[] cellArr : fillGridImages) {
+//                for (ImageCell cell : cellArr) {
+//                    if(cell != null) {
+//                        mainVisualField.getChildren().remove(cell);
+//                    }
+//                }
+//            }
+//        }
+        mainVisualField.getChildren().retainAll(mainVisualField.getChildren().get(0));
         if(playerImg != null) {
             mainVisualField.getChildren().remove(playerImg);
+        }
+        if(lastImage != null) {
+            mainVisualField.getChildren().remove(lastImage);
+            lastImage = null;
         }
     }
 }
