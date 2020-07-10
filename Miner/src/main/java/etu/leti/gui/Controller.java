@@ -34,7 +34,6 @@ public class Controller implements Initializable {
     private MapParser mapParser;
     private FieldVisualizer fieldVisualizer;
     private Mode currentMode = Mode.NO_MODE;
-    private Cell[] cellField;
 
     // For save/load file
     private Alert alert;
@@ -101,9 +100,10 @@ public class Controller implements Initializable {
         File file = fileChooser.showOpenDialog(mainStage.getScene().getWindow());
 
         mapParser.setJsonFile(file);
+        Cell[] cellFieldFromFile;
 
         try {
-            cellField = mapParser.parseCellArr();
+            cellFieldFromFile = mapParser.parseCellArr();
         } catch (FileNotFoundException exc) {
             alert.setContentText("No valid file with map was choosen!");
             alert.showAndWait();
@@ -114,8 +114,10 @@ public class Controller implements Initializable {
             return;
         }
 
+        fieldVisualizer.setWorkingMap(cellFieldFromFile);
+
         try {
-            fieldVisualizer.fillGridByCell(cellField);
+            fieldVisualizer.fillGridByCell();
         } catch (JsonParseException exc) {
             alert.setContentText(exc.getMessage());
             alert.showAndWait();
@@ -127,16 +129,15 @@ public class Controller implements Initializable {
         File file = fileChooser.showOpenDialog(mainStage.getScene().getWindow());
 
         mapParser.setJsonFile(file);
-        mapParser.writeCellArray(cellField);
+        mapParser.writeCellArray(fieldVisualizer.getWorkingMapAsArray());
     }
 
     public void resetField(ActionEvent event) {
         fieldVisualizer.resetField();
-        cellField = null;
     }
 
     public void generateMap(ActionEvent event) {
-        cellField = fieldVisualizer.createNewMap();
+        fieldVisualizer.createNewMap();
     }
 
     public void getAlgInformation(ActionEvent event) {
