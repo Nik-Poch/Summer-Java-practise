@@ -21,8 +21,20 @@ public class FieldVisualizer {
     private final MapGenerator mapGenerator;
 
     private Cell[][] workingMap;
+    private Cell[] shortestWay;
+    private int shortestWayCurrPos;
     private int fieldWidth;
     private int fieldHeight;
+
+    public FieldVisualizer(GridPane mainVisualField, ClassLoader classLoader, int fieldWidth, int fieldHeight) {
+        gridWorker = new GridWorker(mainVisualField, classLoader);
+        mapGenerator = new MapGenerator(fieldWidth, fieldHeight);
+        this.fieldWidth = fieldWidth;
+        this.fieldHeight = fieldHeight;
+        workingMap = null;
+        shortestWay = null;
+        shortestWayCurrPos = 0;
+    }
 
     public Cell[][] getWorkingMap() {
         return workingMap;
@@ -34,14 +46,6 @@ public class FieldVisualizer {
 
     public void setWorkingMap(Cell[] workingMap) {
         this.workingMap = convert1DArrayTo2D(workingMap, fieldWidth, fieldHeight);
-    }
-
-    public FieldVisualizer(GridPane mainVisualField, ClassLoader classLoader, int fieldWidth, int fieldHeight) {
-        gridWorker = new GridWorker(mainVisualField, classLoader);
-        mapGenerator = new MapGenerator(fieldWidth, fieldHeight);
-        this.fieldWidth = fieldWidth;
-        this.fieldHeight = fieldHeight;
-        workingMap = null;
     }
 
     public void fillGridByCell() {
@@ -72,8 +76,31 @@ public class FieldVisualizer {
         Cell[][] convertedArray = convertArrayForAlgorithm(convertCoordsOf2DArray(workingMap));
         Graph graph = new Graph(new Field(convertedArray, fieldHeight, fieldWidth));
         ArrayList<Cell> result = graph.getCellsOfShortestWay();
-        Cell[] resultArr = result.toArray(new Cell[0]);
-        gridWorker.visualizeShortestWay(convertCoordsOf1DArray(resultArr));
+        shortestWay = result.toArray(new Cell[0]);
+        gridWorker.visualizeShortestWay(convertCoordsOf1DArray(shortestWay));
+        shortestWay = null;
+    }
+
+    public void stepByStepWay() {
+        Cell[][] convertedArray = convertArrayForAlgorithm(convertCoordsOf2DArray(workingMap));
+        Graph graph = new Graph(new Field(convertedArray, fieldHeight, fieldWidth));
+        ArrayList<Cell> result = graph.getCellsOfShortestWay();
+        shortestWay = result.toArray(new Cell[0]);
+        shortestWay = convertCoordsOf1DArray(shortestWay);
+        // begin - top and left; end - bottom and right
+        Arrays.sort(shortestWay);
+        shortestWayCurrPos = shortestWay.length - 1;
+    }
+
+    public boolean makeOneStep() {
+        if(shortestWayCurrPos == 0) {
+            return true;
+        }
+
+        gridWorker.showOneStep(shortestWay, shortestWayCurrPos);
+        shortestWayCurrPos--;
+
+        return false;
     }
 
     /**

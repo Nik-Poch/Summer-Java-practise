@@ -16,10 +16,12 @@ public class GridWorker {
     private ImageCell[][] fillGridImages;
     private ImageCell playerImg;
     private final ClassLoader classLoader;
+    private ImageCell lastImage;
 
     public GridWorker(GridPane mainVisualField, ClassLoader classLoader) {
         this.mainVisualField = mainVisualField;
         this.classLoader = classLoader;
+        lastImage = null;
     }
 
     /**
@@ -86,6 +88,38 @@ public class GridWorker {
 
         cleanGridCells();
         throw new JsonParseException("Incorrect data for " + i + " element in Cell array from file");
+    }
+
+    public void showOneStep(Cell @NotNull [] shortestWay, int shortestWayCurrPos) {
+        int x = shortestWay[shortestWayCurrPos].getPosX();
+        int y = shortestWay[shortestWayCurrPos].getPosY();
+        if(lastImage != null) {
+            fillGridImages[shortestWay[shortestWayCurrPos + 1].getPosX()][shortestWay[shortestWayCurrPos + 1].getPosY()] = lastImage;
+        }
+
+        lastImage = fillGridImages[x][y];
+        mainVisualField.getChildren().remove(fillGridImages[x][y]);
+
+        switch (shortestWay[shortestWayCurrPos].getOreInCellType()) {
+            case GROUND:
+                fillGridImages[x][y] = new ImageCell(new Image(Objects.requireNonNull(classLoader.getResourceAsStream("move/ground.png"))));
+                break;
+            case GOLD_ORE:
+                fillGridImages[x][y] = new ImageCell(new Image(Objects.requireNonNull(classLoader.getResourceAsStream("move/gold.png"))));
+                break;
+            case IRON_ORE:
+                fillGridImages[x][y] = new ImageCell(new Image(Objects.requireNonNull(classLoader.getResourceAsStream("move/iron.png"))));
+                break;
+            case STONE_ORE:
+                fillGridImages[x][y] = new ImageCell(new Image(Objects.requireNonNull(classLoader.getResourceAsStream("move/stone.png"))));
+                break;
+            case HELL:
+                fillGridImages[x][y] = new ImageCell(new Image(Objects.requireNonNull(classLoader.getResourceAsStream("move/hell.png"))));
+                break;
+            case AIR:
+                fillGridImages[x][y] = new ImageCell(new Image(Objects.requireNonNull(classLoader.getResourceAsStream("move/air.png"))));
+        }
+        mainVisualField.add(fillGridImages[x][y], x, y);
     }
 
     public void visualizeShortestWay(Cell @NotNull [] shortWayCells) {
