@@ -1,4 +1,4 @@
-package etu.leti.generatorTest;
+package generatorTest;
 
 import etu.leti.field.Cell;
 import etu.leti.ore.Ore;
