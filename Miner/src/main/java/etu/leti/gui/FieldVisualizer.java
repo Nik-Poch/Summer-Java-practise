@@ -18,7 +18,6 @@ import java.util.List;
 public class FieldVisualizer {
 
     private final GridWorker gridWorker;
-    private final ClassLoader classLoader;
     private final MapGenerator mapGenerator;
 
     private Cell[][] workingMap;
@@ -40,7 +39,6 @@ public class FieldVisualizer {
     public FieldVisualizer(GridPane mainVisualField, ClassLoader classLoader, int fieldWidth, int fieldHeight) {
         gridWorker = new GridWorker(mainVisualField, classLoader);
         mapGenerator = new MapGenerator(fieldWidth, fieldHeight);
-        this.classLoader = classLoader;
         this.fieldWidth = fieldWidth;
         this.fieldHeight = fieldHeight;
         workingMap = null;
