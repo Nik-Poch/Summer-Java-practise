@@ -24,6 +24,7 @@ import javafx.stage.Stage;
 import org.jetbrains.annotations.NotNull;
 
 import etu.leti.parser.MapParser;
+import org.w3c.dom.Text;
 
 public class Controller implements Initializable {
 
@@ -50,6 +51,8 @@ public class Controller implements Initializable {
     private ChoiceBox<String> modeChooseBox;
     @FXML
     private TextArea logTextField;
+    @FXML
+    private TextArea algAboutTextArea;
 
     // MENU BAR ITEMS
 
