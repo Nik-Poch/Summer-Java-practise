@@ -19,7 +19,7 @@ import java.util.List;
 public class AlgorithmTest {
     private static final int fieldWidth = 20;
     private static final int fieldHeight = 21;
-    private static final Graph[] graph = new Graph[3];
+    private Graph[] graph;
     private Cell[] cellMap;
     private Cell[][] convertedArray;
     private MapParser mapParser;
@@ -30,6 +30,7 @@ public class AlgorithmTest {
 
     @Before
     public void setUp() throws IOException {
+        graph = new Graph[3];
         allPaths = new ArrayList<>();
         allPaths.add(path1);
         allPaths.add(path2);
