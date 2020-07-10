@@ -87,17 +87,17 @@
                 <font>
                     <Font size="16.0"/>
                 </font>
-         </Button>
+            </Button>
             <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Run mode">
                 <font>
                     <Font size="16.0"/>
                 </font>
             </Text>
-            <ChoiceBox fx:id="modeChooseBox" prefWidth="150.0">
+            <ChoiceBox fx:id="modeChoiceBox" prefWidth="150.0" onAction="#modeChanged">
                 <VBox.margin>
                     <Insets bottom="60.0"/>
                 </VBox.margin>
-         </ChoiceBox>
+            </ChoiceBox>
             <Button fx:id="stepButton" mnemonicParsing="false" onAction="#madeOneStep" prefHeight="26.0"
                     prefWidth="125.0" text="Step">
                 <VBox.margin>
@@ -106,7 +106,7 @@
                 <font>
                     <Font size="16.0"/>
                 </font>
-         </Button>
+            </Button>
             <TextArea fx:id="logTextField" editable="false" prefHeight="320.0" prefWidth="308.0" promptText="Log window"
                       stylesheets="@textarea.css">
                 <VBox.margin>
