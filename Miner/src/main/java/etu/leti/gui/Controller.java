@@ -87,12 +87,16 @@ public class Controller implements Initializable {
         } else if(currentMode == Mode.JUST_RESULT) {
             fieldVisualizer.showResultWay();
         } else {
-
+            fieldVisualizer.stepByStepWay();
         }
+
+        runButton.setDisable(true);
     }
 
     public void madeOneStep(ActionEvent event) {
-
+        if(fieldVisualizer.makeOneStep()) {
+            runButton.setDisable(false);
+        }
     }
 
     public void loadFile(@NotNull ActionEvent event) throws IOException {
@@ -146,6 +150,7 @@ public class Controller implements Initializable {
     }
 
     public void generateMap(ActionEvent event) {
+        fieldVisualizer.resetField();
         fieldVisualizer.createNewMap();
     }
 
