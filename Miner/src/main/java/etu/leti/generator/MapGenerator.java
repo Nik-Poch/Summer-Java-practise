@@ -81,7 +81,7 @@ public class MapGenerator
     private void dirtAndAirFiller(int x, int y) {
         for (int i = 0; i < 1; ++i) {
             for (int j = 0; j < x; ++j){
-                field[j][i] = new Cell(j, i, new Ore(picture.get(11), ore.get(11)));//Заполняем землей все пустые клетки
+                field[j][i] = new Cell(j, i, new Ore(picture.get(11), ore.get(11)));//Заполняем воздухом все пустые клетки
             }
         }
         for (int i = 1; i < y; ++i) {
@@ -146,8 +146,6 @@ public class MapGenerator
                                     veinY += randY;
                                     field[veinX][veinY] = new Cell(veinX, veinY, new Ore(picture.get(randOre), ore.get(randOre)));//Ставим блок
                                 }
-                                //else
-                                    //k--;
                             }
                         }
                     } else {
