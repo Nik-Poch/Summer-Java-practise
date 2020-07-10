@@ -11,6 +11,7 @@ import etu.leti.field.Cell;
 import etu.leti.gui.gridhandler.GridWorker;
 
 import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.Collections;
 import java.util.List;
 
@@ -33,7 +34,7 @@ public class FieldVisualizer {
     }
 
     public void setWorkingMap(Cell[] workingMap) {
-        this.workingMap = convertArray(workingMap, fieldWidth, fieldHeight);
+        this.workingMap = convert1DArrayTo2D(workingMap, fieldWidth, fieldHeight);
     }
 
     public FieldVisualizer(GridPane mainVisualField, ClassLoader classLoader, int fieldWidth, int fieldHeight) {
@@ -66,19 +67,30 @@ public class FieldVisualizer {
     }
 
     public Cell[] getWorkingMapAsArray() {
-        return convertArray(workingMap);
+        return convert2DArrayTo1D(workingMap);
     }
 
     public void showResultWay() {
-        Cell[][] convertedArray = convertArrayForAlgorithm(convertCoordsOfArray(workingMap));
+        Cell[][] convertedArray = convertArrayForAlgorithm(convertCoordsOf2DArray(workingMap));
         Graph graph = new Graph(new Field(convertedArray, fieldHeight, fieldWidth));
         ArrayList<Cell> result = graph.getCellsOfShortestWay();
         Cell[] resultArr = result.toArray(new Cell[0]);
-        gridWorker.visualizeShortestWay(convertCoordsOfArray(resultArr));
+        gridWorker.visualizeShortestWay(convertCoordsOf1DArray(resultArr));
     }
 
-    private Cell[][] convertCoordsOfArray(Cell[] @NotNull [] cells) {
-        Cell[][] resultCells = cells.clone();
+    /**
+     * @param cells
+     * TWO dimensions array of Cell
+     * @return
+     * NEW TWO dimensions array of Cell with REVERSED X and Y coords
+     */
+    public static Cell[] @NotNull [] convertCoordsOf2DArray(Cell[] @NotNull [] cells) {
+        Cell[][] resultCells = new Cell[cells.length][];
+        for(int i = 0; i < cells.length; ++i) {
+            resultCells[i] = Arrays.stream(cells[i]).
+                    map(cell -> cell == null ? null : new Cell(cell)).toArray(Cell[]::new);
+        }
+
         for(Cell[] cellArr : resultCells) {
             for(Cell cell : cellArr) {
                 cell.swapCoords();
@@ -88,8 +100,13 @@ public class FieldVisualizer {
         return resultCells;
     }
 
-    @Contract(pure = true)
-    private Cell[] @NotNull [] convertArrayForAlgorithm(Cell[] @NotNull [] cells) {
+    /**
+     * @param cells
+     * TWO dimensions array of Cell
+     * @return
+     * NEW TWO dimensions array of Cell with REVERSED X and Y coords AND rotated map
+     */
+    public static Cell[] @NotNull [] convertArrayForAlgorithm(Cell[] @NotNull [] cells) {
         Cell[][] resultCells = new Cell[cells[0].length][cells.length];
         for(Cell[] cellArr : cells) {
             for(Cell cell : cellArr) {
@@ -100,8 +117,15 @@ public class FieldVisualizer {
         return resultCells;
     }
 
-    private Cell[] convertCoordsOfArray(Cell @NotNull [] cells) {
-        Cell[] resultCells = cells.clone();
+    /**
+     * @param cells
+     * ONE dimensions array of Cell
+     * @return
+     * NEW ONE dimensions array of Cell with REVERSED X and Y coords
+     */
+    public static Cell[] convertCoordsOf1DArray(Cell @NotNull [] cells) {
+        Cell[] resultCells = Arrays.stream(cells).
+                            map(cell -> cell == null ? null : new Cell(cell)).toArray(Cell[]::new);
         for(Cell cell : resultCells) {
             cell.swapCoords();
         }
@@ -109,7 +133,13 @@ public class FieldVisualizer {
         return resultCells;
     }
 
-    private Cell @NotNull [] convertArray(Cell[] @NotNull [] arr) {
+    /**
+     * @param arr
+     * TWO dimensions array of Cell
+     * @return
+     * ONE dimension array of Cell
+     */
+    public static Cell @NotNull [] convert2DArrayTo1D(Cell[] @NotNull [] arr) {
         List<Cell> list = new ArrayList<>();
         for (Cell[] cells : arr) {
             Collections.addAll(list, cells);
@@ -124,17 +154,12 @@ public class FieldVisualizer {
     }
 
     /**
-     * Convert 1D array to the 2D array
      * @param arr
-     * 1D array of Cells
-     * @param height
-     * 1st par of result array
-     * @param width
-     * 2nd par of result array
+     * ONE dimension array of Cell
      * @return
-     * 2D Array without empty cells
+     * TWO dimensions array of Cell
      */
-    private Cell @NotNull [] @NotNull [] convertArray(Cell @NotNull [] arr, int width, int height) {
+    public static Cell @NotNull [] @NotNull [] convert1DArrayTo2D(Cell @NotNull [] arr, int width, int height) {
         Cell[][] result = new Cell[width][height];
         int checkCount = 0;
         for(Cell cell : arr) {

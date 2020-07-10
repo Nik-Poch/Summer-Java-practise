@@ -97,6 +97,7 @@ public class Controller implements Initializable {
 
     public void loadFile(@NotNull ActionEvent event) throws IOException {
         final FileChooser fileChooser = new FileChooser();
+        fileChooser.getExtensionFilters().addAll((new FileChooser.ExtensionFilter("JSON", "*.json")));
         File file = fileChooser.showOpenDialog(mainStage.getScene().getWindow());
 
         mapParser.setJsonFile(file);
@@ -118,7 +119,7 @@ public class Controller implements Initializable {
 
         try {
             fieldVisualizer.fillGridByCell();
-        } catch (JsonParseException exc) {
+        } catch (JsonParseException | ArrayIndexOutOfBoundsException exc) {
             alert.setContentText(exc.getMessage());
             alert.showAndWait();
         }
@@ -126,9 +127,17 @@ public class Controller implements Initializable {
 
     public void saveFile(ActionEvent event) throws IOException {
         final FileChooser fileChooser = new FileChooser();
-        File file = fileChooser.showOpenDialog(mainStage.getScene().getWindow());
+        fileChooser.getExtensionFilters().addAll((new FileChooser.ExtensionFilter("JSON", "*.json")));
+        File file = fileChooser.showSaveDialog(mainStage.getScene().getWindow());
 
         mapParser.setJsonFile(file);
+
+        if(file == null) {
+            alert.setContentText("No valid file was choosen");
+            alert.showAndWait();
+            return;
+        }
+
         mapParser.writeCellArray(fieldVisualizer.getWorkingMapAsArray());
     }
 
