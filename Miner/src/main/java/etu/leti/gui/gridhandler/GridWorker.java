@@ -70,7 +70,7 @@ public class GridWorker {
                     case HELL:
                         fillGridImages[x][y] = new ImageCell(new Image(Objects.requireNonNull(classLoader.getResourceAsStream("hell.jpeg"))));
                         break;
-                    default:
+                    case AIR:
                         fillGridImages[x][y] = new ImageCell(new Image(Objects.requireNonNull(classLoader.getResourceAsStream("air.png"))));
                 }
                 mainVisualField.add(fillGridImages[x][y], x, y);
@@ -94,6 +94,9 @@ public class GridWorker {
         for(Cell cell : shortWayCells) {
             x = cell.getPosX();
             y = cell.getPosY();
+            if (x == 0 & y == 0) {
+                continue;
+            }
             mainVisualField.getChildren().remove(fillGridImages[x][y]);
 
             switch (cell.getOreInCellType()) {

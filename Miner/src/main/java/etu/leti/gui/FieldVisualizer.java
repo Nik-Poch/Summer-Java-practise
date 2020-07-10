@@ -4,6 +4,7 @@ import etu.leti.algorithm.Graph;
 import etu.leti.field.Field;
 import etu.leti.generator.MapGenerator;
 import javafx.scene.layout.GridPane;
+import org.jetbrains.annotations.Contract;
 import org.jetbrains.annotations.NotNull;
 
 import etu.leti.field.Cell;
@@ -69,10 +70,11 @@ public class FieldVisualizer {
     }
 
     public void showResultWay() {
-        Cell[][] convertedArray = convertCoordsOfArray(workingMap);
+        Cell[][] convertedArray = convertArrayForAlgorithm(convertCoordsOfArray(workingMap));
         Graph graph = new Graph(new Field(convertedArray, fieldHeight, fieldWidth));
         ArrayList<Cell> result = graph.getCellsOfShortestWay();
-        gridWorker.visualizeShortestWay(convertCoordsOfArray((Cell[]) result.toArray()));
+        Cell[] resultArr = result.toArray(new Cell[0]);
+        gridWorker.visualizeShortestWay(convertCoordsOfArray(resultArr));
     }
 
     private Cell[][] convertCoordsOfArray(Cell[] @NotNull [] cells) {
@@ -80,6 +82,18 @@ public class FieldVisualizer {
         for(Cell[] cellArr : resultCells) {
             for(Cell cell : cellArr) {
                 cell.swapCoords();
+            }
+        }
+
+        return resultCells;
+    }
+
+    @Contract(pure = true)
+    private Cell[] @NotNull [] convertArrayForAlgorithm(Cell[] @NotNull [] cells) {
+        Cell[][] resultCells = new Cell[cells[0].length][cells.length];
+        for(Cell[] cellArr : cells) {
+            for(Cell cell : cellArr) {
+                resultCells[cell.getPosX()][cell.getPosY()] = cell;
             }
         }
 
