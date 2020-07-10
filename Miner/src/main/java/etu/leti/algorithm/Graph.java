@@ -173,7 +173,7 @@ public class Graph {
                 double distance = vertex.getMinDistance() + weight;
                 if(distance < node.getMinDistance()){
                     for(Node buf : graph.get(node.getVertex())){
-                        if(buf.getVertex() == vertex.getVertex()){
+                        if(buf.getVertex().equals(vertex.getVertex())){
                             buf.setMinDistance(distance);
                             buf.setPrev(vertex);
                             break;

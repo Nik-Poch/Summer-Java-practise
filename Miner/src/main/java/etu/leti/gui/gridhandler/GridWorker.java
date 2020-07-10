@@ -13,11 +13,15 @@ import java.util.Objects;
 public class GridWorker {
 
     private final GridPane mainVisualField;
-    private ImageCell[] fillGridImages;
+    private ImageCell[][] fillGridImages;
     private ImageCell playerImg;
+    private final ClassLoader classLoader;
+    private ImageCell lastImage;
 
-    public GridWorker(GridPane mainVisualField) {
+    public GridWorker(GridPane mainVisualField, @NotNull ClassLoader classLoader) {
         this.mainVisualField = mainVisualField;
+        this.classLoader = classLoader;
+        lastImage = null;
     }
 
     /**
@@ -38,66 +42,154 @@ public class GridWorker {
         return null;
     }
 
-    public void fillGridByCell(Cell @NotNull [] cells, @NotNull ClassLoader classLoader) {
+    public void fillGridByCell(Cell[] @NotNull [] cells) {
 
         playerImg = new ImageCell(new Image(Objects.requireNonNull(classLoader.getResourceAsStream("player.png"))));
-
         int x, y, i = 0;
+        fillGridImages = new ImageCell[cells.length][cells[0].length];
 
-        fillGridImages = new ImageCell[cells.length];
+        for(Cell[] cellArr : cells) {
+            for (Cell cell : cellArr) {
+                if (cell == null) {
+                    break;
+                }
 
-        for(Cell cell : cells) {
+                x = cell.getPosX();
+                y = cell.getPosY();
+                switch (cell.getOreInCellType()) {
+                    case GROUND:
+                        fillGridImages[x][y] = new ImageCell(new Image(Objects.requireNonNull(classLoader.getResourceAsStream("ground.jpg"))));
+                        break;
+                    case GOLD_ORE:
+                        fillGridImages[x][y] = new ImageCell(new Image(Objects.requireNonNull(classLoader.getResourceAsStream("gold.jpg"))));
+                        break;
+                    case IRON_ORE:
+                        fillGridImages[x][y] = new ImageCell(new Image(Objects.requireNonNull(classLoader.getResourceAsStream("iron.jpg"))));
+                        break;
+                    case STONE_ORE:
+                        fillGridImages[x][y] = new ImageCell(new Image(Objects.requireNonNull(classLoader.getResourceAsStream("stone.jpg"))));
+                        break;
+                    case HELL:
+                        fillGridImages[x][y] = new ImageCell(new Image(Objects.requireNonNull(classLoader.getResourceAsStream("hell.jpeg"))));
+                        break;
+                    case AIR:
+                        fillGridImages[x][y] = new ImageCell(new Image(Objects.requireNonNull(classLoader.getResourceAsStream("air.png"))));
+                }
+                mainVisualField.add(fillGridImages[x][y], x, y);
 
-            if(cell == null) {
-                break;
+                ++i;
             }
-
-            x = cell.getPosX();
-            y = cell.getPosY();
-            switch(cell.getOreInCellType()) {
-                case GROUND:
-                    fillGridImages[i] = new ImageCell(new Image(Objects.requireNonNull(classLoader.getResourceAsStream("ground.jpg"))));
-                    break;
-                case GOLD_ORE:
-                    fillGridImages[i] = new ImageCell(new Image(Objects.requireNonNull(classLoader.getResourceAsStream("gold.jpg"))));
-                    break;
-                case IRON_ORE:
-                    fillGridImages[i] = new ImageCell(new Image(Objects.requireNonNull(classLoader.getResourceAsStream("iron.jpg"))));
-                    break;
-                case STONE_ORE:
-                    fillGridImages[i] = new ImageCell(new Image(Objects.requireNonNull(classLoader.getResourceAsStream("stone.jpg"))));
-                    break;
-                case HELL:
-                    fillGridImages[i] = new ImageCell(new Image(Objects.requireNonNull(classLoader.getResourceAsStream("hell.jpeg"))));
-                    break;
-                default:
-                    fillGridImages[i] = new ImageCell(new Image(Objects.requireNonNull(classLoader.getResourceAsStream("air.png"))));
-            }
-            mainVisualField.add(fillGridImages[i], x, y);
-
-            ++i;
         }
 
-        if(i == cells.length) {
+        if(i == cells.length * cells[0].length) {
             mainVisualField.add(playerImg, 0, 0);
             return;
         }
 
-        for(int j = 0; j < i; j++) {
-            mainVisualField.getChildren().remove(fillGridImages[j]);
-        }
+        cleanGridCells();
         throw new JsonParseException("Incorrect data for " + i + " element in Cell array from file");
     }
 
-    public void cleanGridCells() {
-        if(fillGridImages == null) {
+    public void deleteCharacter() {
+        mainVisualField.getChildren().remove(playerImg);
+    }
+
+    public void showOneStep(Cell @NotNull [] shortestWay, int shortestWayCurrPos) {
+        if(shortestWayCurrPos == shortestWay.length - 1) {
             return;
         }
-        for (ImageCell fillGridImage : fillGridImages) {
-            mainVisualField.getChildren().remove(fillGridImage);
-        }
+
         if(playerImg != null) {
             mainVisualField.getChildren().remove(playerImg);
+            playerImg = null;
+        }
+
+        int x = shortestWay[shortestWayCurrPos].getPosX();
+        int y = shortestWay[shortestWayCurrPos].getPosY();
+        int extraX, extraY;
+
+        if(lastImage != null) {
+            extraX = shortestWay[shortestWayCurrPos + 1].getPosX();
+            extraY = shortestWay[shortestWayCurrPos + 1].getPosY();
+            fillGridImages[extraX][extraY] = lastImage;
+            mainVisualField.add(fillGridImages[extraX][extraY], extraX, extraY);
+        }
+
+        lastImage = fillGridImages[x][y];
+        mainVisualField.getChildren().remove(fillGridImages[x][y]);
+
+        switch (shortestWay[shortestWayCurrPos].getOreInCellType()) {
+            case GROUND:
+                fillGridImages[x][y] = new ImageCell(new Image(Objects.requireNonNull(classLoader.getResourceAsStream("move/ground.png"))));
+                break;
+            case GOLD_ORE:
+                fillGridImages[x][y] = new ImageCell(new Image(Objects.requireNonNull(classLoader.getResourceAsStream("move/gold.png"))));
+                break;
+            case IRON_ORE:
+                fillGridImages[x][y] = new ImageCell(new Image(Objects.requireNonNull(classLoader.getResourceAsStream("move/iron.png"))));
+                break;
+            case STONE_ORE:
+                fillGridImages[x][y] = new ImageCell(new Image(Objects.requireNonNull(classLoader.getResourceAsStream("move/stone.png"))));
+                break;
+            case HELL:
+                fillGridImages[x][y] = new ImageCell(new Image(Objects.requireNonNull(classLoader.getResourceAsStream("move/hell.png"))));
+                break;
+            case AIR:
+                fillGridImages[x][y] = new ImageCell(new Image(Objects.requireNonNull(classLoader.getResourceAsStream("move/air.png"))));
+        }
+        mainVisualField.add(fillGridImages[x][y], x, y);
+    }
+
+    public void visualizeShortestWay(Cell @NotNull [] shortWayCells) {
+        int x, y;
+
+        for(Cell cell : shortWayCells) {
+            x = cell.getPosX();
+            y = cell.getPosY();
+            if (x == 0 & y == 0) {
+                continue;
+            }
+            mainVisualField.getChildren().remove(fillGridImages[x][y]);
+
+            switch (cell.getOreInCellType()) {
+                case GROUND:
+                    fillGridImages[x][y] = new ImageCell(new Image(Objects.requireNonNull(classLoader.getResourceAsStream("choose/ground.png"))));
+                    break;
+                case GOLD_ORE:
+                    fillGridImages[x][y] = new ImageCell(new Image(Objects.requireNonNull(classLoader.getResourceAsStream("choose/gold.png"))));
+                    break;
+                case IRON_ORE:
+                    fillGridImages[x][y] = new ImageCell(new Image(Objects.requireNonNull(classLoader.getResourceAsStream("choose/iron.png"))));
+                    break;
+                case STONE_ORE:
+                    fillGridImages[x][y] = new ImageCell(new Image(Objects.requireNonNull(classLoader.getResourceAsStream("choose/stone.png"))));
+                    break;
+                case AIR:
+                    fillGridImages[x][y] = new ImageCell(new Image(Objects.requireNonNull(classLoader.getResourceAsStream("choose/air.png"))));
+            }
+            mainVisualField.add(fillGridImages[x][y], x, y);
+        }
+    }
+
+    public void cleanGridCells() {
+//        if(fillGridImages == null) {
+//            return;
+//        } else {
+//            for(ImageCell[] cellArr : fillGridImages) {
+//                for (ImageCell cell : cellArr) {
+//                    if(cell != null) {
+//                        mainVisualField.getChildren().remove(cell);
+//                    }
+//                }
+//            }
+//        }
+        mainVisualField.getChildren().retainAll(mainVisualField.getChildren().get(0));
+        if(playerImg != null) {
+            mainVisualField.getChildren().remove(playerImg);
+        }
+        if(lastImage != null) {
+            mainVisualField.getChildren().remove(lastImage);
+            lastImage = null;
         }
     }
 }
