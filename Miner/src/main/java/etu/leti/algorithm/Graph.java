@@ -172,20 +172,12 @@ public class Graph {
                 double weight = node.getWeight();
                 double distance = vertex.getMinDistance() + weight;
                 if(distance < node.getMinDistance()){
-                    Integer nodeVert = null;
-                    Integer vertexVert = null;
-                    int graphSize = 0;
-                    int arrayListOfNode = 0;
-
-                    try {
-                        nodeVert = node.getVertex();
-                        vertexVert = vertex.getVertex();
-                        graphSize = graph.size();
-                        arrayListOfNode = graph.get(nodeVert).size();
-                        graph.get(nodeVert).get(vertexVert).setMinDistance(distance);
-                        graph.get(nodeVert).get(vertexVert).setPrev(vertex);
-                    } catch(IndexOutOfBoundsException exc) {
-                        System.out.println("nodeVert: " + nodeVert + "; vertexVert: " + vertexVert + "; graphSize: " + graphSize + "; arrayListOfNode: " + arrayListOfNode);
+                    for(Node buf : graph.get(node.getVertex())){
+                        if(buf.getVertex().equals(vertex.getVertex())){
+                            buf.setMinDistance(distance);
+                            buf.setPrev(vertex);
+                            break;
+                        }
                     }
                     node.setMinDistance(distance);
                     node.setPrev(vertex);
