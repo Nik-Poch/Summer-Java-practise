@@ -13,14 +13,20 @@ import javafx.collections.ObservableList;
 import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
 import javafx.fxml.Initializable;
+import javafx.scene.Scene;
 import javafx.scene.control.*;
 import javafx.scene.layout.GridPane;
+import javafx.scene.layout.StackPane;
 import javafx.scene.layout.VBox;
 import javafx.stage.FileChooser;
+
+import javafx.stage.Modality;
+import javafx.stage.Stage;
 
 import org.jetbrains.annotations.NotNull;
 
 import etu.leti.parser.MapParser;
+import org.w3c.dom.Text;
 
 public class Controller implements Initializable {
 
@@ -33,6 +39,9 @@ public class Controller implements Initializable {
 
     private MapParser mapParser;
     private FieldVisualizer fieldVisualizer;
+  
+    Stage primaryStage;
+
     private Mode currentMode = Mode.NO_MODE;
 
     // For save/load file
@@ -50,6 +59,8 @@ public class Controller implements Initializable {
     private ChoiceBox<String> modeChoiceBox;
     @FXML
     private TextArea logTextField;
+    @FXML
+    private TextArea algAboutTextArea;
 
     // MENU BAR ITEMS
     @FXML
@@ -153,12 +164,16 @@ public class Controller implements Initializable {
         fieldVisualizer.createNewMap();
     }
 
-    public void getAlgInformation(ActionEvent event) {
-
+    public void getAlgInformation(ActionEvent event) throws IOException {
+        ExtraWindowShower.showProgInfoWindow(primaryStage, getClass().getClassLoader());
     }
 
     public void getAuthorInformation(ActionEvent event) {
+        ExtraWindowShower.showAboutWindow(primaryStage);
+    }
 
+    public void setStage(Stage primaryStage){
+        this.primaryStage = primaryStage;
     }
 
     private void loadDataForChoiceBox() {

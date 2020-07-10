@@ -27,7 +27,11 @@ public class Main extends Application {
 
         URL scene = getClass().getClassLoader().getResource("miner.fxml");
         assert scene != null;
-        Parent root = FXMLLoader.load(scene);
+
+        FXMLLoader fxmlLoader = new FXMLLoader(scene);
+        Parent root = (Parent) fxmlLoader.load();
+        ((Controller) fxmlLoader.getController()).setStage(primaryStage);
+
         primaryStage.setTitle("Miner");
         primaryStage.setScene(new Scene(root));
 
