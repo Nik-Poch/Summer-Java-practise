@@ -3,6 +3,7 @@ package etu.leti.field;
 import com.google.gson.annotations.Expose;
 import etu.leti.ore.Ore;
 import etu.leti.ore.OreTypes;
+import org.jetbrains.annotations.NotNull;
 
 public class Cell {
     @Expose
@@ -15,6 +16,13 @@ public class Cell {
     private Ore ore;
 
     public Cell() { }
+
+    public Cell(@NotNull Cell cell) {
+        this.posX = cell.posX;
+        this.posY = cell.posY;
+        this.checked = cell.checked;
+        this.ore = cell.ore;
+    }
 
     public Cell(int posX, int posY, Ore ore) {
         this.posX = posX;
