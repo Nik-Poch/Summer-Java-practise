@@ -61,4 +61,10 @@ public class Cell {
     public void setOreImg(String fileName) {
         ore.setPath(fileName);
     }
+
+    public void swapCoords() {
+        int temp = posX;
+        posX = posY;
+        posY = temp;
+    }
 }

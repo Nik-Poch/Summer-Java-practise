@@ -85,7 +85,7 @@ public class Controller implements Initializable {
 
             alert.showAndWait();
         } else if(currentMode == Mode.JUST_RESULT) {
-
+            fieldVisualizer.showResultWay();
         } else {
 
         }

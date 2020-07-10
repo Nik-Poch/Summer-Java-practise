@@ -1,5 +1,7 @@
 package etu.leti.gui;
 
+import etu.leti.algorithm.Graph;
+import etu.leti.field.Field;
 import etu.leti.generator.MapGenerator;
 import javafx.scene.layout.GridPane;
 import org.jetbrains.annotations.NotNull;
@@ -17,6 +19,10 @@ public class FieldVisualizer {
     private final ClassLoader classLoader;
     private final MapGenerator mapGenerator;
 
+    private Cell[][] workingMap;
+    private int fieldWidth;
+    private int fieldHeight;
+
     public Cell[][] getWorkingMap() {
         return workingMap;
     }
@@ -26,15 +32,11 @@ public class FieldVisualizer {
     }
 
     public void setWorkingMap(Cell[] workingMap) {
-        this.workingMap = convertArray(workingMap, fieldHeight, fieldWidth);
+        this.workingMap = convertArray(workingMap, fieldWidth, fieldHeight);
     }
 
-    private Cell[][] workingMap;
-    private int fieldWidth;
-    private int fieldHeight;
-
     public FieldVisualizer(GridPane mainVisualField, ClassLoader classLoader, int fieldWidth, int fieldHeight) {
-        gridWorker = new GridWorker(mainVisualField);
+        gridWorker = new GridWorker(mainVisualField, classLoader);
         mapGenerator = new MapGenerator(fieldWidth, fieldHeight);
         this.classLoader = classLoader;
         this.fieldWidth = fieldWidth;
@@ -43,7 +45,7 @@ public class FieldVisualizer {
     }
 
     public void fillGridByCell() {
-        gridWorker.fillGridByCell(convertArray(workingMap), classLoader);
+        gridWorker.fillGridByCell(workingMap);
     }
 
     public void resetField() {
@@ -66,6 +68,33 @@ public class FieldVisualizer {
         return convertArray(workingMap);
     }
 
+    public void showResultWay() {
+        Cell[][] convertedArray = convertCoordsOfArray(workingMap);
+        Graph graph = new Graph(new Field(convertedArray, fieldHeight, fieldWidth));
+        ArrayList<Cell> result = graph.getCellsOfShortestWay();
+        gridWorker.visualizeShortestWay(convertCoordsOfArray((Cell[]) result.toArray()));
+    }
+
+    private Cell[][] convertCoordsOfArray(Cell[] @NotNull [] cells) {
+        Cell[][] resultCells = cells.clone();
+        for(Cell[] cellArr : resultCells) {
+            for(Cell cell : cellArr) {
+                cell.swapCoords();
+            }
+        }
+
+        return resultCells;
+    }
+
+    private Cell[] convertCoordsOfArray(Cell @NotNull [] cells) {
+        Cell[] resultCells = cells.clone();
+        for(Cell cell : resultCells) {
+            cell.swapCoords();
+        }
+
+        return resultCells;
+    }
+
     private Cell @NotNull [] convertArray(Cell[] @NotNull [] arr) {
         List<Cell> list = new ArrayList<>();
         for (Cell[] cells : arr) {
@@ -81,7 +110,7 @@ public class FieldVisualizer {
     }
 
     /**
-     * Convert 1D array to the 2D array applicable for find way method
+     * Convert 1D array to the 2D array
      * @param arr
      * 1D array of Cells
      * @param height
@@ -89,13 +118,13 @@ public class FieldVisualizer {
      * @param width
      * 2nd par of result array
      * @return
-     * Applicable array for dejistra algorithm
+     * 2D Array without empty cells
      */
-    private Cell @NotNull [] @NotNull [] convertArray(Cell @NotNull [] arr, int height, int width) {
-        Cell[][] result = new Cell[height][width];
+    private Cell @NotNull [] @NotNull [] convertArray(Cell @NotNull [] arr, int width, int height) {
+        Cell[][] result = new Cell[width][height];
         int checkCount = 0;
         for(Cell cell : arr) {
-            result[cell.getPosY()][cell.getPosX()] = cell;
+            result[cell.getPosX()][cell.getPosY()] = cell;
             checkCount++;
         }
         if(checkCount != height * width) {
