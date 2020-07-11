@@ -11,8 +11,7 @@ public class Node implements Comparable<Node>{
     private double minDistance;
     private Node prev;
 
-    public Node() {
-    }
+    public Node() {}
 
     public Node(Integer vertex, Cell from){
         this.vertex = vertex;

@@ -13,20 +13,16 @@ import javafx.collections.ObservableList;
 import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
 import javafx.fxml.Initializable;
-import javafx.scene.Scene;
 import javafx.scene.control.*;
 import javafx.scene.layout.GridPane;
-import javafx.scene.layout.StackPane;
 import javafx.scene.layout.VBox;
 import javafx.stage.FileChooser;
 
-import javafx.stage.Modality;
 import javafx.stage.Stage;
 
 import org.jetbrains.annotations.NotNull;
 
 import etu.leti.parser.MapParser;
-import org.w3c.dom.Text;
 
 public class Controller implements Initializable {
 

@@ -6,12 +6,11 @@ import etu.leti.ore.Ore;
 import etu.leti.ore.OreTypes;
 import java.util.HashMap;
 
-public class MapGenerator
-{
+public class MapGenerator {
     int currX = 0, currY = 0, randX = 0, randY = 0;
     int randOre = 0, randSize = 0, countVeinsInSector = 0, rand = 0;
     int veinX = 0, veinY = 0;
-    int x = 0 , y = 0;
+    int x, y;
 
     Cell[][] field;
     HashMap<Integer, OreTypes> ore;

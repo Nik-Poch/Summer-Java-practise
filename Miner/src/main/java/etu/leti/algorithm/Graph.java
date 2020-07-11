@@ -3,6 +3,7 @@ package etu.leti.algorithm;
 import etu.leti.field.Cell;
 import etu.leti.field.Field;
 import etu.leti.ore.OreTypes;
+import org.jetbrains.annotations.NotNull;
 
 import java.util.ArrayList;
 import java.util.Collections;
@@ -10,16 +11,16 @@ import java.util.HashMap;
 import java.util.PriorityQueue;
 
 public class Graph {
-    private Field field;
+    private final Field field;
     private Integer hell;
     private Cell hellCell;
-    private HashMap<Integer, ArrayList<Cell>> veins;
+    private final HashMap<Integer, ArrayList<Cell>> veins;
     private Integer start;
     private Cell startCell;
-    private HashMap<Integer, ArrayList<Node>> graph;
+    private final HashMap<Integer, ArrayList<Node>> graph;
     private double lengthMinWay;
-    private ArrayList<Node> nodesOfShortestWay;
-    private ArrayList<Cell> cellsOfShortestWay;
+    private final ArrayList<Node> nodesOfShortestWay;
+    private final ArrayList<Cell> cellsOfShortestWay;
 
     public Graph(Field field) {
         this.field = field;
@@ -130,7 +131,7 @@ public class Graph {
      * @param numberVein1 - Integer number of vein, from which the path is sought
      * @param numberVein2 - Integer number of vein, to which the path is sought
      */
-    private void findMinWayBetweenTwoVeins(ArrayList<Cell> vein1, ArrayList<Cell> vein2, Integer numberVein1, Integer numberVein2) {
+    private void findMinWayBetweenTwoVeins(@NotNull ArrayList<Cell> vein1, ArrayList<Cell> vein2, Integer numberVein1, Integer numberVein2) {
         double minWay = Double.MAX_VALUE;
         Cell fromVein1 = new Cell();
         Cell toVein2 = new Cell();
@@ -187,7 +188,7 @@ public class Graph {
         }
     }
 
-    private void setCellsOfGround(Cell from, Cell to){
+    private void setCellsOfGround(@NotNull Cell from, @NotNull Cell to){
         int x;
         int y;
         int dist;

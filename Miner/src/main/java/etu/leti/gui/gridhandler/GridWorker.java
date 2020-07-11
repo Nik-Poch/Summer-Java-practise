@@ -172,17 +172,6 @@ public class GridWorker {
     }
 
     public void cleanGridCells() {
-//        if(fillGridImages == null) {
-//            return;
-//        } else {
-//            for(ImageCell[] cellArr : fillGridImages) {
-//                for (ImageCell cell : cellArr) {
-//                    if(cell != null) {
-//                        mainVisualField.getChildren().remove(cell);
-//                    }
-//                }
-//            }
-//        }
         mainVisualField.getChildren().retainAll(mainVisualField.getChildren().get(0));
         if(playerImg != null) {
             mainVisualField.getChildren().remove(playerImg);
