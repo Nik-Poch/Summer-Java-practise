@@ -87,7 +87,7 @@
     "posX": 0,
     "posY": 12,
     "ore": {
-      "oreType": "GROUND"
+      "oreType": "GOLD_ORE"
     }
   },
   {
@@ -171,14 +171,14 @@
     "posX": 1,
     "posY": 3,
     "ore": {
-      "oreType": "GROUND"
+      "oreType": "IRON_ORE"
     }
   },
   {
     "posX": 1,
     "posY": 4,
     "ore": {
-      "oreType": "GROUND"
+      "oreType": "IRON_ORE"
     }
   },
   {
@@ -234,7 +234,7 @@
     "posX": 1,
     "posY": 12,
     "ore": {
-      "oreType": "GROUND"
+      "oreType": "GOLD_ORE"
     }
   },
   {
@@ -303,162 +303,162 @@
   {
     "posX": 2,
     "posY": 1,
+    "ore": {
+      "oreType": "GROUND"
+    }
+  },
+  {
+    "posX": 2,
+    "posY": 2,
+    "ore": {
+      "oreType": "GROUND"
+    }
+  },
+  {
+    "posX": 2,
+    "posY": 3,
     "ore": {
       "oreType": "IRON_ORE"
     }
   },
   {
     "posX": 2,
-    "posY": 2,
-    "ore": {
-      "oreType": "GROUND"
-    }
-  },
-  {
-    "posX": 2,
-    "posY": 3,
-    "ore": {
-      "oreType": "GROUND"
-    }
-  },
-  {
-    "posX": 2,
     "posY": 4,
-    "ore": {
-      "oreType": "GROUND"
-    }
-  },
-  {
-    "posX": 2,
-    "posY": 5,
-    "ore": {
-      "oreType": "GROUND"
-    }
-  },
-  {
-    "posX": 2,
-    "posY": 6,
-    "ore": {
-      "oreType": "GROUND"
-    }
-  },
-  {
-    "posX": 2,
-    "posY": 7,
-    "ore": {
-      "oreType": "GROUND"
-    }
-  },
-  {
-    "posX": 2,
-    "posY": 8,
-    "ore": {
-      "oreType": "GROUND"
-    }
-  },
-  {
-    "posX": 2,
-    "posY": 9,
-    "ore": {
-      "oreType": "GROUND"
-    }
-  },
-  {
-    "posX": 2,
-    "posY": 10,
-    "ore": {
-      "oreType": "GROUND"
-    }
-  },
-  {
-    "posX": 2,
-    "posY": 11,
-    "ore": {
-      "oreType": "GROUND"
-    }
-  },
-  {
-    "posX": 2,
-    "posY": 12,
-    "ore": {
-      "oreType": "GROUND"
-    }
-  },
-  {
-    "posX": 2,
-    "posY": 13,
-    "ore": {
-      "oreType": "GROUND"
-    }
-  },
-  {
-    "posX": 2,
-    "posY": 14,
-    "ore": {
-      "oreType": "GROUND"
-    }
-  },
-  {
-    "posX": 2,
-    "posY": 15,
-    "ore": {
-      "oreType": "GROUND"
-    }
-  },
-  {
-    "posX": 2,
-    "posY": 16,
-    "ore": {
-      "oreType": "GROUND"
-    }
-  },
-  {
-    "posX": 2,
-    "posY": 17,
-    "ore": {
-      "oreType": "GROUND"
-    }
-  },
-  {
-    "posX": 2,
-    "posY": 18,
-    "ore": {
-      "oreType": "GROUND"
-    }
-  },
-  {
-    "posX": 2,
-    "posY": 19,
-    "ore": {
-      "oreType": "GROUND"
-    }
-  },
-  {
-    "posX": 2,
-    "posY": 20,
-    "ore": {
-      "oreType": "GROUND"
-    }
-  },
-  {
-    "posX": 3,
-    "posY": 0,
-    "ore": {
-      "oreType": "AIR"
-    }
-  },
-  {
-    "posX": 3,
-    "posY": 1,
     "ore": {
       "oreType": "IRON_ORE"
     }
   },
   {
+    "posX": 2,
+    "posY": 5,
+    "ore": {
+      "oreType": "GROUND"
+    }
+  },
+  {
+    "posX": 2,
+    "posY": 6,
+    "ore": {
+      "oreType": "GROUND"
+    }
+  },
+  {
+    "posX": 2,
+    "posY": 7,
+    "ore": {
+      "oreType": "GROUND"
+    }
+  },
+  {
+    "posX": 2,
+    "posY": 8,
+    "ore": {
+      "oreType": "GROUND"
+    }
+  },
+  {
+    "posX": 2,
+    "posY": 9,
+    "ore": {
+      "oreType": "GROUND"
+    }
+  },
+  {
+    "posX": 2,
+    "posY": 10,
+    "ore": {
+      "oreType": "GROUND"
+    }
+  },
+  {
+    "posX": 2,
+    "posY": 11,
+    "ore": {
+      "oreType": "GROUND"
+    }
+  },
+  {
+    "posX": 2,
+    "posY": 12,
+    "ore": {
+      "oreType": "GOLD_ORE"
+    }
+  },
+  {
+    "posX": 2,
+    "posY": 13,
+    "ore": {
+      "oreType": "GROUND"
+    }
+  },
+  {
+    "posX": 2,
+    "posY": 14,
+    "ore": {
+      "oreType": "GROUND"
+    }
+  },
+  {
+    "posX": 2,
+    "posY": 15,
+    "ore": {
+      "oreType": "GROUND"
+    }
+  },
+  {
+    "posX": 2,
+    "posY": 16,
+    "ore": {
+      "oreType": "GROUND"
+    }
+  },
+  {
+    "posX": 2,
+    "posY": 17,
+    "ore": {
+      "oreType": "GROUND"
+    }
+  },
+  {
+    "posX": 2,
+    "posY": 18,
+    "ore": {
+      "oreType": "GROUND"
+    }
+  },
+  {
+    "posX": 2,
+    "posY": 19,
+    "ore": {
+      "oreType": "GROUND"
+    }
+  },
+  {
+    "posX": 2,
+    "posY": 20,
+    "ore": {
+      "oreType": "GROUND"
+    }
+  },
+  {
+    "posX": 3,
+    "posY": 0,
+    "ore": {
+      "oreType": "AIR"
+    }
+  },
+  {
+    "posX": 3,
+    "posY": 1,
+    "ore": {
+      "oreType": "STONE_ORE"
+    }
+  },
+  {
     "posX": 3,
     "posY": 2,
     "ore": {
-      "oreType": "IRON_ORE"
+      "oreType": "GROUND"
     }
   },
   {
@@ -528,7 +528,7 @@
     "posX": 3,
     "posY": 12,
     "ore": {
-      "oreType": "GROUND"
+      "oreType": "GOLD_ORE"
     }
   },
   {
@@ -598,14 +598,14 @@
     "posX": 4,
     "posY": 1,
     "ore": {
-      "oreType": "GROUND"
+      "oreType": "STONE_ORE"
     }
   },
   {
     "posX": 4,
     "posY": 2,
     "ore": {
-      "oreType": "IRON_ORE"
+      "oreType": "GROUND"
     }
   },
   {
@@ -647,7 +647,7 @@
     "posX": 4,
     "posY": 8,
     "ore": {
-      "oreType": "IRON_ORE"
+      "oreType": "GROUND"
     }
   },
   {
@@ -682,14 +682,14 @@
     "posX": 4,
     "posY": 13,
     "ore": {
-      "oreType": "IRON_ORE"
+      "oreType": "GROUND"
     }
   },
   {
     "posX": 4,
     "posY": 14,
     "ore": {
-      "oreType": "IRON_ORE"
+      "oreType": "GROUND"
     }
   },
   {
@@ -745,7 +745,7 @@
     "posX": 5,
     "posY": 1,
     "ore": {
-      "oreType": "GROUND"
+      "oreType": "STONE_ORE"
     }
   },
   {
@@ -787,14 +787,14 @@
     "posX": 5,
     "posY": 7,
     "ore": {
-      "oreType": "IRON_ORE"
+      "oreType": "GROUND"
     }
   },
   {
     "posX": 5,
     "posY": 8,
     "ore": {
-      "oreType": "IRON_ORE"
+      "oreType": "GROUND"
     }
   },
   {
@@ -822,21 +822,21 @@
     "posX": 5,
     "posY": 12,
     "ore": {
-      "oreType": "IRON_ORE"
+      "oreType": "GROUND"
     }
   },
   {
     "posX": 5,
     "posY": 13,
     "ore": {
-      "oreType": "IRON_ORE"
+      "oreType": "GROUND"
     }
   },
   {
     "posX": 5,
     "posY": 14,
     "ore": {
-      "oreType": "IRON_ORE"
+      "oreType": "GROUND"
     }
   },
   {
@@ -892,7 +892,7 @@
     "posX": 6,
     "posY": 1,
     "ore": {
-      "oreType": "GROUND"
+      "oreType": "STONE_ORE"
     }
   },
   {
@@ -969,7 +969,7 @@
     "posX": 6,
     "posY": 12,
     "ore": {
-      "oreType": "GROUND"
+      "oreType": "GOLD_ORE"
     }
   },
   {
@@ -983,7 +983,7 @@
     "posX": 6,
     "posY": 14,
     "ore": {
-      "oreType": "IRON_ORE"
+      "oreType": "GROUND"
     }
   },
   {
@@ -1116,14 +1116,14 @@
     "posX": 7,
     "posY": 12,
     "ore": {
-      "oreType": "GROUND"
+      "oreType": "GOLD_ORE"
     }
   },
   {
     "posX": 7,
     "posY": 13,
     "ore": {
-      "oreType": "GROUND"
+      "oreType": "GOLD_ORE"
     }
   },
   {
@@ -1431,25 +1431,25 @@
     "posX": 9,
     "posY": 15,
     "ore": {
-      "oreType": "STONE_ORE"
-    }
-  },
-  {
-    "posX": 9,
-    "posY": 16,
-    "ore": {
       "oreType": "GROUND"
     }
   },
   {
     "posX": 9,
-    "posY": 17,
+    "posY": 16,
     "ore": {
       "oreType": "GROUND"
     }
   },
   {
     "posX": 9,
+    "posY": 17,
+    "ore": {
+      "oreType": "GROUND"
+    }
+  },
+  {
+    "posX": 9,
     "posY": 18,
     "ore": {
       "oreType": "GROUND"
@@ -1578,25 +1578,25 @@
     "posX": 10,
     "posY": 15,
     "ore": {
-      "oreType": "STONE_ORE"
-    }
-  },
-  {
-    "posX": 10,
-    "posY": 16,
-    "ore": {
       "oreType": "GROUND"
     }
   },
   {
     "posX": 10,
-    "posY": 17,
+    "posY": 16,
     "ore": {
       "oreType": "GROUND"
     }
   },
   {
     "posX": 10,
+    "posY": 17,
+    "ore": {
+      "oreType": "GROUND"
+    }
+  },
+  {
+    "posX": 10,
     "posY": 18,
     "ore": {
       "oreType": "GROUND"
@@ -1711,21 +1711,21 @@
     "posX": 11,
     "posY": 13,
     "ore": {
-      "oreType": "STONE_ORE"
+      "oreType": "GROUND"
     }
   },
   {
     "posX": 11,
     "posY": 14,
     "ore": {
-      "oreType": "STONE_ORE"
+      "oreType": "GROUND"
     }
   },
   {
     "posX": 11,
     "posY": 15,
     "ore": {
-      "oreType": "STONE_ORE"
+      "oreType": "GROUND"
     }
   },
   {
@@ -1823,14 +1823,14 @@
     "posX": 12,
     "posY": 8,
     "ore": {
-      "oreType": "GROUND"
+      "oreType": "STONE_ORE"
     }
   },
   {
     "posX": 12,
     "posY": 9,
     "ore": {
-      "oreType": "GROUND"
+      "oreType": "STONE_ORE"
     }
   },
   {
@@ -1858,7 +1858,7 @@
     "posX": 12,
     "posY": 13,
     "ore": {
-      "oreType": "STONE_ORE"
+      "oreType": "GROUND"
     }
   },
   {
@@ -1970,14 +1970,14 @@
     "posX": 13,
     "posY": 8,
     "ore": {
-      "oreType": "GROUND"
+      "oreType": "STONE_ORE"
     }
   },
   {
     "posX": 13,
     "posY": 9,
     "ore": {
-      "oreType": "GROUND"
+      "oreType": "STONE_ORE"
     }
   },
   {
@@ -1998,14 +1998,14 @@
     "posX": 13,
     "posY": 12,
     "ore": {
-      "oreType": "STONE_ORE"
+      "oreType": "GROUND"
     }
   },
   {
     "posX": 13,
     "posY": 13,
     "ore": {
-      "oreType": "STONE_ORE"
+      "oreType": "GROUND"
     }
   },
   {
@@ -2117,14 +2117,14 @@
     "posX": 14,
     "posY": 8,
     "ore": {
-      "oreType": "GROUND"
+      "oreType": "STONE_ORE"
     }
   },
   {
     "posX": 14,
     "posY": 9,
     "ore": {
-      "oreType": "GROUND"
+      "oreType": "STONE_ORE"
     }
   },
   {
@@ -2145,21 +2145,21 @@
     "posX": 14,
     "posY": 12,
     "ore": {
-      "oreType": "STONE_ORE"
+      "oreType": "GROUND"
     }
   },
   {
     "posX": 14,
     "posY": 13,
     "ore": {
-      "oreType": "STONE_ORE"
+      "oreType": "GROUND"
     }
   },
   {
     "posX": 14,
     "posY": 14,
     "ore": {
-      "oreType": "STONE_ORE"
+      "oreType": "GROUND"
     }
   },
   {
@@ -2250,14 +2250,14 @@
     "posX": 15,
     "posY": 6,
     "ore": {
-      "oreType": "GROUND"
+      "oreType": "GOLD_ORE"
     }
   },
   {
     "posX": 15,
     "posY": 7,
     "ore": {
-      "oreType": "GROUND"
+      "oreType": "GOLD_ORE"
     }
   },
   {
@@ -2299,14 +2299,14 @@
     "posX": 15,
     "posY": 13,
     "ore": {
-      "oreType": "STONE_ORE"
+      "oreType": "GROUND"
     }
   },
   {
     "posX": 15,
     "posY": 14,
     "ore": {
-      "oreType": "STONE_ORE"
+      "oreType": "GROUND"
     }
   },
   {
@@ -2404,7 +2404,7 @@
     "posX": 16,
     "posY": 7,
     "ore": {
-      "oreType": "GROUND"
+      "oreType": "GOLD_ORE"
     }
   },
   {
@@ -2432,21 +2432,21 @@
     "posX": 16,
     "posY": 11,
     "ore": {
-      "oreType": "GROUND"
+      "oreType": "GOLD_ORE"
     }
   },
   {
     "posX": 16,
     "posY": 12,
     "ore": {
-      "oreType": "GROUND"
+      "oreType": "GOLD_ORE"
     }
   },
   {
     "posX": 16,
     "posY": 13,
     "ore": {
-      "oreType": "STONE_ORE"
+      "oreType": "GROUND"
     }
   },
   {
@@ -2551,35 +2551,35 @@
     "posX": 17,
     "posY": 7,
     "ore": {
-      "oreType": "GROUND"
+      "oreType": "GOLD_ORE"
     }
   },
   {
     "posX": 17,
     "posY": 8,
     "ore": {
-      "oreType": "GROUND"
+      "oreType": "GOLD_ORE"
     }
   },
   {
     "posX": 17,
     "posY": 9,
     "ore": {
-      "oreType": "STONE_ORE"
+      "oreType": "GROUND"
     }
   },
   {
     "posX": 17,
     "posY": 10,
     "ore": {
-      "oreType": "GROUND"
+      "oreType": "GOLD_ORE"
     }
   },
   {
     "posX": 17,
     "posY": 11,
     "ore": {
-      "oreType": "GROUND"
+      "oreType": "GOLD_ORE"
     }
   },
   {
@@ -2640,303 +2640,303 @@
   },
   {
     "posX": 17,
+    "posY": 20,
+    "ore": {
+      "oreType": "GROUND"
+    }
+  },
+  {
+    "posX": 18,
+    "posY": 0,
+    "ore": {
+      "oreType": "AIR"
+    }
+  },
+  {
+    "posX": 18,
+    "posY": 1,
+    "ore": {
+      "oreType": "GROUND"
+    }
+  },
+  {
+    "posX": 18,
+    "posY": 2,
+    "ore": {
+      "oreType": "GROUND"
+    }
+  },
+  {
+    "posX": 18,
+    "posY": 3,
+    "ore": {
+      "oreType": "GROUND"
+    }
+  },
+  {
+    "posX": 18,
+    "posY": 4,
+    "ore": {
+      "oreType": "GROUND"
+    }
+  },
+  {
+    "posX": 18,
+    "posY": 5,
+    "ore": {
+      "oreType": "GROUND"
+    }
+  },
+  {
+    "posX": 18,
+    "posY": 6,
+    "ore": {
+      "oreType": "GROUND"
+    }
+  },
+  {
+    "posX": 18,
+    "posY": 7,
+    "ore": {
+      "oreType": "GROUND"
+    }
+  },
+  {
+    "posX": 18,
+    "posY": 8,
+    "ore": {
+      "oreType": "GOLD_ORE"
+    }
+  },
+  {
+    "posX": 18,
+    "posY": 9,
+    "ore": {
+      "oreType": "GROUND"
+    }
+  },
+  {
+    "posX": 18,
+    "posY": 10,
+    "ore": {
+      "oreType": "GOLD_ORE"
+    }
+  },
+  {
+    "posX": 18,
+    "posY": 11,
+    "ore": {
+      "oreType": "GOLD_ORE"
+    }
+  },
+  {
+    "posX": 18,
+    "posY": 12,
+    "ore": {
+      "oreType": "GROUND"
+    }
+  },
+  {
+    "posX": 18,
+    "posY": 13,
+    "ore": {
+      "oreType": "GROUND"
+    }
+  },
+  {
+    "posX": 18,
+    "posY": 14,
+    "ore": {
+      "oreType": "GROUND"
+    }
+  },
+  {
+    "posX": 18,
+    "posY": 15,
+    "ore": {
+      "oreType": "GROUND"
+    }
+  },
+  {
+    "posX": 18,
+    "posY": 16,
+    "ore": {
+      "oreType": "GROUND"
+    }
+  },
+  {
+    "posX": 18,
+    "posY": 17,
+    "ore": {
+      "oreType": "GROUND"
+    }
+  },
+  {
+    "posX": 18,
+    "posY": 18,
+    "ore": {
+      "oreType": "GROUND"
+    }
+  },
+  {
+    "posX": 18,
+    "posY": 19,
+    "ore": {
+      "oreType": "GROUND"
+    }
+  },
+  {
+    "posX": 18,
+    "posY": 20,
+    "ore": {
+      "oreType": "GROUND"
+    }
+  },
+  {
+    "posX": 19,
+    "posY": 0,
+    "ore": {
+      "oreType": "AIR"
+    }
+  },
+  {
+    "posX": 19,
+    "posY": 1,
+    "ore": {
+      "oreType": "GROUND"
+    }
+  },
+  {
+    "posX": 19,
+    "posY": 2,
+    "ore": {
+      "oreType": "GROUND"
+    }
+  },
+  {
+    "posX": 19,
+    "posY": 3,
+    "ore": {
+      "oreType": "GROUND"
+    }
+  },
+  {
+    "posX": 19,
+    "posY": 4,
+    "ore": {
+      "oreType": "GROUND"
+    }
+  },
+  {
+    "posX": 19,
+    "posY": 5,
+    "ore": {
+      "oreType": "GROUND"
+    }
+  },
+  {
+    "posX": 19,
+    "posY": 6,
+    "ore": {
+      "oreType": "GROUND"
+    }
+  },
+  {
+    "posX": 19,
+    "posY": 7,
+    "ore": {
+      "oreType": "GROUND"
+    }
+  },
+  {
+    "posX": 19,
+    "posY": 8,
+    "ore": {
+      "oreType": "GROUND"
+    }
+  },
+  {
+    "posX": 19,
+    "posY": 9,
+    "ore": {
+      "oreType": "GROUND"
+    }
+  },
+  {
+    "posX": 19,
+    "posY": 10,
+    "ore": {
+      "oreType": "GROUND"
+    }
+  },
+  {
+    "posX": 19,
+    "posY": 11,
+    "ore": {
+      "oreType": "GROUND"
+    }
+  },
+  {
+    "posX": 19,
+    "posY": 12,
+    "ore": {
+      "oreType": "GROUND"
+    }
+  },
+  {
+    "posX": 19,
+    "posY": 13,
+    "ore": {
+      "oreType": "GROUND"
+    }
+  },
+  {
+    "posX": 19,
+    "posY": 14,
+    "ore": {
+      "oreType": "GROUND"
+    }
+  },
+  {
+    "posX": 19,
+    "posY": 15,
+    "ore": {
+      "oreType": "GROUND"
+    }
+  },
+  {
+    "posX": 19,
+    "posY": 16,
+    "ore": {
+      "oreType": "GROUND"
+    }
+  },
+  {
+    "posX": 19,
+    "posY": 17,
+    "ore": {
+      "oreType": "GROUND"
+    }
+  },
+  {
+    "posX": 19,
+    "posY": 18,
+    "ore": {
+      "oreType": "GROUND"
+    }
+  },
+  {
+    "posX": 19,
+    "posY": 19,
+    "ore": {
+      "oreType": "GROUND"
+    }
+  },
+  {
+    "posX": 19,
     "posY": 20,
     "ore": {
       "oreType": "HELL"
-    }
-  },
-  {
-    "posX": 18,
-    "posY": 0,
-    "ore": {
-      "oreType": "AIR"
-    }
-  },
-  {
-    "posX": 18,
-    "posY": 1,
-    "ore": {
-      "oreType": "GOLD_ORE"
-    }
-  },
-  {
-    "posX": 18,
-    "posY": 2,
-    "ore": {
-      "oreType": "GROUND"
-    }
-  },
-  {
-    "posX": 18,
-    "posY": 3,
-    "ore": {
-      "oreType": "GROUND"
-    }
-  },
-  {
-    "posX": 18,
-    "posY": 4,
-    "ore": {
-      "oreType": "GROUND"
-    }
-  },
-  {
-    "posX": 18,
-    "posY": 5,
-    "ore": {
-      "oreType": "GROUND"
-    }
-  },
-  {
-    "posX": 18,
-    "posY": 6,
-    "ore": {
-      "oreType": "GROUND"
-    }
-  },
-  {
-    "posX": 18,
-    "posY": 7,
-    "ore": {
-      "oreType": "GROUND"
-    }
-  },
-  {
-    "posX": 18,
-    "posY": 8,
-    "ore": {
-      "oreType": "STONE_ORE"
-    }
-  },
-  {
-    "posX": 18,
-    "posY": 9,
-    "ore": {
-      "oreType": "STONE_ORE"
-    }
-  },
-  {
-    "posX": 18,
-    "posY": 10,
-    "ore": {
-      "oreType": "GROUND"
-    }
-  },
-  {
-    "posX": 18,
-    "posY": 11,
-    "ore": {
-      "oreType": "GROUND"
-    }
-  },
-  {
-    "posX": 18,
-    "posY": 12,
-    "ore": {
-      "oreType": "GROUND"
-    }
-  },
-  {
-    "posX": 18,
-    "posY": 13,
-    "ore": {
-      "oreType": "GROUND"
-    }
-  },
-  {
-    "posX": 18,
-    "posY": 14,
-    "ore": {
-      "oreType": "GROUND"
-    }
-  },
-  {
-    "posX": 18,
-    "posY": 15,
-    "ore": {
-      "oreType": "GROUND"
-    }
-  },
-  {
-    "posX": 18,
-    "posY": 16,
-    "ore": {
-      "oreType": "GROUND"
-    }
-  },
-  {
-    "posX": 18,
-    "posY": 17,
-    "ore": {
-      "oreType": "GROUND"
-    }
-  },
-  {
-    "posX": 18,
-    "posY": 18,
-    "ore": {
-      "oreType": "GROUND"
-    }
-  },
-  {
-    "posX": 18,
-    "posY": 19,
-    "ore": {
-      "oreType": "GROUND"
-    }
-  },
-  {
-    "posX": 18,
-    "posY": 20,
-    "ore": {
-      "oreType": "GROUND"
-    }
-  },
-  {
-    "posX": 19,
-    "posY": 0,
-    "ore": {
-      "oreType": "AIR"
-    }
-  },
-  {
-    "posX": 19,
-    "posY": 1,
-    "ore": {
-      "oreType": "GOLD_ORE"
-    }
-  },
-  {
-    "posX": 19,
-    "posY": 2,
-    "ore": {
-      "oreType": "GROUND"
-    }
-  },
-  {
-    "posX": 19,
-    "posY": 3,
-    "ore": {
-      "oreType": "GROUND"
-    }
-  },
-  {
-    "posX": 19,
-    "posY": 4,
-    "ore": {
-      "oreType": "GROUND"
-    }
-  },
-  {
-    "posX": 19,
-    "posY": 5,
-    "ore": {
-      "oreType": "GROUND"
-    }
-  },
-  {
-    "posX": 19,
-    "posY": 6,
-    "ore": {
-      "oreType": "GROUND"
-    }
-  },
-  {
-    "posX": 19,
-    "posY": 7,
-    "ore": {
-      "oreType": "STONE_ORE"
-    }
-  },
-  {
-    "posX": 19,
-    "posY": 8,
-    "ore": {
-      "oreType": "STONE_ORE"
-    }
-  },
-  {
-    "posX": 19,
-    "posY": 9,
-    "ore": {
-      "oreType": "GROUND"
-    }
-  },
-  {
-    "posX": 19,
-    "posY": 10,
-    "ore": {
-      "oreType": "GROUND"
-    }
-  },
-  {
-    "posX": 19,
-    "posY": 11,
-    "ore": {
-      "oreType": "GROUND"
-    }
-  },
-  {
-    "posX": 19,
-    "posY": 12,
-    "ore": {
-      "oreType": "GROUND"
-    }
-  },
-  {
-    "posX": 19,
-    "posY": 13,
-    "ore": {
-      "oreType": "GROUND"
-    }
-  },
-  {
-    "posX": 19,
-    "posY": 14,
-    "ore": {
-      "oreType": "GROUND"
-    }
-  },
-  {
-    "posX": 19,
-    "posY": 15,
-    "ore": {
-      "oreType": "GROUND"
-    }
-  },
-  {
-    "posX": 19,
-    "posY": 16,
-    "ore": {
-      "oreType": "GROUND"
-    }
-  },
-  {
-    "posX": 19,
-    "posY": 17,
-    "ore": {
-      "oreType": "GROUND"
-    }
-  },
-  {
-    "posX": 19,
-    "posY": 18,
-    "ore": {
-      "oreType": "GROUND"
-    }
-  },
-  {
-    "posX": 19,
-    "posY": 19,
-    "ore": {
-      "oreType": "GROUND"
-    }
-  },
-  {
-    "posX": 19,
-    "posY": 20,
-    "ore": {
-      "oreType": "GROUND"
     }
   }
 ]
