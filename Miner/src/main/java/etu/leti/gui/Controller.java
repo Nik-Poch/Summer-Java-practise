@@ -33,6 +33,8 @@ public class Controller implements Initializable {
     private static final int fieldWidth = 20;
     private static final int fieldHeight = 21;
 
+    private boolean isRunnable;
+
     private MapParser mapParser;
     private FieldVisualizer fieldVisualizer;
   
@@ -77,12 +79,16 @@ public class Controller implements Initializable {
         loadDataForChoiceBox();
         initAlert();
 
+        isRunnable = false;
         modeChoiceBox.setOnAction(this::modeChanged);
         mapParser = new MapParser();
         fieldVisualizer = new FieldVisualizer(mainVisualField, this.getClass().getClassLoader(), fieldWidth, fieldHeight);
     }
 
     public void runAlgorithm(ActionEvent event) {
+        if(!isRunnable) {
+            return;
+        }
         if(currentMode == Mode.NO_MODE) {
             Alert alert = new Alert(Alert.AlertType.WARNING);
             alert.setTitle("Mode alert");
@@ -133,6 +139,7 @@ public class Controller implements Initializable {
             alert.setContentText(exc.getMessage());
             alert.showAndWait();
         }
+        isRunnable = true;
     }
 
     public void saveFile(ActionEvent event) throws IOException {
@@ -152,12 +159,14 @@ public class Controller implements Initializable {
     }
 
     public void resetField(ActionEvent event) {
+        isRunnable = false;
         fieldVisualizer.resetField();
     }
 
     public void generateMap(ActionEvent event) {
         fieldVisualizer.resetField();
         fieldVisualizer.createNewMap();
+        isRunnable = true;
     }
 
     public void getAlgInformation(ActionEvent event) throws IOException {
